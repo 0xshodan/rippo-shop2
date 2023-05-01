@@ -1,0 +1,88 @@
+.content {
+  padding: 182px 0 0 50px;
+  width: 1160px;
+  margin: auto;
+}
+.content_subcatalog {
+  margin-top: 50px;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.select_menu {
+  border: 0px solid #efefef;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 5px 6px 14px 8px rgba(0, 0, 0, 0.1);
+  height: 120px;
+  padding: 25px;
+  margin-top: 60px;
+}
+.select_menu_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.select_menu_wrapper_btn {
+  height: 70px;
+  width: 200px;
+  border-radius: 15px;
+  background: #FFC815;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.select_menu select {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 100%;
+  border-radius: 4px;
+  border: 0;
+  background: #f5f5f5;
+  padding: 6px;
+  color: #23232b;
+}
+
+.brand_table {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 1000px;
+}
+.brand_table .brand_table__item {
+  display: flex;
+}
+.brand_table__item .letter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFE839;
+  margin-right: 10px;
+}
+.brand_list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0.05em;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,12 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+  {% load static %}
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rippo - ваш магазин проставок</title>
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+  var _smartsupp = _smartsupp || {};
+  _smartsupp.key = '5c4afd71cd45de9ddc7f6802293ac33b97d8e5dc';
+  window.smartsupp||(function(d) {
+    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+    c.type='text/javascript';c.charset='utf-8';c.async=true;
+    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+  })(document);
+  </script>
+  <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="{% static 'base/css/base.css' %}"
+/>
+  <link
+  rel="stylesheet"
+  href="{% static 'header/css/styles.css' %}"
+/>
+<link
+rel="stylesheet"
+href="{% static 'footer/css/styles.css' %}"
+/>
+    {% block head %}{% endblock head %}
   </head>
   <body>
+    <header>
+        <div class="container">
+          <div class="head_logo">
+            <a href="/" class="head_logo_icons"
+              ><img src="{% static 'header/icons/logo.svg' %}" alt="logo" class="head_img"
+            /></a>
+          </div>
+
+          <div class="head_descr">
+            Интернет-магазин проставок<br />
+            для увелечения клиренса авто
+          </div>
+
+          <div class="head_phone">
+            <div class="head_wrapper">
+              <img src="{% static 'header/icons/call.png' %}" alt="call" class="head_icon" />
+              <a href="#" class="head_number">+7 (978) 294-29-78</a>
+            </div>
+            <div class="head_subnumber">Ежедневно с 8:00 до 21:00</div>
+          </div>
+
+          <div class="head_last">
+            <img src="{% static 'header/icons/cart.png' %}" alt="icon" class="head_last" />
+            <img src="{% static 'header/icons/user.png' %}" alt="icon" class="head_subicon" />
+          </div>
+        </div>
+
+      <nav>
+        <div class="menu">
+          <a href="/catalog/" class="menu_item">Каталог</a>
+          <a href="#" class="menu_item">О компании</a>
+          <a href="#" class="menu_item">Отзывы</a>
+          <a href="#" class="menu_item">Оплата и доставка</a>
+          <a href="#" class="menu_item">Вопросы и ответы</a>
+          <a href="#" class="menu_item">Контакты</a>
+        </div>
+      </nav>
+    </header>
     {% block content %}{% endblock content %}
+    <footer class="footer">
+      <div class="container">
+          <div class="footer_wrapper">
+              <div class="footer_rippo">
+                  <img src="{% static 'base/img/logo.svg' %}" alt="logo" class="footer_logo">
+                  <div class="footer_descr">Интернет-магазин проставок<br>
+                      для увелечения клиренса авто</div>
+                  <div class="footer_ip">ИП Нехамкин Дмитрий
+                      Вячеславович<br>ИНН: 910226323090</div>
+                  <div class="footer_icon">
+                      <a href="#"><img src="{% static 'footer/img/telegram.svg' %}" alt="tg" class="footer_telegram"></a>
+                      <a href="#"><img src="{% static 'footer/img/whatsapp.svg' %}" alt="wh"class="footer_whatsapp"></a>
+                  </div>
+              </div>
+              <div class="graybox">
+                  <a href="#" class="graybox_href"><img src="https://thumb.tildacdn.com/tild6134-6330-4537-a431-383538393339/-/resize/560x/-/format/webp/avito.png" alt="avito" class="graybox_img"></a>
+              </div>
+              <div class="info">
+                  <a href="#" class="info_color">Информация</a>
+                  <a href="#" class="info_item">Оплата и доставка</a>
+                  <a href="#" class="info_item">Политика обработки данных</a>
+                  <a href="#" class="info_item">Полезные статьи</a>
+                  <a href="#" class="info_item">Гарантия и вовзрат</a>
+                  <a href="#" class="info_item">Публичная оферта</a>
+              </div>
+              <div class="promo">
+                  <a href="#" class="info_color">Разделы на сайте</a>
+                  <a href="#" class="info_item">Каталог</a>
+                  <a href="#" class="info_item">Отзывы</a>
+                  <a href="#" class="info_item">О компании</a>
+                  <a href="#" class="info_item">Вопросы и ответы</a>
+                  <a href="#" class="info_item">Контакты</a>
+              </div>
+              <div class="call">
+                  <div class="call_number">
+                      <a href="#" class="call_number_phone">+7 (978) 294-29-78</a>
+                      <a href="#" class="call_number_phone">+7 (978) 596-58-50</a>
+                      <a href="#" class="call_number_phone">+7 (978) 815-81-58</a>
+                  </div>
+                  <div class="call_descr">Пн-Вс: с 8:00 до 21:00</div>
+                  <div class="call_mail"><a href="#" class="call_mail">info@rippo.ru</a></div>
+              </div>
+          </div>
+
+          <div class="footer_down">
+              <div class="container">
+                  <div class="footer_down_wrapper">
+                      <div class="footer_down_descr">Принимаем к оплате:</div>
+                      <div class="down_icon"><img src="{% static 'footer/img/mastercard.png' %}" alt="master" class="down_img_master">
+                      </div>
+                      <div class="down_icon"><img src="{% static 'footer/img/maestro.png' %}" alt="maestro" class="down_img_maestro">
+                      </div>
+                      <div class="down_icon"><img src="{% static 'footer/img/visa.png' %}" alt="visa" class="down_img_visa"></div>
+                      <div class="down_icon"><img src="{% static 'footer/img/mir.svg' %}" alt="world" class="down_img_world"></div>
+                      <div class="down_icon"><img src="{% static 'footer/img/halva.png' %}" alt="halva" class="down_img_halva"></div>
+                      <div class="down_icon"><img src="{% static 'footer/img/yomoney.png' %}" alt="umoney" class="down_img_umoney">
+                      </div>
+                      <div class="down_icon"><img src="{% static 'footer/img/qiwi.svg' %}" alt="qiwi" class="down_img_qiwi"></div>
+                  <div class="footer_finish">
+                      <div class="footer_finish_item">2023 ⓒ Интернет-магазин проставок для увеличения клиренса Rippo.ru</div>
+                      <div class="footer_finish_subitem">Публичная оферта</div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
   </body>
 </html>

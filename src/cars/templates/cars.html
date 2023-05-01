@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% load static %}{%block head %}
+<link rel="stylesheet" href="{% static 'cars/css/styles.css' %}" />
+{% endblock %} {%block content %}
+<section class="machine">
+  <div class="container">
+    <div class="machine_menu">
+      <a href="#" class="machine_menu_item">Главная</a> >
+      <a href="#" class="machine_menu_item">Каталог</a> >
+      <a href="#" class="machine_menu_item">Car</a>
+    </div>
+    <h1 class="machine_title">car brand</h1>
+
+    <div class="machine_ninja">
+      {% for car in cars %}
+      <div class="machine_wrapper">
+        <a href="/{{url}}/{{car.slug}}/" class="machine_wrapper_car">
+          <div class="machine_wrapper_title">
+            <!-- <img src="icons/car1.svg" alt="" class="machine_wrapper_car_img" /> -->
+          </div>
+          <div class="machine_wrapper_car_item">
+            <h3 class="machine_wrapper_car_item_supdescr">{{car.name}}</h3>
+            <!-- <div class="machine_wrapper_car_item_descr"></div> -->
+            <!-- <p href="#" class="machine_wrapper_car_item_subdescr">
+              1987 по 2003
+            </p> -->
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

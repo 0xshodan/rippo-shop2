@@ -1,0 +1,53 @@
+{% extends "base.html" %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'spacers/css/styles.css' %}" />
+{%endblock%} {% block content %}
+<section class="products">
+  <div class="container">
+    <div class="products_menu">
+      <a href="/" class="products_menu_item">Главная</a> >
+      <a href="/catalog/" class="products_menu_item">Каталог</a> >
+      <a href="#" class="products_menu_item">Lexus</a> >
+      <a href="#" class="products_menu_item">IS F</a> > (2007 по 2014)
+    </div>
+    <h1 class="products_menu_years">(2007 по 2014)</h1>
+    <div class="products_descr">Представлено 2 товара</div>
+
+    <div class="products_list">
+      {% for spacer in spacers %}
+      <div class="products_list_card">
+        <h3 class="products_list_card_title">{{spacer.category}}</h3>
+        <div class="products_list_card_article">
+          <p class="products_list_card_article_text">
+            Артикул: {{spacer.article}}
+          </p>
+        </div>
+        <img src="icons/screen.PNG" alt="screen" class="products_img" />
+
+        <div class="products_list_card_wrapper">
+          <button class="products_list_card_wrapper_btn">
+            <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
+            <p class="products_list_card_wrapper_price">
+              {{spacer.price20mm}}.00 ₽
+            </p>
+          </button>
+
+          <button class="products_list_card_wrapper_btn">
+            <p class="products_list_card_wrapper_size">В корзину - 30mm -</p>
+            <p class="products_list_card_wrapper_price">
+              {{spacer.price30mm}}.00 ₽
+            </p>
+          </button>
+
+          <button class="products_list_card_wrapper_btn">
+            <p class="products_list_card_wrapper_size">В корзину - 40mm -</p>
+            <p class="products_list_card_wrapper_price">
+              {{spacer.price40mm}}.00 ₽
+            </p>
+          </button>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

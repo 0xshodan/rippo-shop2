@@ -1,3 +1,83 @@
-{% extends "base.html" %} {% block content %}
-<h2>КАТАЛОГ</h2>
-{% endblock content %}
+{% extends "base.html" %} {% load static %} {% block head %}
+<link
+  rel="stylesheet"
+  href="{% static 'catalogue/css/bootstrap-reboot.min.css' %}"
+/>
+<link
+  rel="stylesheet"
+  href="{% static 'catalogue/css/bootstrap-grid.min.css' %}"
+/>
+<link rel="stylesheet" href="{% static 'catalogue/css/styles.css' %}" />
+{% endblock %} {% block content %}
+<div class="content">
+  <div class="container">
+    <h1>каталог</h1>
+    <div class="content_subcatalog">быстрый подбор проставок</div>
+
+    <div class="row">
+      <div class="select_menu">
+        <div class="select_menu_wrapper">
+          <div class="col-md-3">
+            <div class="select_brand">
+              <label for="select_brand">Марка авто</label>
+              <select id="select_brand">
+                <option selected value="-1">Не выбрано</option>
+                {% for brand in brands %}
+                <option value="{{brand.pk}}">{{brand.name}}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="select_model">
+              <label for="select_model">Модель авто</label>
+              <select id="select_model">
+                <option value="-1">Все</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="select_year">
+              <label for="select_year">Год выпуска</label>
+              <select id="select_year">
+                <option value="-1">Все</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="select_modification">
+              <label for="select_modification">Модификация</label>
+              <select id="select_modification">
+                <option value="-1">Все</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <button class="select_menu_wrapper_btn">подбор</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="brand_table">
+    {% for brands in brands_table %}
+    <div class="brand_table__item">
+    <span class="letter">{{brands.0.name.0}}</span>
+      <div class="brand_list">
+        {% for brand in brands %}
+        <a href="/brand/{{brand.slug}}/" class="brand_list__item">{{brand.name}}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+</div>
+</div>
+</div>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+  crossorigin="anonymous"
+></script>
+<script src="{% static 'catalogue/js/index.js' %}"></script>
+{% endblock %}

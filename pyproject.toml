@@ -8,6 +8,9 @@ authors = ["0xshodan <hngdean@gmail.com>"]
 python = "^3.10"
 Django = "^4.2"
 psycopg = "^3.1.8"
+pytils = "^0.4.1"
+pandas = "^2.0.1"
+openpyxl = "^3.1.2"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.263"

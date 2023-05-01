@@ -1,0 +1,90 @@
+header {
+  height: 165px;
+  margin-bottom: 50px;
+}
+header .container {
+  padding: 0 100px 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1160px;
+  height: 95px;
+  margin: auto;
+}
+nav {
+  width: 100%;
+  margin-top: 23px;
+  height: 47px;
+  background: #FFE839;
+}
+
+.head_logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.head_phone {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.head_descr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.head_icon {
+  transform: translateY(10px);
+  width: 27px;
+  height: 27px;
+}
+.head_number {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.head_subnumber {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+.head_last_icon {
+  margin-right: 40px;
+  width: 35px;
+  height: 35px;
+}
+
+.menu {
+  height: 47px;
+  width: 1160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.menu .menu_item {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #353535;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+}
+.menu .menu_item:hover {
+  opacity: 0.4;
+}
+
