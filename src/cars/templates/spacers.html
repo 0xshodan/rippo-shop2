@@ -22,7 +22,9 @@
           </p>
         </div>
         <img src="{{spacer.photo.url}}" alt="screen" class="products_img" />
-
+        {% if spacer.description %}
+        <p>Комментарий: {{spacer.description}}</p>
+        {% endif %}
         <div class="products_list_card_wrapper">
           <button class="products_list_card_wrapper_btn">
             <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
