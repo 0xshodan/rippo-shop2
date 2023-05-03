@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="{% static 'spacers/css/styles.css' %}" />
 {%endblock%} {% block content %}
 <section class="products">
-  <div class="container">
+  <div class="products_container">
     <div class="products_menu">
       <a href="/" class="products_menu_item">Главная</a> >
       <a href="/catalog/" class="products_menu_item">Каталог</a> >
@@ -21,7 +21,7 @@
             Артикул: {{spacer.article}}
           </p>
         </div>
-        <img src="icons/screen.PNG" alt="screen" class="products_img" />
+        <img src="{{spacer.photo.url}}" alt="screen" class="products_img" />
 
         <div class="products_list_card_wrapper">
           <button class="products_list_card_wrapper_btn">

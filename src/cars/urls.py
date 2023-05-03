@@ -7,6 +7,10 @@ from .views import (
     CarModificationApiView,
     CarsView,
     GenerationView,
+    GetBrandSlugView,
+    GetCarGenetaionSlugView,
+    GetCarModificationSlugView,
+    GetCarSlugView,
     ModificationView,
 )
 
@@ -22,6 +26,10 @@ urlpatterns = [
         CarModificationApiView.as_view(),
         name="car_modifications",
     ),
+    path("api/slugs/brand/<int:brand_id>", GetBrandSlugView.as_view()),
+    path("api/slugs/car/<int:car_id>", GetCarSlugView.as_view()),
+    path("api/slugs/cargen/<int:car_id>", GetCarGenetaionSlugView.as_view()),
+    path("api/slugs/carmod/<int:car_id>", GetCarModificationSlugView.as_view()),
     path("brand/<slug:slug>/", BrandsView.as_view(), name="cars_page"),
     path("car/<slug:slug>/", CarsView.as_view(), name="generations_page"),
     path(

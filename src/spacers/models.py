@@ -11,6 +11,7 @@ class Spacer(models.Model):
     category = models.CharField(
         max_length=30, choices=CHOICES, default="Передние проставки"
     )
+    photo = models.ImageField(upload_to="spacers", blank=True)
     description = models.CharField(max_length=2000, default="")
     mount = models.CharField(max_length=200, default="")
     price20mm = models.PositiveIntegerField(default=0)

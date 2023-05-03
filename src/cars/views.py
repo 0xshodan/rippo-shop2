@@ -5,6 +5,12 @@ from django.views.generic import View
 from .models import Brand, Car, CarGeneration, CarModification
 
 
+class TestView(View):
+    def get(self, request):
+        return JsonResponse({"ok": True})
+
+
+# PAGES
 class BrandsView(View):
     def get(self, request, slug):
         brand = Brand.objects.get(slug=slug)
@@ -37,6 +43,7 @@ class ModificationView(View):
         return HttpResponse(template.render(context, request))
 
 
+# FOR AJAX (для виджета быстрый подбор проставок)
 class CarApiView(View):
     def get(self, _, brand_id: int) -> JsonResponse:
         try:
@@ -98,3 +105,60 @@ class CarModificationApiView(View):
                 }
             )
         return JsonResponse({"error": False, "cars": ret})
+
+
+# FOR AJAX (для кнопки подбор)
+class GetBrandSlugView(View):
+    def get(self, _, brand_id: int) -> JsonResponse:
+        try:
+            brand = Brand.objects.get(pk=brand_id)
+        except:
+            return JsonResponse(
+                {
+                    "error": True,
+                    "errorMessage": f"Brand with id: {brand_id} does not exist",
+                }
+            )
+        return JsonResponse({"error": False, "slug": brand.slug})
+
+
+class GetCarSlugView(View):
+    def get(self, _, car_id: int) -> JsonResponse:
+        try:
+            car = Car.objects.get(pk=car_id)
+        except:
+            return JsonResponse(
+                {
+                    "error": True,
+                    "errorMessage": f"Car with id: {car_id} does not exist",
+                }
+            )
+        return JsonResponse({"error": False, "slug": car.slug})
+
+
+class GetCarGenetaionSlugView(View):
+    def get(self, _, car_id) -> JsonResponse:
+        try:
+            car = CarGeneration.objects.get(pk=car_id)
+        except:
+            return JsonResponse(
+                {
+                    "error": True,
+                    "errorMessage": f"Car with id: {car_id} does not exist",
+                }
+            )
+        return JsonResponse({"error": False, "slug": car.slug})
+
+
+class GetCarModificationSlugView(View):
+    def get(self, _, car_id) -> JsonResponse:
+        try:
+            car = CarModification.objects.get(pk=car_id)
+        except:
+            return JsonResponse(
+                {
+                    "error": True,
+                    "errorMessage": f"Car with id: {car_id} does not exist",
+                }
+            )
+        return JsonResponse({"error": False, "slug": car.slug})

@@ -15,7 +15,6 @@ $("#select_brand").on("change", function () {
     });
   }
 });
-// asdasd
 $("#select_model").on("change", function () {
   var $option = $(this).find("option:selected");
   var id = $option.val();
@@ -47,7 +46,43 @@ $("#select_year").on("change", function () {
     });
   }
 });
-$("#select_modification").on("change", function () {
-  var $option = $(this).find("option:selected");
-  var id = $option.val();
+$(".select_menu_wrapper_btn").on("click", function () {
+  var $mod_option = $("#select_modification").find("option:selected");
+  var mod_id = $mod_option.val();
+  if (mod_id != "-1") {
+    $.get(`/api/slugs/carmod/${mod_id}`, function (data, _) {
+      window.location.replace(
+        `http://127.0.0.1:8000/modification/${data.slug}`
+      );
+    });
+  } else {
+    var $year_option = $("#select_year").find("option:selected");
+    var year_id = $year_option.val();
+
+    if (year_id != "-1") {
+      $.get(`/api/slugs/cargen/${year_id}`, function (data, _) {
+        window.location.replace(
+          `http://127.0.0.1:8000/generation/${data.slug}`
+        );
+      });
+    } else {
+      var $model_option = $("#select_model").find("option:selected");
+      var model_id = $model_option.val();
+
+      if (model_id != "-1") {
+        $.get(`/api/slugs/car/${model_id}`, function (data, _) {
+          window.location.replace(`http://127.0.0.1:8000/car/${data.slug}`);
+        });
+      } else {
+        var $brand_option = $("#select_brand").find("option:selected");
+        var brand_id = $brand_option.val();
+
+        if (brand_id != "-1") {
+          $.get(`/api/slugs/brand/${brand_id}`, function (data, _) {
+            window.location.replace(`http://127.0.0.1:8000/brand/${data.slug}`);
+          });
+        }
+      }
+    }
+  }
 });
