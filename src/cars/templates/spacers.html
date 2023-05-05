@@ -6,12 +6,22 @@
     <div class="products_menu">
       <a href="/" class="products_menu_item">Главная</a> >
       <a href="/catalog/" class="products_menu_item">Каталог</a> >
-      <a href="#" class="products_menu_item">Lexus</a> >
-      <a href="#" class="products_menu_item">IS F</a> > (2007 по 2014)
+      <a href="/brand/{{brand.slug}}" class="products_menu_item"
+        >{{brand.name}}</a
+      >
+      >
+      <a href="/car/{{car.slug}}" class="products_menu_item">{{car.name}}</a> >
+      <a href="/generation/{{generation.slug}}" class="products_menu_item"
+        >{{generation.name}}</a
+      >
+      >
+      <a href="/modification/{{modification.slug}}" class="products_menu_item"
+        >{{modification.name}}</a
+      >
     </div>
     <h1 class="products_menu_years">(2007 по 2014)</h1>
     <div class="products_descr">Представлено 2 товара</div>
-
+    <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
     <div class="products_list">
       {% for spacer in spacers %}
       <div class="products_list_card">
@@ -26,21 +36,22 @@
         <p>Комментарий: {{spacer.description}}</p>
         {% endif %}
         <div class="products_list_card_wrapper">
-          <button class="products_list_card_wrapper_btn">
+          <input id="add20mm" type="hidden" name="id" value="{{spacer.pk}}" />
+          <button id="add20mm_btn" class="products_list_card_wrapper_btn">
             <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
             <p class="products_list_card_wrapper_price">
               {{spacer.price20mm}}.00 ₽
             </p>
           </button>
-
-          <button class="products_list_card_wrapper_btn">
+          <input id="add30mm" type="hidden" name="id" value="{{spacer.pk}}" />
+          <button id="add30mm_btn" class="products_list_card_wrapper_btn">
             <p class="products_list_card_wrapper_size">В корзину - 30mm -</p>
             <p class="products_list_card_wrapper_price">
               {{spacer.price30mm}}.00 ₽
             </p>
           </button>
-
-          <button class="products_list_card_wrapper_btn">
+          <input id="add40mm" type="hidden" name="id" value="{{spacer.pk}}" />
+          <button id="add40mm_btn" class="products_list_card_wrapper_btn">
             <p class="products_list_card_wrapper_size">В корзину - 40mm -</p>
             <p class="products_list_card_wrapper_price">
               {{spacer.price40mm}}.00 ₽
@@ -52,4 +63,10 @@
     </div>
   </div>
 </section>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+  crossorigin="anonymous"
+></script>
+<script src="{% static 'spacers/js/index.js' %}"></script>
 {% endblock %}

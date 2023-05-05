@@ -12,6 +12,7 @@ pytils = "^0.4.1"
 pandas = "^2.0.1"
 openpyxl = "^3.1.2"
 pillow = "^9.5.0"
+ujson = "^5.7.0"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.263"

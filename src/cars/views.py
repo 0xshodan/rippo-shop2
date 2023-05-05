@@ -15,7 +15,7 @@ class BrandsView(View):
     def get(self, request, slug):
         brand = Brand.objects.get(slug=slug)
         template = loader.get_template("cars.html")
-        context = {"cars": brand.cars.all(), "url": "car"}
+        context = {"cars": brand.cars.all(), "url": "car", "brand": brand}
         return HttpResponse(template.render(context, request))
 
 
@@ -23,7 +23,12 @@ class CarsView(View):
     def get(self, request, slug):
         car = Car.objects.get(slug=slug)
         template = loader.get_template("cars.html")
-        context = {"cars": car.generations.all(), "url": "generation"}
+        context = {
+            "cars": car.generations.all(),
+            "url": "generation",
+            "brand": car.brand,
+            "car": car,
+        }
         return HttpResponse(template.render(context, request))
 
 
@@ -31,7 +36,13 @@ class GenerationView(View):
     def get(self, request, slug):
         car = CarGeneration.objects.get(slug=slug)
         template = loader.get_template("cars.html")
-        context = {"cars": car.modifications.all(), "url": "modification"}
+        context = {
+            "cars": car.modifications.all(),
+            "url": "modification",
+            "brand": car.car.brand,
+            "car": car.car,
+            "generation": car,
+        }
         return HttpResponse(template.render(context, request))
 
 
@@ -39,7 +50,13 @@ class ModificationView(View):
     def get(self, request, slug):
         car = CarModification.objects.get(slug=slug)
         template = loader.get_template("spacers.html")
-        context = {"spacers": car.spacers.all()}
+        context = {
+            "spacers": car.spacers.all(),
+            "brand": car.car.car.brand,
+            "car": car.car.car,
+            "generation": car.car,
+            "modification": car,
+        }
         return HttpResponse(template.render(context, request))
 
 

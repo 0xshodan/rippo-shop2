@@ -45,13 +45,6 @@ class CarGeneration(models.Model):
         verbose_name = "Поколение автомобиля"
         verbose_name_plural = "Поколения автомобилей"
 
-    def __str__(self):
-        if self.year_from == self.year_end:
-            year = f"({self.year_from})"
-        else:
-            year = f"({self.year_from} по {self.year_end})"
-        return f"{self.name} {year}"
-
 
 class CarModification(models.Model):
     name = models.CharField(max_length=200, verbose_name="Модификация авто")
