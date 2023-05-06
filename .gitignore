@@ -157,3 +157,6 @@ migrations/
 
 # Poetry
 poetry.lock
+
+# media
+media/
