@@ -12,14 +12,10 @@
       >
       <a href="/car/{{car.slug}}" class="products_menu_item">{{car.name}}</a> >
       <a href="/generation/{{generation.slug}}" class="products_menu_item"
-        >{{generation.name}}</a
-      >
-      >
-      <a href="/modification/{{modification.slug}}" class="products_menu_item"
-        >{{modification.name}}</a
+        >{{generation}}</a
       >
     </div>
-    <h1 class="products_menu_years">(2007 по 2014)</h1>
+    <h1 class="products_menu_years">{{modification.fullname}}</h1>
     <div class="products_descr">Представлено 2 товара</div>
     <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
     <div class="products_list">

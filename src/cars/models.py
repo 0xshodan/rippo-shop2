@@ -45,6 +45,15 @@ class CarGeneration(models.Model):
         verbose_name = "Поколение автомобиля"
         verbose_name_plural = "Поколения автомобилей"
 
+    def __str__(self):
+        mods = self.modifications.all()
+        years_start = []
+        years_end = []
+        for mod in mods:
+            years_start.append(mod.year_from)
+            years_end.append(mod.year_end)
+        return f"{self.name} ({min(years_start)} по {max(years_end)})"
+
 
 class CarModification(models.Model):
     name = models.CharField(max_length=200, verbose_name="Модификация авто")
@@ -57,3 +66,23 @@ class CarModification(models.Model):
     year_end = models.PositiveIntegerField(verbose_name="Год конца выпуска")
     slug = models.SlugField(unique=True)
     spacers = models.ManyToManyField("spacers.Spacer")
+
+    @property
+    def years(self):
+        years = ""
+        if self.year_from == self.year_end:
+            years = f"({self.year_from})"
+        else:
+            years = f"({self.year_from} по {self.year_end})"
+        return years
+    @property
+    def fullname(self):
+        name = self.car.car.brand.name
+        if self.car.name != self.name:
+            name += " " + self.car.name + " " + self.name
+        else:
+            name += " " + self.name
+        name += " " + self.years
+        return name
+    def __str__(self):
+        return self.name + " " + self.years

@@ -51,7 +51,7 @@ $(".select_menu_wrapper_btn").on("click", function () {
   var mod_id = $mod_option.val();
   if (mod_id != "-1") {
     $.get(`/api/slugs/carmod/${mod_id}`, function (data, _) {
-      window.location.replace(`https://rippo.ru/modification/${data.slug}`);
+      window.location.replace(`/modification/${data.slug}`);
     });
   } else {
     var $year_option = $("#select_year").find("option:selected");
@@ -59,7 +59,7 @@ $(".select_menu_wrapper_btn").on("click", function () {
 
     if (year_id != "-1") {
       $.get(`/api/slugs/cargen/${year_id}`, function (data, _) {
-        window.location.replace(`https://rippo.ru/generation/${data.slug}`);
+        window.location.replace(`/generation/${data.slug}`);
       });
     } else {
       var $model_option = $("#select_model").find("option:selected");
@@ -67,7 +67,7 @@ $(".select_menu_wrapper_btn").on("click", function () {
 
       if (model_id != "-1") {
         $.get(`/api/slugs/car/${model_id}`, function (data, _) {
-          window.location.replace(`https://rippo.ru/car/${data.slug}`);
+          window.location.replace(`/car/${data.slug}`);
         });
       } else {
         var $brand_option = $("#select_brand").find("option:selected");
@@ -75,7 +75,7 @@ $(".select_menu_wrapper_btn").on("click", function () {
 
         if (brand_id != "-1") {
           $.get(`/api/slugs/brand/${brand_id}`, function (data, _) {
-            window.location.replace(`https://rippo.ru/brand/${data.slug}`);
+            window.location.replace(`/brand/${data.slug}`);
           });
         }
       }

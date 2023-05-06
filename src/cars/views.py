@@ -94,10 +94,11 @@ class CarGenerationApiView(View):
             ret.append(
                 {
                     "id": generation.pk,
-                    "name": generation.name,
+                    "name": str(generation),
                     "slug": generation.slug,
                 }
             )
+        print(ret)
         return JsonResponse({"error": False, "cars": ret})
 
 
@@ -117,10 +118,11 @@ class CarModificationApiView(View):
             ret.append(
                 {
                     "id": modification.pk,
-                    "name": modification.name,
+                    "name": str(modification),
                     "slug": modification.slug,
                 }
             )
+
         return JsonResponse({"error": False, "cars": ret})
 
 
