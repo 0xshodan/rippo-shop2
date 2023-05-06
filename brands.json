@@ -1,0 +1,706 @@
+[
+	{
+		"model": "cars.brand",
+		"pk": 1,
+		"fields": {
+			"name": "Acura",
+			"slug": "acura"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 2,
+		"fields": {
+			"name": "Alfa Romeo",
+			"slug": "alfa-romeo"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 3,
+		"fields": {
+			"name": "Alpina",
+			"slug": "alpina"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 4,
+		"fields": {
+			"name": "Audi",
+			"slug": "audi"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 5,
+		"fields": {
+			"name": "BMW",
+			"slug": "bmw"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 6,
+		"fields": {
+			"name": "BYD",
+			"slug": "byd"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 7,
+		"fields": {
+			"name": "Brilliance",
+			"slug": "brilliance"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 8,
+		"fields": {
+			"name": "Buick",
+			"slug": "buick"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 9,
+		"fields": {
+			"name": "Cadillac",
+			"slug": "cadillac"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 10,
+		"fields": {
+			"name": "Changan",
+			"slug": "changan"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 11,
+		"fields": {
+			"name": "Chery",
+			"slug": "chery"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 12,
+		"fields": {
+			"name": "Chevrolet",
+			"slug": "chevrolet"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 13,
+		"fields": {
+			"name": "Chrysler",
+			"slug": "chrysler"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 14,
+		"fields": {
+			"name": "Citroen",
+			"slug": "citroen"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 15,
+		"fields": {
+			"name": "DS",
+			"slug": "ds"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 16,
+		"fields": {
+			"name": "Dacia",
+			"slug": "dacia"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 17,
+		"fields": {
+			"name": "Daewoo",
+			"slug": "daewoo"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 18,
+		"fields": {
+			"name": "Daihatsu",
+			"slug": "daihatsu"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 19,
+		"fields": {
+			"name": "Datsun",
+			"slug": "datsun"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 20,
+		"fields": {
+			"name": "Derways",
+			"slug": "derways"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 21,
+		"fields": {
+			"name": "Dodge",
+			"slug": "dodge"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 22,
+		"fields": {
+			"name": "Doninvest",
+			"slug": "doninvest"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 23,
+		"fields": {
+			"name": "Eagle",
+			"slug": "eagle"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 24,
+		"fields": {
+			"name": "FAW",
+			"slug": "faw"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 25,
+		"fields": {
+			"name": "Fiat",
+			"slug": "fiat"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 26,
+		"fields": {
+			"name": "Ford",
+			"slug": "ford"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 27,
+		"fields": {
+			"name": "GMC",
+			"slug": "gmc"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 28,
+		"fields": {
+			"name": "Geely",
+			"slug": "geely"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 29,
+		"fields": {
+			"name": "Genesis",
+			"slug": "genesis"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 30,
+		"fields": {
+			"name": "Geo",
+			"slug": "geo"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 31,
+		"fields": {
+			"name": "Great Wall",
+			"slug": "great-wall"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 32,
+		"fields": {
+			"name": "Hafei",
+			"slug": "hafei"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 33,
+		"fields": {
+			"name": "Haima",
+			"slug": "haima"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 34,
+		"fields": {
+			"name": "Haval",
+			"slug": "haval"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 35,
+		"fields": {
+			"name": "Holden",
+			"slug": "holden"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 36,
+		"fields": {
+			"name": "Honda",
+			"slug": "honda"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 37,
+		"fields": {
+			"name": "Hummer",
+			"slug": "hummer"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 38,
+		"fields": {
+			"name": "Hyundai",
+			"slug": "hyundai"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 39,
+		"fields": {
+			"name": "Infiniti",
+			"slug": "infiniti"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 40,
+		"fields": {
+			"name": "Isuzu",
+			"slug": "isuzu"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 41,
+		"fields": {
+			"name": "Jaguar",
+			"slug": "jaguar"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 42,
+		"fields": {
+			"name": "Jeep",
+			"slug": "jeep"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 43,
+		"fields": {
+			"name": "Kia",
+			"slug": "kia"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 44,
+		"fields": {
+			"name": "Lancia",
+			"slug": "lancia"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 45,
+		"fields": {
+			"name": "Land Rover",
+			"slug": "land-rover"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 46,
+		"fields": {
+			"name": "Lexus",
+			"slug": "lexus"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 47,
+		"fields": {
+			"name": "Lifan",
+			"slug": "lifan"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 48,
+		"fields": {
+			"name": "Lincoln",
+			"slug": "lincoln"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 49,
+		"fields": {
+			"name": "MG",
+			"slug": "mg"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 50,
+		"fields": {
+			"name": "Mazda",
+			"slug": "mazda"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 51,
+		"fields": {
+			"name": "Mercedes-Benz",
+			"slug": "mercedes-benz"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 52,
+		"fields": {
+			"name": "Mercury",
+			"slug": "mercury"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 53,
+		"fields": {
+			"name": "Mini",
+			"slug": "mini"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 54,
+		"fields": {
+			"name": "Mitsubishi",
+			"slug": "mitsubishi"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 55,
+		"fields": {
+			"name": "Nissan",
+			"slug": "nissan"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 56,
+		"fields": {
+			"name": "Opel",
+			"slug": "opel"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 57,
+		"fields": {
+			"name": "PUCH",
+			"slug": "puch"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 58,
+		"fields": {
+			"name": "Peugeot",
+			"slug": "peugeot"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 59,
+		"fields": {
+			"name": "Plymouth",
+			"slug": "plymouth"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 60,
+		"fields": {
+			"name": "Pontiac",
+			"slug": "pontiac"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 61,
+		"fields": {
+			"name": "Porsche",
+			"slug": "porsche"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 62,
+		"fields": {
+			"name": "Proton",
+			"slug": "proton"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 63,
+		"fields": {
+			"name": "Ravon",
+			"slug": "ravon"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 64,
+		"fields": {
+			"name": "Renault",
+			"slug": "renault"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 65,
+		"fields": {
+			"name": "Rover",
+			"slug": "rover"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 66,
+		"fields": {
+			"name": "SEAT",
+			"slug": "seat"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 67,
+		"fields": {
+			"name": "Saab",
+			"slug": "saab"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 68,
+		"fields": {
+			"name": "Saturn",
+			"slug": "saturn"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 69,
+		"fields": {
+			"name": "Scion",
+			"slug": "scion"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 70,
+		"fields": {
+			"name": "Skoda",
+			"slug": "skoda"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 71,
+		"fields": {
+			"name": "Smart",
+			"slug": "smart"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 72,
+		"fields": {
+			"name": "Ssang Yong",
+			"slug": "ssang-yong"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 73,
+		"fields": {
+			"name": "Subaru",
+			"slug": "subaru"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 74,
+		"fields": {
+			"name": "Suzuki",
+			"slug": "suzuki"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 75,
+		"fields": {
+			"name": "Toyota",
+			"slug": "toyota"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 76,
+		"fields": {
+			"name": "Vauxhall",
+			"slug": "vauxhall"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 77,
+		"fields": {
+			"name": "Volkswagen",
+			"slug": "volkswagen"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 78,
+		"fields": {
+			"name": "Volvo",
+			"slug": "volvo"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 79,
+		"fields": {
+			"name": "Vortex",
+			"slug": "vortex"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 80,
+		"fields": {
+			"name": "ВАЗ (Lada)",
+			"slug": "vaz-lada"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 81,
+		"fields": {
+			"name": "ГАЗ",
+			"slug": "gaz"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 82,
+		"fields": {
+			"name": "ЗАЗ",
+			"slug": "zaz"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 83,
+		"fields": {
+			"name": "ИЖ",
+			"slug": "izh"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 84,
+		"fields": {
+			"name": "КамАЗ",
+			"slug": "kamaz"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 85,
+		"fields": {
+			"name": "Москвич",
+			"slug": "moskvich"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 86,
+		"fields": {
+			"name": "СеАЗ",
+			"slug": "seaz"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 87,
+		"fields": {
+			"name": "ТагАЗ",
+			"slug": "tagaz"
+		}
+	},
+	{
+		"model": "cars.brand",
+		"pk": 88,
+		"fields": {
+			"name": "УАЗ",
+			"slug": "uaz"
+		}
+	}
+]

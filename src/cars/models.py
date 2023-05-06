@@ -18,6 +18,7 @@ class Brand(models.Model):
 class Car(models.Model):
     name = models.CharField(max_length=100, verbose_name="Модель авто")
     slug = models.SlugField(unique=True)
+    photo = models.ImageField(upload_to="cars", blank=True)
     brand = models.ForeignKey(
         Brand, on_delete=models.CASCADE, verbose_name="Бренд", related_name="cars"
     )
