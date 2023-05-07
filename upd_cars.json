@@ -75,8 +75,7 @@
         "fields": {
             "name": "1111 Ока",
             "slug": "kamaz-1111-oka",
-            "brand": 84,
-            "photo": "cars/sieaz_1111oka.jpg"
+            "brand": 84
         }
     },
     {
@@ -85,8 +84,7 @@
         "fields": {
             "name": "1111 Ока",
             "slug": "seaz-1111-oka",
-            "brand": 86,
-            "photo": "cars/sieaz_1111oka.jpg"
+            "brand": 86
         }
     },
     {
@@ -214,8 +212,7 @@
         "fields": {
             "name": "200",
             "slug": "audi-200",
-            "brand": 4,
-            "photo": "cars/rover_200.jpg"
+            "brand": 4
         }
     },
     {
@@ -224,8 +221,7 @@
         "fields": {
             "name": "200",
             "slug": "rover-200",
-            "brand": 65,
-            "photo": "cars/rover_200.jpg"
+            "brand": 65
         }
     },
     {
@@ -602,8 +598,7 @@
         "fields": {
             "name": "3",
             "slug": "mazda-3",
-            "brand": 50,
-            "photo": "cars/moskvich_3_1_offroad_5_0.jpg"
+            "brand": 50
         }
     },
     {
@@ -612,8 +607,7 @@
         "fields": {
             "name": "3",
             "slug": "haima-3",
-            "brand": 33,
-            "photo": "cars/moskvich_3_1_offroad_5_0.jpg"
+            "brand": 33
         }
     },
     {
@@ -992,8 +986,7 @@
         "fields": {
             "name": "5",
             "slug": "mazda-5",
-            "brand": 50,
-            "photo": "cars/renault_5.jpg"
+            "brand": 50
         }
     },
     {
@@ -1481,8 +1474,7 @@
         "fields": {
             "name": "A6",
             "slug": "audi-a6",
-            "brand": 4,
-            "photo": "cars/faw_a6.jpg"
+            "brand": 4
         }
     },
     {
@@ -1671,8 +1663,7 @@
         "fields": {
             "name": "Adam",
             "slug": "vauxhall-adam",
-            "brand": 76,
-            "photo": "cars/vauxhall_adam.jpg"
+            "brand": 76
         }
     },
     {
@@ -2110,8 +2101,7 @@
         "fields": {
             "name": "Astra",
             "slug": "vauxhall-astra",
-            "brand": 76,
-            "photo": "cars/vauxhall_astra.jpg"
+            "brand": 76
         }
     },
     {
@@ -2120,8 +2110,7 @@
         "fields": {
             "name": "Astra",
             "slug": "holden-astra",
-            "brand": 35,
-            "photo": "cars/vauxhall_astra.jpg"
+            "brand": 35
         }
     },
     {
@@ -2130,8 +2119,7 @@
         "fields": {
             "name": "Astra",
             "slug": "chevrolet-astra",
-            "brand": 12,
-            "photo": "cars/vauxhall_astra.jpg"
+            "brand": 12
         }
     },
     {
@@ -2140,8 +2128,7 @@
         "fields": {
             "name": "Astra",
             "slug": "opel-astra",
-            "brand": 56,
-            "photo": "cars/vauxhall_astra.jpg"
+            "brand": 56
         }
     },
     {
@@ -2879,8 +2866,7 @@
         "fields": {
             "name": "Bora",
             "slug": "volkswagen-bora",
-            "brand": 77,
-            "photo": "cars/volkswagen_bora.jpg"
+            "brand": 77
         }
     },
     {
@@ -3787,8 +3773,7 @@
         "fields": {
             "name": "Cavalier",
             "slug": "toyota-cavalier",
-            "brand": 75,
-            "photo": "cars/toyota_cavalier.jpg"
+            "brand": 75
         }
     },
     {
@@ -3937,8 +3922,7 @@
         "fields": {
             "name": "Century",
             "slug": "toyota-century",
-            "brand": 75,
-            "photo": "cars/toyota_century.jpg"
+            "brand": 75
         }
     },
     {
@@ -3967,8 +3951,7 @@
         "fields": {
             "name": "Chairman",
             "slug": "daewoo-chairman",
-            "brand": 17,
-            "photo": "cars/ssangyong_chairman.jpg"
+            "brand": 17
         }
     },
     {
@@ -3987,8 +3970,7 @@
         "fields": {
             "name": "Challenger",
             "slug": "dodge-challenger",
-            "brand": 21,
-            "photo": "cars/mitsubishi_challenger.jpg"
+            "brand": 21
         }
     },
     {
@@ -4467,8 +4449,7 @@
         "fields": {
             "name": "Corsa",
             "slug": "toyota-corsa",
-            "brand": 75,
-            "photo": "cars/vauxhall_corsa.jpg"
+            "brand": 75
         }
     },
     {
@@ -4477,8 +4458,7 @@
         "fields": {
             "name": "Corsa",
             "slug": "opel-corsa",
-            "brand": 56,
-            "photo": "cars/vauxhall_corsa.jpg"
+            "brand": 56
         }
     },
     {
@@ -4487,8 +4467,7 @@
         "fields": {
             "name": "Corsa",
             "slug": "vauxhall-corsa",
-            "brand": 76,
-            "photo": "cars/vauxhall_corsa.jpg"
+            "brand": 76
         }
     },
     {
@@ -4537,8 +4516,7 @@
         "fields": {
             "name": "Coupe",
             "slug": "audi-coupe",
-            "brand": 4,
-            "photo": "cars/mini_coupe.jpg"
+            "brand": 4
         }
     },
     {
@@ -4547,8 +4525,7 @@
         "fields": {
             "name": "Coupe",
             "slug": "fiat-coupe",
-            "brand": 25,
-            "photo": "cars/mini_coupe.jpg"
+            "brand": 25
         }
     },
     {
@@ -4557,8 +4534,7 @@
         "fields": {
             "name": "Coupe",
             "slug": "mini-coupe",
-            "brand": 53,
-            "photo": "cars/mini_coupe.jpg"
+            "brand": 53
         }
     },
     {
@@ -4687,8 +4663,7 @@
         "fields": {
             "name": "Cruze",
             "slug": "holden-cruze",
-            "brand": 35,
-            "photo": "cars/holden_cruze.jpg"
+            "brand": 35
         }
     },
     {
@@ -5057,8 +5032,7 @@
         "fields": {
             "name": "Dokker",
             "slug": "dacia-dokker",
-            "brand": 16,
-            "photo": "cars/renault_dokker.jpg"
+            "brand": 16
         }
     },
     {
@@ -5127,8 +5101,7 @@
         "fields": {
             "name": "Duster",
             "slug": "renault-duster",
-            "brand": 64,
-            "photo": "cars/renault_duster.jpg"
+            "brand": 64
         }
     },
     {
@@ -5679,8 +5652,7 @@
         "fields": {
             "name": "Evanda",
             "slug": "chevrolet-evanda",
-            "brand": 12,
-            "photo": "cars/daewoo_evanda.jpg"
+            "brand": 12
         }
     },
     {
@@ -5778,8 +5750,7 @@
         "fields": {
             "name": "Expert",
             "slug": "nissan-expert",
-            "brand": 55,
-            "photo": "cars/peugeot_expert.jpg"
+            "brand": 55
         }
     },
     {
@@ -6317,8 +6288,7 @@
         "fields": {
             "name": "Frontera",
             "slug": "opel-frontera",
-            "brand": 56,
-            "photo": "cars/vauxhall_frontera.jpg"
+            "brand": 56
         }
     },
     {
@@ -6327,8 +6297,7 @@
         "fields": {
             "name": "Frontera",
             "slug": "holden-frontera",
-            "brand": 35,
-            "photo": "cars/vauxhall_frontera.jpg"
+            "brand": 35
         }
     },
     {
@@ -6707,8 +6676,7 @@
         "fields": {
             "name": "GTO",
             "slug": "mitsubishi-gto",
-            "brand": 54,
-            "photo": "cars/pontiac_gto.jpg"
+            "brand": 54
         }
     },
     {
@@ -6817,8 +6785,7 @@
         "fields": {
             "name": "Gentra",
             "slug": "ravon-gentra",
-            "brand": 63,
-            "photo": "cars/ravon_gentra.jpg"
+            "brand": 63
         }
     },
     {
@@ -7097,8 +7064,7 @@
         "fields": {
             "name": "H2",
             "slug": "hummer-h2",
-            "brand": 37,
-            "photo": "cars/hummer_h2.jpg"
+            "brand": 37
         }
     },
     {
@@ -7604,8 +7570,7 @@
         "fields": {
             "name": "Insignia",
             "slug": "opel-insignia",
-            "brand": 56,
-            "photo": "cars/vauxhall_insignia.jpg"
+            "brand": 56
         }
     },
     {
@@ -7654,8 +7619,7 @@
         "fields": {
             "name": "Integra",
             "slug": "honda-integra",
-            "brand": 36,
-            "photo": "cars/honda_integra.jpg"
+            "brand": 36
         }
     },
     {
@@ -7684,8 +7648,7 @@
         "fields": {
             "name": "Intrepid",
             "slug": "dodge-intrepid",
-            "brand": 21,
-            "photo": "cars/dodge_intrepid.jpg"
+            "brand": 21
         }
     },
     {
@@ -7971,8 +7934,7 @@
         "fields": {
             "name": "Kalos",
             "slug": "chevrolet-kalos",
-            "brand": 12,
-            "photo": "cars/daewoo_kalos.jpg"
+            "brand": 12
         }
     },
     {
@@ -8139,8 +8101,7 @@
         "fields": {
             "name": "Korando",
             "slug": "daewoo-korando",
-            "brand": 17,
-            "photo": "cars/ssangyong_korando.jpg"
+            "brand": 17
         }
     },
     {
@@ -8269,8 +8230,7 @@
         "fields": {
             "name": "Lacetti",
             "slug": "chevrolet-lacetti",
-            "brand": 12,
-            "photo": "cars/daewoo_lacetti.jpg"
+            "brand": 12
         }
     },
     {
@@ -8388,8 +8348,7 @@
         "fields": {
             "name": "Lanos",
             "slug": "zaz-lanos",
-            "brand": 82,
-            "photo": "cars/zaz_lanos.jpg"
+            "brand": 82
         }
     },
     {
@@ -8727,8 +8686,7 @@
         "fields": {
             "name": "Lodgy",
             "slug": "renault-lodgy",
-            "brand": 64,
-            "photo": "cars/renault_lodgy.jpg"
+            "brand": 64
         }
     },
     {
@@ -8747,8 +8705,7 @@
         "fields": {
             "name": "Logan",
             "slug": "dacia-logan",
-            "brand": 16,
-            "photo": "cars/renault_logan.jpg"
+            "brand": 16
         }
     },
     {
@@ -8966,8 +8923,7 @@
         "fields": {
             "name": "MDX",
             "slug": "acura-mdx",
-            "brand": 1,
-            "photo": "cars/honda_mdx.jpg"
+            "brand": 1
         }
     },
     {
@@ -9286,8 +9242,7 @@
         "fields": {
             "name": "Matiz",
             "slug": "ravon-matiz",
-            "brand": 63,
-            "photo": "cars/ravon_matiz.jpg"
+            "brand": 63
         }
     },
     {
@@ -9296,8 +9251,7 @@
         "fields": {
             "name": "Matiz",
             "slug": "chevrolet-matiz",
-            "brand": 12,
-            "photo": "cars/ravon_matiz.jpg"
+            "brand": 12
         }
     },
     {
@@ -9326,8 +9280,7 @@
         "fields": {
             "name": "Matrix",
             "slug": "toyota-matrix",
-            "brand": 75,
-            "photo": "cars/toyota_matrix.jpg"
+            "brand": 75
         }
     },
     {
@@ -9416,8 +9369,7 @@
         "fields": {
             "name": "Meriva",
             "slug": "vauxhall-meriva",
-            "brand": 76,
-            "photo": "cars/vauxhall_meriva.jpg"
+            "brand": 76
         }
     },
     {
@@ -9446,8 +9398,7 @@
         "fields": {
             "name": "Metro",
             "slug": "chevrolet-metro",
-            "brand": 12,
-            "photo": "cars/rover_metro.jpg"
+            "brand": 12
         }
     },
     {
@@ -9665,8 +9616,7 @@
         "fields": {
             "name": "Mokka",
             "slug": "vauxhall-mokka",
-            "brand": 76,
-            "photo": "cars/vauxhall_mokka.jpg"
+            "brand": 76
         }
     },
     {
@@ -9835,8 +9785,7 @@
         "fields": {
             "name": "Musso",
             "slug": "daewoo-musso",
-            "brand": 17,
-            "photo": "cars/ssangyong_musso.jpg"
+            "brand": 17
         }
     },
     {
@@ -9993,8 +9942,7 @@
         "fields": {
             "name": "Neon",
             "slug": "dodge-neon",
-            "brand": 21,
-            "photo": "cars/plymouth_neon.jpg"
+            "brand": 21
         }
     },
     {
@@ -10003,8 +9951,7 @@
         "fields": {
             "name": "Neon",
             "slug": "plymouth-neon",
-            "brand": 59,
-            "photo": "cars/plymouth_neon.jpg"
+            "brand": 59
         }
     },
     {
@@ -10103,8 +10050,7 @@
         "fields": {
             "name": "Nubira",
             "slug": "chevrolet-nubira",
-            "brand": 12,
-            "photo": "cars/daewoo_nubira.jpg"
+            "brand": 12
         }
     },
     {
@@ -10163,8 +10109,7 @@
         "fields": {
             "name": "Omega",
             "slug": "chevrolet-omega",
-            "brand": 12,
-            "photo": "cars/vauxhall_omega.jpg"
+            "brand": 12
         }
     },
     {
@@ -10173,8 +10118,7 @@
         "fields": {
             "name": "Omega",
             "slug": "opel-omega",
-            "brand": 56,
-            "photo": "cars/vauxhall_omega.jpg"
+            "brand": 56
         }
     },
     {
@@ -10471,8 +10415,7 @@
         "fields": {
             "name": "Partner",
             "slug": "honda-partner",
-            "brand": 36,
-            "photo": "cars/peugeot_partner.jpg"
+            "brand": 36
         }
     },
     {
@@ -11381,8 +11324,7 @@
         "fields": {
             "name": "R2",
             "slug": "ravon-r2",
-            "brand": 63,
-            "photo": "cars/subaru_r2.jpg"
+            "brand": 63
         }
     },
     {
@@ -11830,8 +11772,7 @@
         "fields": {
             "name": "Rezzo",
             "slug": "chevrolet-rezzo",
-            "brand": 12,
-            "photo": "cars/daewoo_rezzo.jpg"
+            "brand": 12
         }
     },
     {
@@ -11890,8 +11831,7 @@
         "fields": {
             "name": "Roadster",
             "slug": "mazda-roadster",
-            "brand": 50,
-            "photo": "cars/tesla_roadster.jpg"
+            "brand": 50
         }
     },
     {
@@ -11900,8 +11840,7 @@
         "fields": {
             "name": "Roadster",
             "slug": "alpina-roadster",
-            "brand": 3,
-            "photo": "cars/tesla_roadster.jpg"
+            "brand": 3
         }
     },
     {
@@ -12360,8 +12299,7 @@
         "fields": {
             "name": "Safari",
             "slug": "gmc-safari",
-            "brand": 27,
-            "photo": "cars/nissan_safari.jpg"
+            "brand": 27
         }
     },
     {
@@ -12440,8 +12378,7 @@
         "fields": {
             "name": "Sandero",
             "slug": "dacia-sandero",
-            "brand": 16,
-            "photo": "cars/renault_sandero.jpg"
+            "brand": 16
         }
     },
     {
@@ -12808,8 +12745,7 @@
         "fields": {
             "name": "Sigma",
             "slug": "hafei-sigma",
-            "brand": 32,
-            "photo": "cars/mitsubishi_sigma.jpg"
+            "brand": 32
         }
     },
     {
@@ -13307,8 +13243,7 @@
         "fields": {
             "name": "Stratus",
             "slug": "chrysler-stratus",
-            "brand": 13,
-            "photo": "cars/dodge_stratus.jpg"
+            "brand": 13
         }
     },
     {
@@ -13882,8 +13817,7 @@
         "fields": {
             "name": "Tigra",
             "slug": "opel-tigra",
-            "brand": 56,
-            "photo": "cars/vauxhall_tigra.jpg"
+            "brand": 56
         }
     },
     {
@@ -14112,8 +14046,7 @@
         "fields": {
             "name": "Tracker",
             "slug": "chevrolet-tracker",
-            "brand": 12,
-            "photo": "cars/geo_tracker.jpg"
+            "brand": 12
         }
     },
     {
@@ -14430,8 +14363,7 @@
         "fields": {
             "name": "V5",
             "slug": "brilliance-v5",
-            "brand": 7,
-            "photo": "cars/faw_v5.jpg"
+            "brand": 7
         }
     },
     {
@@ -14550,8 +14482,7 @@
         "fields": {
             "name": "Vectra",
             "slug": "opel-vectra",
-            "brand": 56,
-            "photo": "cars/vauxhall_vectra.jpg"
+            "brand": 56
         }
     },
     {
@@ -14560,8 +14491,7 @@
         "fields": {
             "name": "Vectra",
             "slug": "holden-vectra",
-            "brand": 35,
-            "photo": "cars/vauxhall_vectra.jpg"
+            "brand": 35
         }
     },
     {
@@ -14570,8 +14500,7 @@
         "fields": {
             "name": "Vectra",
             "slug": "vauxhall-vectra",
-            "brand": 76,
-            "photo": "cars/vauxhall_vectra.jpg"
+            "brand": 76
         }
     },
     {
@@ -14859,8 +14788,7 @@
         "fields": {
             "name": "Vision",
             "slug": "chrysler-vision",
-            "brand": 13,
-            "photo": "cars/eagle_vision.jpg"
+            "brand": 13
         }
     },
     {
@@ -14999,8 +14927,7 @@
         "fields": {
             "name": "Voyager",
             "slug": "lancia-voyager",
-            "brand": 44,
-            "photo": "cars/plymouth_voyager.jpg"
+            "brand": 44
         }
     },
     {
@@ -15009,8 +14936,7 @@
         "fields": {
             "name": "Voyager",
             "slug": "chrysler-voyager",
-            "brand": 13,
-            "photo": "cars/plymouth_voyager.jpg"
+            "brand": 13
         }
     },
     {
@@ -15755,8 +15681,7 @@
         "fields": {
             "name": "Zafira",
             "slug": "holden-zafira",
-            "brand": 35,
-            "photo": "cars/vauxhall_zafira.jpg"
+            "brand": 35
         }
     },
     {
@@ -15765,8 +15690,7 @@
         "fields": {
             "name": "Zafira",
             "slug": "chevrolet-zafira",
-            "brand": 12,
-            "photo": "cars/vauxhall_zafira.jpg"
+            "brand": 12
         }
     },
     {
@@ -15775,8 +15699,7 @@
         "fields": {
             "name": "Zafira",
             "slug": "opel-zafira",
-            "brand": 56,
-            "photo": "cars/vauxhall_zafira.jpg"
+            "brand": 56
         }
     },
     {

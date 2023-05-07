@@ -78,17 +78,14 @@ class Cart(object):
         """
         return sum(item["quantity"] for item in self.cart.values())
 
-    # def __iter__(self):
-    #     """
-    #     Перебор элементов в корзине и получение продуктов из базы данных.
-    #     """
-    #     product_ids = self.cart.keys()
-    #     # получение объектов product и добавление их в корзину
-    #     products = Spacer.objects.filter(id__in=product_ids)
-    #     for product in products:
-    #         self.cart[str(product.id)]["product"] = product
+    def __iter__(self):
+        """
+        Перебор элементов в корзине и получение продуктов из базы данных.
+        """
+        product_ids = self.cart.keys()
+        # получение объектов product и добавление их в корзину
 
-    #     for item in self.cart.values():
-    #         item["price"] = Decimal(item["price"])
-    #         item["total_price"] = item["price"] * item["quantity"]
-    #         yield item
+        for item in self.cart.values():
+            item["price"] = Decimal(item["price"])
+            item["total_price"] = item["price"] * item["quantity"]
+            yield item

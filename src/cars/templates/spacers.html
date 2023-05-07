@@ -19,6 +19,7 @@
     <div class="products_descr">Представлено 2 товара</div>
     <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
     <div class="products_list">
+      {% csrf_token %}
       {% for spacer in spacers %}
       <div class="products_list_card">
         <h3 class="products_list_card_title">{{spacer.category}}</h3>
@@ -32,22 +33,22 @@
         <p>Комментарий: {{spacer.description}}</p>
         {% endif %}
         <div class="products_list_card_wrapper">
-          <input id="add20mm" type="hidden" name="id" value="{{spacer.pk}}" />
-          <button id="add20mm_btn" class="products_list_card_wrapper_btn">
+          <button class="add20mm_btn" class="products_list_card_wrapper_btn">
+            <input id="add20mm" type="hidden" name="id" value="{{spacer.pk}}" />
             <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
             <p class="products_list_card_wrapper_price">
               {{spacer.price20mm}}.00 ₽
             </p>
           </button>
-          <input id="add30mm" type="hidden" name="id" value="{{spacer.pk}}" />
-          <button id="add30mm_btn" class="products_list_card_wrapper_btn">
+          <button class="add30mm_btn" class="products_list_card_wrapper_btn">
+            <input id="add30mm" type="hidden" name="id" value="{{spacer.pk}}" />
             <p class="products_list_card_wrapper_size">В корзину - 30mm -</p>
             <p class="products_list_card_wrapper_price">
               {{spacer.price30mm}}.00 ₽
             </p>
           </button>
-          <input id="add40mm" type="hidden" name="id" value="{{spacer.pk}}" />
-          <button id="add40mm_btn" class="products_list_card_wrapper_btn">
+          <button class="add40mm_btn" class="products_list_card_wrapper_btn">
+            <input id="add40mm" type="hidden" name="id" value="{{spacer.pk}}" />
             <p class="products_list_card_wrapper_size">В корзину - 40mm -</p>
             <p class="products_list_card_wrapper_price">
               {{spacer.price40mm}}.00 ₽
@@ -59,10 +60,5 @@
     </div>
   </div>
 </section>
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-  integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-  crossorigin="anonymous"
-></script>
 <script src="{% static 'spacers/js/index.js' %}"></script>
 {% endblock %}

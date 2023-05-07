@@ -33,47 +33,57 @@
 rel="stylesheet"
 href="{% static 'footer/css/styles.css' %}"
 />
+<link
+rel="stylesheet"
+href="{% static 'cartmodal/css/styles.css' %}"
+/>
     {% block head %}{% endblock head %}
   </head>
   <body>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"
+  ></script>
     <header>
-        <div class="container">
-          <div class="head_logo">
-            <a href="/" class="head_logo_icons"
-              ><img src="{% static 'base/img/logo.svg' %}" alt="logo" class="head_img"
-            /></a>
+      <div class="head">
+          <div class="container">
+            <div class="head_logo">
+                <a href="/" class="head_logo_icons"><img src="{% static 'base/img/logo.svg' %}" alt="logo" class="head_img"></a>
+            </div>  
+            <div class="head_descr">
+                Проставки для увеличения клиренса
+             </div>
+                <div class="head_phone">
+                    <div class="head_wrapper">
+                        <img src="{% static 'header/icons/call.png' %}" alt="call" class="head_icon">
+                        <a href="#" class="head_number">+7 (978) 294-29-78</a>
+                    </div>
+                    <div class="head_subnumber">Ежедневно с 8:00 до 21:00</div>
+                </div>
+                <div class="head_last">
+                    <div class="head_last_cart">
+                        <button class="head_last_cart_btn"><img src="{% static 'header/icons/cart.png' %}" alt="icon" class="head_last_cart_btn_img"></button>
+                        <div class="head_last_cart_text">{{cart|length}}</div>
+                    </div>
+                    <a href="#" class="head_last_user"><img src="{% static 'header/icons/user.png' %}" alt="icon" class="head_last_user_img"></a>
+                  </div>
           </div>
-
-          <div class="head_descr">
-            Интернет-магазин проставок<br />
-            для увелечения клиренса авто
-          </div>
-
-          <div class="head_phone">
-            <div class="head_wrapper">
-              <img src="{% static 'header/icons/call.png' %}" alt="call" class="head_icon" />
-              <a href="#" class="head_number">+7 (978) 294-29-78</a>
-            </div>
-            <div class="head_subnumber">Ежедневно с 8:00 до 21:00</div>
-          </div>
-
-          <div class="head_last">
-            <img src="{% static 'header/icons/cart.png' %}" alt="icon" class="head_last" />
-            <img src="{% static 'header/icons/user.png' %}" alt="icon" class="head_subicon" />
-          </div>
-        </div>
-
+      </div>
       <nav>
-        <div class="menu">
-          <a href="/catalog/" class="menu_item">Каталог</a>
-          <a href="#" class="menu_item">О компании</a>
-          <a href="#" class="menu_item">Отзывы</a>
-          <a href="#" class="menu_item">Оплата и доставка</a>
-          <a href="#" class="menu_item">Вопросы и ответы</a>
-          <a href="#" class="menu_item">Контакты</a>
-        </div>
+          <div class="container">
+              <div class="menu">
+                      <a href="#">Каталог</a>
+                      <a href="#">О компании</a>
+                      <a href="#">Отзывы</a>
+                      <a href="#">Оплата и доставка</a>
+                      <a href="#">Вопросы и ответы</a>
+                      <a href="#">Контакты</a>
+              </div>
+          </div>
       </nav>
-    </header>
+  </header>
+
     {% block content %}{% endblock content %}
     <footer class="footer">
       <div class="footer_container">
@@ -81,7 +91,7 @@ href="{% static 'footer/css/styles.css' %}"
               <div class="footer_rippo">
                   <img src="{% static 'base/img/logo.svg' %}" alt="logo" class="footer_logo">
                   <div class="footer_descr">Интернет-магазин проставок<br>
-                      для увелечения клиренса авто</div>
+                      для увеличения клиренса авто</div>
                   <div class="footer_ip">ИП Нехамкин Дмитрий
                       <br>Вячеславович<br>ИНН: 910226323090</div>
                   <div class="footer_icon">
@@ -141,5 +151,52 @@ href="{% static 'footer/css/styles.css' %}"
           </div>
       </div>
   </footer>
+  
+  <div class="modal">
+		<div class="modal_container">
+			<div class="modal_head">
+				<button class="modal_btn">×</button>
+				<h5 class="modal_head_title">
+					<span class="fa fa-shopping-basket fa-fw"></span>
+					&nbsp;&nbsp; Корзина покупок
+				</h5>
+			</div>
+
+			<div class="modal_content">
+				<!-- <div class="modal_content_alert">
+					<button class="modal_btn">×</button>
+					<i class="fa fa-info-circle"></i>
+					&nbsp;&nbsp;Товар Проставки 7-297 добавлен в вашу корзину!
+				</div> -->
+        {% for item in cart%}
+				<div class="modal_content_product">
+						<div class="modal_content_product_wrap">
+							<a href="#" class="modal_content_produsct_link"><img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img"></a>
+						</div>
+
+						<div class="modal_content_prudoct_descr">
+							<b>Проставки {{item.article}}</b>
+							<br>
+							<a href="{{item.car_slug}}" class="modal_content_product_descr_link">Автомобиль: {{item.car_name}}</a>
+							<br>
+							Размер проставок: {{item.type}}
+						</div>
+
+						<p class="modal_content_product_price">{{item.price}} ₽</p>
+
+						<button class="modal_content_product_backet">Мусорка</button>
+				</div>
+        {% endfor %}
+				<div class="modal_content_product_text"><a href="#" class="modal_content_product_text_link">В корзине <b>1</b> товаров, на <b>1700 ₽</a></b> </div>
+
+				<div class="modal_content_product_footer">
+					<button class="modal_content_product_footer_btn">Продолжить закупки</button>
+					<button class="modal_content_product_footer_btn red">Оформить заказ</button>
+				</div>
+			</div>
+		</div>
+	</div>
+  <script src="{% static 'header/js/openCart.js' %}"></script>
+  <script src="{% static 'cartmodal/js/modal.js' %}"></script>
   </body>
 </html>
