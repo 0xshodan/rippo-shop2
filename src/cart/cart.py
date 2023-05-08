@@ -15,7 +15,7 @@ class Cart(object):
             cart = self.session[settings.CART_SESSION_ID] = {}
         self.cart = cart
 
-    def add(self, spacer, car, type, quantity=1, update_quantity=False):
+    def add(self, spacer, car, type, quantity=1, update_quantity=False) -> dict:
         spacer_id = str(spacer.pk) + "_" + type
         if type == "20mm":
             price = spacer.price20mm
@@ -28,8 +28,8 @@ class Cart(object):
             car_name += " " + car.car.name
         if car.name != car.car.name:
             car_name += " " + car.name
-        if spacer_id not in self.cart:
-            self.cart[spacer_id] = {
+        data = {
+                "id": spacer_id,
                 "quantity": 0,
                 "price": str(price),
                 "type": type,
@@ -38,22 +38,28 @@ class Cart(object):
                 "car_name": car_name,
                 "car_slug": car.slug,
             }
+        if spacer_id not in self.cart:
+            self.cart[spacer_id] = data
         if update_quantity:
             self.cart[spacer_id]["quantity"] = quantity
         else:
             self.cart[spacer_id]["quantity"] += quantity
         self.save()
-
+        return data
     def save(self):
         # Обновление сессии cart
         self.session[settings.CART_SESSION_ID] = self.cart
         # Отметить сеанс как "измененный", чтобы убедиться, что он сохранен
         self.session.modified = True
 
-    def remove(self, spacer, type):
+    def remove(self, spacer=None, type=None, spacer_id=None):
         """
         Удаление товара из корзины.
         """
+        if spacer_id:
+            del self.cart[spacer_id]
+            self.save()
+            return
         spacer_id = str(spacer.id) + "_" + type
         if spacer_id in self.cart:
             del self.cart[spacer_id]
@@ -83,8 +89,6 @@ class Cart(object):
         Перебор элементов в корзине и получение продуктов из базы данных.
         """
         product_ids = self.cart.keys()
-        # получение объектов product и добавление их в корзину
-
         for item in self.cart.values():
             item["price"] = Decimal(item["price"])
             item["total_price"] = item["price"] * item["quantity"]

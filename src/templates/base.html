@@ -45,6 +45,7 @@ href="{% static 'cartmodal/css/styles.css' %}"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous"
   ></script>
+  {% csrf_token %}
     <header>
       <div class="head">
           <div class="container">
@@ -168,10 +169,13 @@ href="{% static 'cartmodal/css/styles.css' %}"
 					<i class="fa fa-info-circle"></i>
 					&nbsp;&nbsp;Товар Проставки 7-297 добавлен в вашу корзину!
 				</div> -->
-        {% for item in cart%}
-				<div class="modal_content_product">
+                <div class="modal_content_products_container">
+                {% for item in cart%}
+				    <div class="modal_content_product">
 						<div class="modal_content_product_wrap">
-							<a href="#" class="modal_content_produsct_link"><img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img"></a>
+							<a href="#" class="modal_content_produsct_link">
+                            <img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img">
+                            </a>
 						</div>
 
 						<div class="modal_content_prudoct_descr">
@@ -183,10 +187,11 @@ href="{% static 'cartmodal/css/styles.css' %}"
 						</div>
 
 						<p class="modal_content_product_price">{{item.price}} ₽</p>
-
+                        <input id="spacer_id" type="hidden" name="id" value="{{item.id}}" />
 						<button class="modal_content_product_backet">Мусорка</button>
 				</div>
-        {% endfor %}
+                {% endfor %}
+                </div>
 				<div class="modal_content_product_text"><a href="#" class="modal_content_product_text_link">В корзине <b>1</b> товаров, на <b>1700 ₽</a></b> </div>
 
 				<div class="modal_content_product_footer">

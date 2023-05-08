@@ -1,9 +1,8 @@
-from django.http import HttpResponse, JsonResponse
+from django.http import HttpResponse, JsonResponse, QueryDict
 from django.views.generic import View
 
 from cars.models import CarModification
 from spacers.models import Spacer
-
 from .cart import Cart
 
 
@@ -12,16 +11,16 @@ class CartView(View):
         cart = Cart(request)
         spacer = Spacer.objects.get(pk=request.POST["id"])
         car = CarModification.objects.get(pk=request.POST["car_id"])
-        cart.add(spacer, car, request.POST["type"])
-        return HttpResponse()
+        data = cart.add(spacer, car, request.POST["type"])
+        return JsonResponse(data)
 
     def get(self, request):
         return JsonResponse(Cart(request).cart)
 
-    def delete(self, request, id, type):
+    def delete(self, request):
         cart = Cart(request)
-        spacer = Spacer.objects.get(pk=id)
-        cart.remove(spacer, type=type)
+        data = QueryDict(request.body)
+        cart.remove(spacer_id=data["id"])
         return HttpResponse()
 
 

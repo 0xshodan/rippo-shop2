@@ -19,7 +19,6 @@
     <div class="products_descr">Представлено 2 товара</div>
     <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
     <div class="products_list">
-      {% csrf_token %}
       {% for spacer in spacers %}
       <div class="products_list_card">
         <h3 class="products_list_card_title">{{spacer.category}}</h3>
