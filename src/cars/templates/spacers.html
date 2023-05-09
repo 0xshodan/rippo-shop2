@@ -22,35 +22,42 @@
       {% for spacer in spacers %}
       <div class="products_list_card">
         <h3 class="products_list_card_title">{{spacer.category}}</h3>
-        <div class="products_list_card_article">
-          <p class="products_list_card_article_text">
-            Артикул: {{spacer.article}}
-          </p>
-        </div>
+
         <img src="{{spacer.photo.url}}" alt="screen" class="products_img" />
-        {% if spacer.description %}
-        <p>Комментарий: {{spacer.description}}</p>
-        {% endif %}
+        <div class="products_list_card_info">
+          <div class="products_list_card_info_article">
+            Артикуль: {{spacer.article}}
+          </div>
+          <div class="products_list_card_info_text">
+            Цена указана за комплект<br />
+            (2 проставки + крепеж)
+          </div>
+          {% if spacer.description %}
+          <div class="products_list_card_info_comment">
+            Комментарий: {{spacer.description}}
+          </div>
+          {% endif %}
+        </div>
         <div class="products_list_card_wrapper">
-          <button class="add20mm_btn" class="products_list_card_wrapper_btn">
+          <button class="products_list_card_wrapper_btn add20mm_btn">
             <input id="add20mm" type="hidden" name="id" value="{{spacer.pk}}" />
             <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
             <p class="products_list_card_wrapper_price">
-              {{spacer.price20mm}}.00 ₽
+              {{spacer.price20mm}} ₽
             </p>
           </button>
-          <button class="add30mm_btn" class="products_list_card_wrapper_btn">
+          <button class="products_list_card_wrapper_btn add30mm_btn">
             <input id="add30mm" type="hidden" name="id" value="{{spacer.pk}}" />
             <p class="products_list_card_wrapper_size">В корзину - 30mm -</p>
             <p class="products_list_card_wrapper_price">
-              {{spacer.price30mm}}.00 ₽
+              {{spacer.price30mm}} ₽
             </p>
           </button>
-          <button class="add40mm_btn" class="products_list_card_wrapper_btn">
+          <button class="products_list_card_wrapper_btn add40mm_btn">
             <input id="add40mm" type="hidden" name="id" value="{{spacer.pk}}" />
             <p class="products_list_card_wrapper_size">В корзину - 40mm -</p>
             <p class="products_list_card_wrapper_price">
-              {{spacer.price40mm}}.00 ₽
+              {{spacer.price40mm}} ₽
             </p>
           </button>
         </div>
