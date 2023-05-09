@@ -1,0 +1,204 @@
+.modal {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    top: -1000px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    padding: 60px 15px;
+  }
+  
+  /* line 779, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_container {
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    border-radius: 7px;
+  }
+  
+  /* line 784, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_btn {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    opacity: .2;
+    margin: 0;
+    height: 25px;
+    width: 25px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    line-height: 1px;
+  }
+  
+  /* line 797, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_head {
+    padding: 15px;
+  }
+  
+  /* line 799, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_head_title {
+    font-weight: 600;
+    color: #22232b;
+  }
+  
+  /* line 802, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content {
+    padding: 15px;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  /* line 806, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_alert {
+    padding: 10px 15px;
+    width: 540px;
+    height: 42px;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  /* line 816, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    border-radius: 3px;
+    min-height: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+  }
+  
+  /* line 827, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_wrap {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+    width: 60px;
+  }
+  
+  /* line 832, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_descr {
+    font-size: 14px;
+    width: 189px;
+  }
+  
+  /* line 835, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_descr_link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* line 838, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_descr_link:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* line 841, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_descr_size {
+    margin-top: 5px;
+  }
+  
+  /* line 843, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_menu {
+    display: flex;
+  }
+  
+  /* line 845, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_menu_btn {
+    width: 28px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+  }
+  
+  /* line 853, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_menu_btn:hover {
+    background-color: #A0A0A0;
+    opacity: .5;
+  }
+  
+  /* line 856, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_menu_item {
+    width: 44px;
+    height: 28px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  /* line 863, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_backet {
+    border: none;
+  }
+  
+  /* line 865, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_backet_img {
+    width: 19px;
+    height: 19px;
+  }
+  
+  /* line 868, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* line 871, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_text_link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* line 874, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_text_link:hover {
+    color: black;
+  }
+  
+  /* line 876, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+  }
+  
+  /* line 881, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_content_product_footer_btn {
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+    width: 176px;
+    height: 34px;
+    font-size: 15px;
+  }
+  
+  /* line 889, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .modal_active {
+    position: fixed;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+  }

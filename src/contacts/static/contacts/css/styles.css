@@ -1,0 +1,133 @@
+.question {
+    padding: 15px 0 0 0;
+  }
+  
+  /* line 703, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_container {
+    width: 1160px;
+    margin: auto;
+  }
+  
+  /* line 706, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_promo {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  
+  /* line 709, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_title {
+    display: flex;
+  }
+  
+  /* line 711, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_title_radius {
+    margin-top: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFE839;
+  }
+  
+  /* line 717, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_title_radius_img {
+    width: 32px;
+    height: 32px;
+    margin: 4px 0 0 4px;
+  }
+  
+  /* line 721, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_title_phone {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0 10px;
+  }
+  
+  /* line 725, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_title_phone_descr {
+    font-size: 20px;
+  }
+  
+  /* line 727, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_title_phone_number {
+    margin-top: 10px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* line 732, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_title_phone_number:hover {
+    opacity: .7;
+    color: black;
+  }
+  
+  /* line 735, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_subtitle {
+    display: flex;
+  }
+  
+  /* line 737, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_subtitle_radius {
+    margin-top: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFE839;
+  }
+  
+  /* line 743, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_subtitle_radius_img {
+    width: 23px;
+    height: 23px;
+    margin: 8px 0 0 9px;
+  }
+  
+  /* line 747, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_subtitle_mode {
+    margin: 15px 0 0 9px;
+  }
+  
+  /* line 749, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_subtitle_mode_bottom {
+    color: #5C5C5C;
+  }
+  
+  /* line 751, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_mail {
+    display: flex;
+  }
+  
+  /* line 753, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_mail_wrap {
+    margin: 15px 0 0 11px;
+  }
+  
+  /* line 755, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_mail_wrap_link {
+    color: #5C5C5C;
+    text-decoration: none;
+  }
+  
+  /* line 758, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_mail_wrap_link:hover {
+    opacity: .8;
+    color: #5C5C5C;
+  }
+  
+  /* line 763, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_recveset_item {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* line 766, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_recveset_descr {
+    margin-top: 10px;
+    color: #5C5C5C;
+  }
+  
+  /* line 770, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .question_optima {
+    display: flex;
+    justify-content: space-between;
+  }

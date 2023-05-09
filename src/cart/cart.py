@@ -88,8 +88,7 @@ class Cart(object):
         """
         Перебор элементов в корзине и получение продуктов из базы данных.
         """
-        product_ids = self.cart.keys()
         for item in self.cart.values():
-            item["price"] = Decimal(item["price"])
+            item["price"] = int(item["price"])
             item["total_price"] = item["price"] * item["quantity"]
             yield item

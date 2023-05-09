@@ -14,8 +14,12 @@ SECRET_KEY = "django-insecure-)q#_*9*pz1iszbu*f@#_x*sj&)5)*9#d@4s%juk7*598qgsf-q
 DEBUG = True
 
 ALLOWED_HOSTS: list[str] = []
-
-
+os.environ["client_id"] = "t7ivBRaOzMEhvubvwa4U"
+os.environ["client_secret"] = "1xLUhklG6-FgIDWD0Zqb0YAt3tOXQgoEDZwR1YY_"
+AVITO_CLIENT_ID = os.getenv("client_id")
+AVITO_CLIENT_SECRET = os.getenv("client_secret")
+print(AVITO_CLIENT_ID)
+print(AVITO_CLIENT_SECRET)
 # Application definition
 
 INSTALLED_APPS = [
@@ -29,6 +33,14 @@ INSTALLED_APPS = [
     "cars",
     "spacers",
     "base_static",
+    "questions",
+    "avito",
+    "contacts",
+    "payment_delivery",
+    "about",
+    "feedbacks",
+    "users",
+    "landing"
 ]
 
 MIDDLEWARE = [
@@ -91,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
         "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
-
+AUTH_USER_MODEL = 'users.CustomUser'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/

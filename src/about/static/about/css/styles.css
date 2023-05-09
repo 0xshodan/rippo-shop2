@@ -1,0 +1,97 @@
+.сompani {
+  padding: 20px 0 200px 0;
+}
+
+.compani_container {
+  width: 1160px;
+  margin: auto;
+}
+
+.compani_item {
+  color: black;
+  font-size: 15px;
+  color: #626262;
+  text-decoration: none;
+}
+
+.compani_item:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+
+.compani_subitem {
+  margin-top: 32px;
+  font-size: 32px;
+}
+
+
+.compani_content {
+  display: flex;
+}
+
+
+.compani_content_up {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+.compani_content_descr {
+  margin-top: 20px;
+}
+
+
+.compani_content_bottom {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+.compani_content_bottom_contacts {
+  color: black;
+  text-decoration: none;
+}
+
+
+.compani_content_bottom_contacts:hover {
+  color: black;
+  opacity: .7;
+}
+
+
+.compani_content_optima {
+  padding: 15px;
+  background-color: #f5f8fa;
+  min-width: 300px;
+  height: 265px;
+}
+
+
+.compani_content_optima_circle {
+  border-radius: 50%;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+
+.compani_content_optima_img {
+  width: 80px;
+  height: 80px;
+}
+
+.compani_content_optima_updescr {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.compani_content_optima_descr {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #626262;
+}

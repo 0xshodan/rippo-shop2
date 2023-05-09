@@ -1,0 +1,98 @@
+{% extends "base.html" %} {% load static %}{%block head %}
+<link rel="stylesheet" href="{% static 'feedbacks/css/styles.css' %}" />
+{% endblock %} {%block content %}
+<section class="reviews">
+  <div class="reviews_container">
+    <h1 class="reviews_title">Отзывы</h1>
+
+    <ul class="reviews_main">
+      {% for feedback in feedbacks %}
+      <li class="reviews_comment">
+        <div class="reviews_main_optima">
+          <div class="reviews_main_promo">
+            <div class="reviews_main_promo_block">
+              <a href="#" class="reviews_main_promo_img_link">
+                <img
+                  src="{% static 'feedbacks/img/user.png' %}"
+                  alt=""
+                  class="reviews_main_promo_img"
+                />
+              </a>
+            </div>
+
+            <div class="reviews_main_promo_info">
+              <a href="#" class="reviews_main_promo_name"
+                >{{feedback.sender.name}}</a
+              >
+
+              <div class="reviews_main_promo_info_buy">
+                <img
+                  src="{% static 'feedbacks/img/check-mark.png' %}"
+                  alt="check-mark"
+                  class="reviews_main_promo_info_buy_img"
+                />
+                <div class="reviews_main_promo_info_buy_text">
+                  Товар куплен на RIPPO
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews_main_promo_descr">
+            <span class="reviews_main_promo_time">{{feedback.createdAt}}</span>
+            <img
+              src="{% static 'feedbacks/img/star.svg' %}"
+              alt="star"
+              class="reviews_main_promo_descr_star"
+            />
+            <img
+              src="{% static 'feedbacks/img/star.svg' %}"
+              alt="star"
+              class="reviews_main_promo_descr_star"
+            />
+            <img
+              src="{% static 'feedbacks/img/star.svg' %}"
+              alt="star"
+              class="reviews_main_promo_descr_star"
+            />
+            <img
+              src="{% static 'feedbacks/img/star.svg' %}"
+              alt="star"
+              class="reviews_main_promo_descr_star"
+            />
+            <img
+              src="{% static 'feedbacks/img/star.svg' %}"
+              alt="star"
+              class="reviews_main_promo_descr_star"
+            />
+            <span class="reviews_main_promo_item"
+              >Товар: {{feedback.item.title}}</span
+            >
+          </div>
+        </div>
+
+        <div class="reviews_img">
+          <img
+            src="{% static 'feedbacks/img/map.png' %}"
+            alt="map"
+            class="reviews_img_icon"
+          />
+          <img
+            src="{% static 'feedbacks/img/map.png' %}"
+            alt="map"
+            class="reviews_img_icon"
+          />
+          <img
+            src="{% static 'feedbacks/img/map.png' %}"
+            alt="map"
+            class="reviews_img_icon"
+          />
+        </div>
+
+        <div class="reviews_text">{{feedback.text}}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}

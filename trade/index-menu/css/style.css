@@ -1,0 +1,63 @@
+.content {
+    padding: 50px 0 0 50px;
+  }
+  
+  /* line 78, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .content_catalog {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  /* line 84, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .select_menu {
+    border: 0px solid #efefef;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 6px 14px 8px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    padding: 25px;
+    margin-top: 50px;
+  }
+  
+  /* line 92, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .select_menu_subcatalog {
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  
+  /* line 95, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .select_menu_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+  }
+  
+  /* line 99, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .select_menu_wrapper_btn {
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    background: #FFC815;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* line 110, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .select_menu select {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 100%;
+    border-radius: 4px;
+    border: 0;
+    background: #f5f5f5;
+    padding: 6px;
+    color: #23232b;
+  }
+  

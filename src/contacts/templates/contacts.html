@@ -1,0 +1,86 @@
+{% extends "base.html" %} {% load static %}{%block head %}
+<link rel="stylesheet" href="{% static 'contacts/css/styles.css' %}" />
+{% endblock %} {%block content %}
+<section class="question">
+  <div class="question_container">
+    <a href="/" class="machine_menu_item">Главная</a> >
+    <a href="#" class="machine_menu_item">Вопросы и ответы</a>
+    <h1 class="question_promo">Контакты</h1>
+
+    <div class="question_optima">
+      <div class="question_optima_wrap">
+        <div class="question_title">
+          <div class="question_title_radius">
+            <img
+              src="{% static 'contacts/img/phone.png' %}"
+              alt=""
+              class="question_title_radius_img"
+            />
+          </div>
+
+          <div class="question_title_phone">
+            <div class="question_title_phone_descr">Телефоны:</div>
+            <a href="#" class="question_title_phone_number"
+              >+7 (978) 294-29-78</a
+            >
+            <a href="#" class="question_title_phone_number"
+              >+7 (978) 596-58-50</a
+            >
+            <a href="#" class="question_title_phone_number"
+              >+7 (978) 815-81-58</a
+            >
+          </div>
+        </div>
+
+        <div class="question_subtitle">
+          <div class="question_subtitle_radius">
+            <img
+              src="{% static 'contacts/img/alarm.png' %}"
+              alt="alarm"
+              class="question_subtitle_radius_img"
+            />
+          </div>
+
+          <div class="question_subtitle_mode">
+            <div class="question_title_phone_descr">Режим работы:</div>
+            <div class="question_subtitle_mode_bottom">
+              Пн-Вс с 8.00 до 21.00
+            </div>
+          </div>
+        </div>
+
+        <div class="question_mail">
+          <div class="question_subtitle_radius">
+            <img
+              src="{% static 'contacts/img/mail.svg' %}"
+              alt="mail"
+              class="question_subtitle_radius_img"
+            />
+          </div>
+
+          <div class="question_mail_wrap">
+            <div class="question_mail_wrap_promo">e-mail:</div>
+            <a href="#" class="question_mail_wrap_link">info@rippo.ru</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="question_recveset">
+        <div class="question_recveset_item">Реквизиты:</div>
+        <div class="question_recveset_descr">
+          ИП Нехамкин Дмитрий Вячеславович
+        </div>
+        <div class="question_recveset_descr">ИНН: 910226323090</div>
+        <div class="question_recveset_descr">РНКБ БАНК (ПАО) г.Симферополь</div>
+        <div class="question_recveset_descr">БИК банка: 043510607</div>
+        <div class="question_recveset_descr">
+          Корр. счет: 30101810335100000607
+        </div>
+        <div class="question_recveset_descr">
+          Расчетный счет: 40802810040080002129
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
