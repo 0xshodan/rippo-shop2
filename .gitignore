@@ -160,3 +160,5 @@ poetry.lock
 
 # media
 media/
+
+key.json
