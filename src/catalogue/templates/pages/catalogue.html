@@ -1,63 +1,49 @@
 {% extends "base.html" %} {% load static %} {% block head %}
-<link
-  rel="stylesheet"
-  href="{% static 'catalogue/css/bootstrap-reboot.min.css' %}"
-/>
-<link
-  rel="stylesheet"
-  href="{% static 'catalogue/css/bootstrap-grid.min.css' %}"
-/>
 <link rel="stylesheet" href="{% static 'catalogue/css/styles.css' %}" />
 {% endblock %} {% block content %}
 <div class="content">
   <div class="container">
     <h1>каталог</h1>
     <div class="content_subcatalog">быстрый подбор проставок</div>
+    <div class="container">
+      <div class="content_menu">
+           <h3 class="content_menu_title">Быстрый подбор</h3>
 
-    <div class="row">
-      <div class="select_menu">
-        <div class="select_menu_wrapper">
-          <div class="col-md-3">
-            <div class="select_brand">
-              <label for="select_brand">Марка авто</label>
-              <select id="select_brand">
-                <option selected value="-1">Не выбрано</option>
-                {% for brand in brands %}
-                <option value="{{brand.pk}}">{{brand.name}}</option>
-                {% endfor %}
-              </select>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="select_model">
-              <label for="select_model">Модель авто</label>
-              <select id="select_model">
-                <option value="-1">Все</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="select_year">
-              <label for="select_year">Год выпуска</label>
-              <select id="select_year">
-                <option value="-1">Все</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="select_modification">
-              <label for="select_modification">Модификация</label>
-              <select id="select_modification">
-                <option value="-1">Все</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <button class="select_menu_wrapper_btn">подбор</button>
-          </div>
-        </div>
+           <div class="content_menu_wrap">
+               <div class="content_menu_wrap_item">
+                   <p class="content_menu_wrap_item_text">Марка авто</p>
+                   <select class="content_menu_wrap_item_brand">
+                    <option selected value="-1">Не выбрано</option>
+                    {% for brand in brands %}
+                    <option value="{{brand.pk}}">{{brand.name}}</option>
+                    {% endfor %}
+                   </select>
+               </div>
+               <div class="content_menu_wrap_item">
+                   <p class="content_menu_wrap_item_text">Модель авто</p>
+                   <select class="content_menu_item_model">
+                       <option value="-1" selected="selected">Все</option>
+                   </select>
+               </div>
+               <div class="content_menu_wrap_item">
+                   <p class="content_menu_wrap_item_text">Год выпуска</p>
+                   <select class="content_menu_wrap_item_years">
+                       <option value="-1" selected="selected">Все</option>
+                   </select>
+               </div>
+               <div class="content_menu_wrap_item">
+                   <p class="content_menu_wrap_item_text">Модификация авто</p>
+                   <select class="content_menu_wrap_item_modification">
+                       <option value="-1" selected="selected">Все</option>
+                   </select>
+               </div>
+
+               <div class="content_menu_wrap_btn">
+                   <button class="content_menu_item_btn_click">Подобрать</button>
+               </div>
+           </div>
       </div>
-    </div>
+   </div>
   </div>
 
 <div class="brand_table">

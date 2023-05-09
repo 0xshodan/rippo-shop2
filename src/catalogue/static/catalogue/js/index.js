@@ -1,4 +1,4 @@
-$("#select_brand").on("change", function () {
+$(".content_menu_wrap_item_brand").on("change", function () {
   var $option = $(this).find("option:selected");
   var id = $option.val();
   if (id === "-1") {
@@ -15,7 +15,7 @@ $("#select_brand").on("change", function () {
     });
   }
 });
-$("#select_model").on("change", function () {
+$(".content_menu_item_model").on("change", function () {
   var $option = $(this).find("option:selected");
   var id = $option.val();
   if (id == "-1") {
@@ -31,7 +31,7 @@ $("#select_model").on("change", function () {
     });
   }
 });
-$("#select_year").on("change", function () {
+$(".content_menu_wrap_item_years").on("change", function () {
   var $option = $(this).find("option:selected");
   var id = $option.val();
   if (id == "-1") {
@@ -46,7 +46,7 @@ $("#select_year").on("change", function () {
     });
   }
 });
-$(".select_menu_wrapper_btn").on("click", function () {
+$(".content_menu_item_btn_click").on("click", function () {
   var $mod_option = $("#select_modification").find("option:selected");
   var mod_id = $mod_option.val();
   if (mod_id != "-1") {

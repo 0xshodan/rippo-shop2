@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     "about",
     "feedbacks",
     "users",
-    "landing"
+    "landing",
+    "orders"
 ]
 
 MIDDLEWARE = [

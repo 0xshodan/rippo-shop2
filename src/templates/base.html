@@ -168,26 +168,29 @@ crossorigin="anonymous"
 					<i class="fa fa-info-circle"></i>
 					&nbsp;&nbsp;Товар Проставки 7-297 добавлен в вашу корзину!
 				</div> -->
-                <div class="modal_content_products_container">
+                <div class="modal_content_product">
                 {% for item in cart%}
-				    <div class="modal_content_product">
-						<div class="modal_content_product_wrap">
+				    <div class="modal_content_product_wrap">
 							<a href="#" class="modal_content_produsct_link">
                             <img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img">
                             </a>
 						</div>
 
-						<div class="modal_content_prudoct_descr">
+						<div class="modal_content_product_descr">
 							<b>Проставки {{item.article}}</b>
 							<br>
 							<a href="{{item.car_slug}}" class="modal_content_product_descr_link">Автомобиль: {{item.car_name}}</a>
 							<br>
 							Размер проставок: {{item.type}}
 						</div>
-
+                        <div class="modal_content_product_menu">
+                            <button class="modal_content_product_menu_btn">-</button>
+                            <div class="modal_content_product_menu_item">10</div>
+                            <button class="modal_content_product_menu_btn">+</button>
+                        </div>
 						<p class="modal_content_product_price">{{item.price}} ₽</p>
                         <input id="spacer_id" type="hidden" name="id" value="{{item.id}}" />
-						<button class="modal_content_product_backet" onclick=on_basket(this)>Мусорка</button>
+						<button class="modal_content_product_backet" onclick=on_basket(this)><img src="icons/trash.svg" alt="trash" class="modal_content_product_backet_img"></button>
 				</div>
                 {% endfor %}
                 </div>
