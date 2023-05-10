@@ -8,18 +8,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-)q#_*9*pz1iszbu*f@#_x*sj&)5)*9#d@4s%juk7*598qgsf-q"
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS: list[str] = []
-os.environ["client_id"] = "t7ivBRaOzMEhvubvwa4U"
-os.environ["client_secret"] = "1xLUhklG6-FgIDWD0Zqb0YAt3tOXQgoEDZwR1YY_"
-AVITO_CLIENT_ID = os.getenv("client_id")
-AVITO_CLIENT_SECRET = os.getenv("client_secret")
-print(AVITO_CLIENT_ID)
-print(AVITO_CLIENT_SECRET)
+AVITO_CLIENT_ID = os.getenv("CLIENT_ID")
+AVITO_CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+
 # Application definition
 
 INSTALLED_APPS = [

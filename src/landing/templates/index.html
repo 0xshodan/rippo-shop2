@@ -10,7 +10,7 @@
 
       <div class="main_promo_wrap">
         <img
-          src="icons/prostavla.jpg"
+          src="{% static 'landing/img/prostavla.jpg' %}"
           alt="prostavka"
           class="main_promo_wrap_img"
         />
@@ -20,7 +20,11 @@
         <div class="main_promo_item">
           <div class="main_promo_item_radius">
             <div class="main_promo_item_wrap">
-              <img src="icons/car.png" alt="" class="main_promo_item_img" />
+              <img
+                src="{% static 'landing/img/car.png' %}"
+                alt=""
+                class="main_promo_item_img"
+              />
             </div>
           </div>
           <span class="main_promo_item_text"
@@ -30,7 +34,11 @@
         <div class="main_promo_item">
           <div class="main_promo_item_radius">
             <div class="main_promo_item_wrap">
-              <img src="icons/plus.png" alt="" class="main_promo_item_img" />
+              <img
+                src="{% static 'landing/img/plus.png' %}"
+                alt=""
+                class="main_promo_item_img"
+              />
             </div>
           </div>
           <span class="main_promo_item_text"
@@ -40,7 +48,11 @@
         <div class="main_promo_item">
           <div class="main_promo_item_radius">
             <div class="main_promo_item_wrap">
-              <img src="icons/car2.png" alt="" class="main_promo_item_img" />
+              <img
+                src="{% static 'landing/img/car2.png' %}"
+                alt=""
+                class="main_promo_item_img"
+              />
             </div>
           </div>
           <span class="main_promo_item_text">Доставка по всей России</span>
@@ -49,7 +61,7 @@
           <div class="main_promo_item_wallet">
             <div class="main_promo_item_wallet_wrap">
               <img
-                src="icons/wallet.svg"
+                src="{% static 'landing/img/wallet.svg' %}"
                 alt=""
                 class="main_promo_item_walletimg"
               />
@@ -65,188 +77,12 @@
     </div>
   </section>
 
-  <section class="content">
-    <div class="content_container">
-      <div class="content_optima">
-        <div class="panel_menu">
-          <h3 class="panel_menu_title">Быстрый подбор</h3>
-
-          <div class="panel_menu_wrap">
-            <div class="panel_menu_wrap_item">
-              <p class="panel_menu_wrap_item_text">Марка авто</p>
-
-              <select class="panel_menu_wrap_item_brand">
-                <option value="-1" selected="selected">Не выбрано</option>
-                <option value="52">BMW</option>
-                <option value="12">LADA</option>
-                <option value="21">KIA</option>
-                <option value="24">MAZDA</option>
-              </select>
-            </div>
-
-            <div class="panel_menu_wrap_item">
-              <p class="panel_menu_wrap_item_text">Модель авто</p>
-
-              <select disabled class="panel_menu_wrap_item_model">
-                <option value="-1" selected="selected">Все</option>
-              </select>
-            </div>
-
-            <div class="panel_menu_wrap_item">
-              <p class="panel_menu_wrap_item_text">Год выпуска</p>
-
-              <select disabled class="panel_menu_wrap_item_years">
-                <option value="-1" selected="selected">Все</option>
-              </select>
-            </div>
-
-            <div class="panel_menu_wrap_item">
-              <p class="panel_menu_wrap_item_text">Модификация авто</p>
-
-              <select disabled class="panel_menu_wrap_item_modification">
-                <option value="-1" selected="selected">Все</option>
-              </select>
-            </div>
-
-            <div class="panel_menu_wrap_btn">
-              <button class="panel_menu_item_btn_click">Подобрать</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="content_promo">
-        <h3 class="content_promo_text">Проставки увеличения клиренса RIPPO</h3>
-        <p class="content_promo_subtext">
-          Проставки для увеличения клиренса торговой марки RIPPO возможно<br />
-          устанавливать практически на всех моделях автомобилей.<br />
-          Установка проставок позволит компенсировать уменьшение<br />
-          клиренса возникшее в результате просадки пружин. А также<br />
-          увеличить клиренс при эксплуатации низких машин на дорогах с<br />
-          плохим покрытием.
-        </p>
-
-        <div class="content_promo_menu">
-          <img
-            src="icons/prostavka2.PNG"
-            alt="prostavka"
-            class="content_promo_menu_img"
-          />
-
-          <div class="content_promo_menu_wrap">
-            <div class="content_guarant">
-              <div class="content_guarant_radius">
-                <div class="content_promo_menu_item_wrap">
-                  <img
-                    src="icons/shield.png"
-                    alt="icons"
-                    class="content_promo_menu_item_imgshield"
-                  />
-                </div>
-              </div>
-
-              <span class="content_guarant_subtext"
-                >Гарантия 5 лет <br />на продукцию представленную на нашем сайте
-                с момента покупки</span
-              >
-            </div>
-
-            <div class="content_promo_menu_item">
-              <div class="content_promo_menu_item_radius">
-                <img
-                  src="icons/water.png"
-                  alt="icons"
-                  class="content_promo_menu_item_img"
-                />
-              </div>
-              <span class="content_promo_menu_item_text"
-                >Не подвержены воздействию влаги и<br />
-                песчано - солевых смесей</span
-              >
-            </div>
-            <div class="content_promo_menu_item">
-              <div class="content_promo_menu_item_radius">
-                <img
-                  src="icons/arrows.svg"
-                  alt="icons"
-                  class="content_promo_menu_item_img"
-                />
-              </div>
-              <span class="content_promo_menu_item_text"
-                >Обладают необходимой эластичностью,<br />
-                позволяющей эффективно <br />поглощать вибрации</span
-              >
-            </div>
-            <div class="content_promo_menu_item">
-              <div class="content_promo_menu_item_radius">
-                <img
-                  src="icons/ocean.svg"
-                  alt="icons"
-                  class="content_promo_menu_item_img"
-                />
-              </div>
-              <span class="content_promo_menu_item_text"
-                >Не подвержены воздействию коррозии и нефтепродуктов</span
-              >
-            </div>
-            <div class="content_promo_menu_item">
-              <div class="content_promo_menu_item_radius">
-                <div class="content_promo_menu_item_wrap">
-                  <img
-                    src="icons/shield.png"
-                    alt="icons"
-                    class="content_promo_menu_item_imgshield"
-                  />
-                </div>
-              </div>
-              <span class="content_promo_menu_item_text"
-                >Имеют большой срок службы, не<br />
-                растрескиваются и не растягиваются в <br />процессе длительной
-                эксплуатации</span
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="content_promo_descr">
-          Благодаря многолетнему опыту, был подобран оптимальный материал для
-          производства проставок увеличения клиренса.<br />
-          Для изготовления используется эластомер СКУ-ПФЛ-100 – преполимер
-          (форполимер).<br />
-          Назначение преполимера – производство высококачественных литьевых
-          эластомеров горячего отверждения.<br />
-          Материал имеет широкий диапазон рабочих температур (от −50 до +80 °С)
-          обладает высоким сопротивлением истиранию и<br />
-          статическому сжатию, гидролитической стабильностью, морозостойкостью.
-        </div>
-      </div>
-
-      <div class="content_before">
-        <div class="content_before_menu">
-          <span class="content_before_menu_item">До установки проставок</span>
-          <img
-            src="icons/machine1.PNG"
-            alt="machine"
-            class="content_before_menu_img"
-          />
-        </div>
-
-        <div class="content_before_menu">
-          <span class="content_before_menu_item"
-            >После установки проставок</span
-          >
-          <img
-            src="icons/machine2.PNG"
-            alt="machine"
-            class="content_before_menu_img"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="background">
-    <img src="icons/img_prostavka.PNG" alt="prostavka" class="background_img" />
+    <img
+      src="{% static 'landing/img/img_prostavka.PNG' %}"
+      alt="prostavka"
+      class="background_img"
+    />
   </section>
 
   <section class="prost_info">
@@ -254,7 +90,7 @@
       <div class="prost_info_menu">
         <div class="prost_info_menu_item">
           <img
-            src="icons/clirens.PNG"
+            src="{% static 'landing/img/clirens.PNG' %}"
             alt="clirens"
             class="prost_info_menu_item_img"
           />
@@ -287,7 +123,7 @@
 
           <div class="prost_info_menu_clirens">
             <img
-              src="icons/clirensup.PNG"
+              src="{% static 'landing/img/clirensup.PNG' %}"
               alt="clirens"
               class="prost_info_menu_item_img"
             />
@@ -296,7 +132,7 @@
 
         <div class="prost_info_menu_item">
           <img
-            src="icons/clirensback.PNG"
+            src="{% static 'landing/img/clirensback.PNG' %}"
             alt="clirens"
             class="prost_info_menu_item_img"
           />
@@ -329,27 +165,27 @@
           <h4 class="about_slider_info_title">4.9 из 5</h4>
           <div class="about_slider_info_item">
             <img
-              src="icons/star.svg"
+              src="{% static 'landing/img/star.svg' %}"
               alt="star"
               class="about_slider_info_item_img"
             />
             <img
-              src="icons/star.svg"
+              src="{% static 'landing/img/star.svg' %}"
               alt="star"
               class="about_slider_info_item_img"
             />
             <img
-              src="icons/star.svg"
+              src="{% static 'landing/img/star.svg' %}"
               alt="star"
               class="about_slider_info_item_img"
             />
             <img
-              src="icons/star.svg"
+              src="{% static 'landing/img/star.svg' %}"
               alt="star"
               class="about_slider_info_item_img"
             />
             <img
-              src="icons/star.svg"
+              src="{% static 'landing/img/star.svg' %}"
               alt="star"
               class="about_slider_info_item_img"
             />
@@ -357,7 +193,7 @@
 
           <a href="#" class="about_slider_info_link">
             <img
-              src="icons/avito_logo.png"
+              src="{% static 'landing/img/avito_logo.png' %}"
               alt="avito"
               class="about_slider_info_link_img"
             />
@@ -374,7 +210,7 @@
             <div class="slides_menu_content">
               <div class="slides_menu_content_info">
                 <img
-                  src="icons/user.png"
+                  src="{% static 'landing/img/user.png' %}"
                   alt="user"
                   class="slides_menu_content_info_img"
                 />
@@ -382,27 +218,27 @@
                   <span class="slides_menu_content_info_name">Альберт</span>
                   <div class="slides_menu_content_info_star">
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
@@ -440,7 +276,7 @@
             <div class="slides_menu_content">
               <div class="slides_menu_content_info">
                 <img
-                  src="icons/user.png"
+                  src="{% static 'landing/img/user.png' %}"
                   alt="user"
                   class="slides_menu_content_info_img"
                 />
@@ -448,27 +284,27 @@
                   <span class="slides_menu_content_info_name">Альберт</span>
                   <div class="slides_menu_content_info_star">
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
                     <img
-                      src="icons/star.svg"
+                      src="{% static 'landing/img/star.svg' %}"
                       alt="star"
                       class="slides_menu_content_info_star_icon"
                     />
@@ -506,7 +342,7 @@
           >
           <a href="#" class="answer_menu_item_arrowdown"
             ><img
-              src="icons/arrowdown.png"
+              src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
           /></a>
@@ -517,7 +353,7 @@
           >
           <a href="#" class="answer_menu_item_arrowdown"
             ><img
-              src="icons/arrowdown.png"
+              src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
           /></a>
@@ -528,7 +364,7 @@
           >
           <a href="#" class="answer_menu_item_arrowdown"
             ><img
-              src="icons/arrowdown.png"
+              src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
           /></a>
@@ -540,7 +376,7 @@
           >
           <a href="#" class="answer_menu_item_arrowdown"
             ><img
-              src="icons/arrowdown.png"
+              src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
           /></a>
@@ -551,7 +387,7 @@
           >
           <a href="#" class="answer_menu_item_arrowdown"
             ><img
-              src="icons/arrowdown.png"
+              src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
           /></a>
@@ -562,7 +398,7 @@
           >
           <a href="#" class="answer_menu_item_arrowdown"
             ><img
-              src="icons/arrowdown.png"
+              src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
           /></a>
@@ -573,7 +409,7 @@
           >
           <a href="#" class="answer_menu_item_arrowdown"
             ><img
-              src="icons/arrowdown.png"
+              src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
           /></a>

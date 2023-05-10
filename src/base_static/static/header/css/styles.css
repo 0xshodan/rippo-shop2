@@ -113,7 +113,7 @@ header {
 
 /* line 76, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .head_last_user {
-  margin: 0 9px 0 15px;
+  margin: 0 0 0 15px;
 }
 
 /* line 78, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
@@ -146,13 +146,11 @@ header {
 /* line 95, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .menu a {
   display: block;
-  padding: 10px 10px 10px 10px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 29px;
-  color: #353535;
   text-decoration: none;
   color: black;
   transition: .4s;

@@ -1,69 +1,61 @@
 {% extends "base.html" %} {% load static %} {% block head %}
 <link rel="stylesheet" href="{% static 'spacers/css/styles.css' %}" />
 {%endblock%} {% block content %}
-<section class="products">
-  <div class="products_container">
-    <div class="products_menu">
-      <a href="/" class="products_menu_item">Главная</a> >
-      <a href="/catalog/" class="products_menu_item">Каталог</a> >
-      <a href="/brand/{{brand.slug}}" class="products_menu_item"
-        >{{brand.name}}</a
-      >
-      >
-      <a href="/car/{{car.slug}}" class="products_menu_item">{{car.name}}</a> >
-      <a href="/generation/{{generation.slug}}" class="products_menu_item"
-        >{{generation}}</a
-      >
-    </div>
-    <h1 class="products_menu_years">{{modification.fullname}}</h1>
-    <div class="products_descr">Представлено 2 товара</div>
-    <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
-    <div class="products_list">
-      {% for spacer in spacers %}
-      <div class="products_list_card">
-        <h3 class="products_list_card_title">{{spacer.category}}</h3>
+<section class="container products">
+  <div class="products_menu">
+    <a href="/" class="products_menu_item">Главная</a> >
+    <a href="/catalog/" class="products_menu_item">Каталог</a> >
+    <a href="/brand/{{brand.slug}}" class="products_menu_item"
+      >{{brand.name}}</a
+    >
+    >
+    <a href="/car/{{car.slug}}" class="products_menu_item">{{car.name}}</a> >
+    <a href="/generation/{{generation.slug}}" class="products_menu_item"
+      >{{generation}}</a
+    >
+  </div>
+  <h1 class="products_menu_years">{{modification.fullname}}</h1>
+  <div class="products_descr">Представлено 2 товара</div>
+  <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
+  <div class="products_list">
+    {% for spacer in spacers %}
+    <div class="products_list_card">
+      <h3 class="products_list_card_title">{{spacer.category}}</h3>
 
-        <img src="{{spacer.photo.url}}" alt="screen" class="products_img" />
-        <div class="products_list_card_info">
-          <div class="products_list_card_info_article">
-            Артикуль: {{spacer.article}}
-          </div>
-          <div class="products_list_card_info_text">
-            Цена указана за комплект<br />
-            (2 проставки + крепеж)
-          </div>
-          {% if spacer.description %}
-          <div class="products_list_card_info_comment">
-            Комментарий: {{spacer.description}}
-          </div>
-          {% endif %}
+      <img src="{{spacer.photo.url}}" alt="screen" class="products_img" />
+      <div class="products_list_card_info">
+        <div class="products_list_card_info_article">
+          Артикуль: {{spacer.article}}
         </div>
-        <div class="products_list_card_wrapper">
-          <button class="products_list_card_wrapper_btn add20mm_btn">
-            <input id="add20mm" type="hidden" name="id" value="{{spacer.pk}}" />
-            <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
-            <p class="products_list_card_wrapper_price">
-              {{spacer.price20mm}} ₽
-            </p>
-          </button>
-          <button class="products_list_card_wrapper_btn add30mm_btn">
-            <input id="add30mm" type="hidden" name="id" value="{{spacer.pk}}" />
-            <p class="products_list_card_wrapper_size">В корзину - 30mm -</p>
-            <p class="products_list_card_wrapper_price">
-              {{spacer.price30mm}} ₽
-            </p>
-          </button>
-          <button class="products_list_card_wrapper_btn add40mm_btn">
-            <input id="add40mm" type="hidden" name="id" value="{{spacer.pk}}" />
-            <p class="products_list_card_wrapper_size">В корзину - 40mm -</p>
-            <p class="products_list_card_wrapper_price">
-              {{spacer.price40mm}} ₽
-            </p>
-          </button>
+        <div class="products_list_card_info_text">
+          Цена указана за комплект<br />
+          (2 проставки + крепеж)
         </div>
+        {% if spacer.description %}
+        <div class="products_list_card_info_comment">
+          Комментарий: {{spacer.description}}
+        </div>
+        {% endif %}
       </div>
-      {% endfor %}
+      <div class="products_list_card_wrapper">
+        <button class="products_list_card_wrapper_btn add20mm_btn">
+          <input id="add20mm" type="hidden" name="id" value="{{spacer.pk}}" />
+          <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
+          <p class="products_list_card_wrapper_price">{{spacer.price20mm}} ₽</p>
+        </button>
+        <button class="products_list_card_wrapper_btn add30mm_btn">
+          <input id="add30mm" type="hidden" name="id" value="{{spacer.pk}}" />
+          <p class="products_list_card_wrapper_size">В корзину - 30mm -</p>
+          <p class="products_list_card_wrapper_price">{{spacer.price30mm}} ₽</p>
+        </button>
+        <button class="products_list_card_wrapper_btn add40mm_btn">
+          <input id="add40mm" type="hidden" name="id" value="{{spacer.pk}}" />
+          <p class="products_list_card_wrapper_size">В корзину - 40mm -</p>
+          <p class="products_list_card_wrapper_price">{{spacer.price40mm}} ₽</p>
+        </button>
+      </div>
     </div>
+    {% endfor %}
   </div>
 </section>
 <script src="{% static 'spacers/js/index.js' %}"></script>
