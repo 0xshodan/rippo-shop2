@@ -118,7 +118,7 @@ CART_SESSION_ID = "cart"
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-FILES_PATH = os.getenv("NGINX_FILES")
+FILES_PATH = os.getenv("NGINX_FILES", "/home/c63333/rippo.ru/www/")
 STATIC_URL = "static/"
 STATIC_ROOT = FILES_PATH + "static"
 
