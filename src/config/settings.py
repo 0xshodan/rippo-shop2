@@ -6,14 +6,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
+os.environ["DJANGO_SECRET_KEY"] = "django-insecure-)q#_*9*pz1iszbu*f@#_x*sj&)5)*9#d@4s%juk7*598qgsf-q"
+os.environ["CLIENT_ID"] = "t7ivBRaOzMEhvubvwa4U"
+os.environ["CLIENT_SECRET"] = "1xLUhklG6-FgIDWD0Zqb0YAt3tOXQgoEDZwR1YY_"
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS: list[str] = []
+ALLOWED_HOSTS: list[str] = ["rippo.ru", "www.rippo.ru"]
 AVITO_CLIENT_ID = os.getenv("CLIENT_ID")
 AVITO_CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
@@ -118,11 +120,12 @@ CART_SESSION_ID = "cart"
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+FILES_PATH = os.getenv("NGINX_FILES")
 STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR / "static"
+STATIC_ROOT = FILES_PATH + "static"
 
 MEDIA_URL = "media/"
-MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_ROOT = FILES_PATH + "media"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
