@@ -48,32 +48,49 @@ crossorigin="anonymous"
     {% csrf_token %}
     <header>
 		<div class="head">
-			<div class="head_container container">
+			<div class="container container_header">
+                <div class="head_promo">
 					<div class="head_logo">
 						<a href="/" class="head_logo_icons"><img src="{% static 'base/img/logo.svg' %}" alt="logo" class="head_img"></a>
+                        <div class="head_descr">
+                            Проставки для увелечения клиренса
+                         </div>
+                    </div>
+					<div class="head_phone">
+                        <img src="{% static 'header/icons/call.png' %}" alt="call" class="head_icon">
+						<div class="head_phone_wrap">
+                            <a href="#" class="head_number">+7 (978) 294-29-78</a>
+                            <div class="head_subnumber">Ежедневно с 8:00 до 21:00</div>
+                        </div>
 					</div>
-					<div class="head_descr">
-						Проставки для увелечения клиренса
-					 </div>
-						<div class="head_phone">
-							<div class="head_wrapper">
-								<img src="{% static 'header/icons/call.png' %}" alt="call" class="head_icon">
-								<a href="#" class="head_number">+7 (978) 294-29-78</a>
-							</div>
-							<div class="head_subnumber">Ежедневно с 8:00 до 21:00</div>
+					<div class="head_last">
+						<div class="head_last_cart">
+							<button class="head_last_cart_btn"><img src="{% static 'header/icons/cart.png' %}" alt="icon" class="head_last_cart_btn_img"></button>
+							<div class="head_last_cart_text">{{cart|length}}</div>
 						</div>
-						<div class="head_last">
-							<div class="head_last_cart">
-								<button class="head_last_cart_btn"><img src="{% static 'header/icons/cart.png' %}" alt="icon" class="head_last_cart_btn_img"></button>
-								<div class="head_last_cart_text">{{cart|length}}</div>
-							</div>
-							<a href="#" class="head_last_user"><img src="{% static 'header/icons/user.png' %}" alt="icon" class="head_last_user_img"></a>
-						</div>
-			</div>
-		</div>
+						<a href="#" class="head_last_user"><img src="{% static 'header/icons/user.png' %}" alt="icon" class="head_last_user_img"></a>
+					</div>
+			    </div>
+		    </div>
+        </div>
 		<nav class="navbar">
-			<div class="navbar_container container">
-				<div class="menu">
+			<div class="container container_navbar">
+                <div class="burger-menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-btn" for="menu-toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menubox">
+                            <li class="menubox-text"><a class="menubox-text-item" href="/catalog/">Каталог</a></li>
+                            <li class="menubox-text"><a class="menubox-text-item" href="/about/">О компании</a></li>
+                            <li class="menubox-text"><a class="menubox-text-item" href="/feedbacks/">Отзывы</a></li>
+                            <li class="menubox-text"><a class="menubox-text-item" href="/delivery-info/">Оплата и доставка</a></li>
+                            <li class="menubox-text"><a class="menubox-text-item" href="#">Вопросы и ответы</a></li>
+                            <li class="menubox-text"><a class="menubox-text-item" href="/contacts/">Контакты</a></li>
+                    </ul>
+                  </div>
+
+				<div class="menu_link">
 						<a href="/catalog/">Каталог</a>
 						<a href="/about/">О компании</a>
 						<a href="/feedbacks/">Отзывы</a>
