@@ -22,9 +22,15 @@ class BrandsView(View):
 class CarsView(View):
     def get(self, request, slug):
         car = Car.objects.get(slug=slug)
+        generations = car.generations.all()
+        if len(generations) == 1:
+            if car.name == generations[0].name:
+                view = GenerationView()
+                resp = view.get(request, generations[0].slug)
+                return resp
         template = loader.get_template("cars.html")
         context = {
-            "cars": car.generations.all(),
+            "cars": generations,
             "url": "generation",
             "brand": car.brand,
             "car": car,
@@ -35,9 +41,15 @@ class CarsView(View):
 class GenerationView(View):
     def get(self, request, slug):
         car = CarGeneration.objects.get(slug=slug)
+        modifications = car.modifications.all()
+        if len(modifications) == 1:
+            if car.name == modifications[0].name:
+                view = ModificationView()
+                resp = view.get(request, modifications[0].slug)
+                return resp
         template = loader.get_template("cars.html")
         context = {
-            "cars": car.modifications.all(),
+            "cars": modifications,
             "url": "modification",
             "brand": car.car.brand,
             "car": car.car,
@@ -50,8 +62,14 @@ class ModificationView(View):
     def get(self, request, slug):
         car = CarModification.objects.get(slug=slug)
         template = loader.get_template("spacers.html")
+        priorities = {"Передние проставки": 1, "Задние проставки":2, "Удлинитель заднего амортизатора":3}
+        spacers = []
+        for spacer in car.spacers.all():
+            spacer.priority = priorities[spacer.category]
+            spacers.append(spacer)
+        spacers = sorted(spacers, key=lambda x: x.priority)
         context = {
-            "spacers": car.spacers.all(),
+            "spacers": spacers,
             "brand": car.car.car.brand,
             "car": car.car.car,
             "generation": car.car,

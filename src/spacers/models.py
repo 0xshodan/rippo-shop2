@@ -7,10 +7,12 @@ class Spacer(models.Model):
     CHOICES = (
         ("Передние проставки", "Передние проставки"),
         ("Задние проставки", "Задние проставки"),
+        ("Удлинитель заднего амортизатора", "Удлинитель заднего амортизатора")
     )
     category = models.CharField(
-        max_length=30, choices=CHOICES, default="Передние проставки", verbose_name="Тип проставок"
+        max_length=31, choices=CHOICES, default="Передние проставки", verbose_name="Тип проставок"
     )
+    priority = models.PositiveSmallIntegerField(default=1)
     photo = models.ImageField(upload_to="spacers", blank=True, verbose_name="Фото")
     description = models.CharField(max_length=2000, default="", verbose_name="Комментарий")
     mount = models.CharField(max_length=200, default="", verbose_name="Примечание к установке")

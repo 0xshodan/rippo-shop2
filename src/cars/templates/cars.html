@@ -4,7 +4,7 @@
 <section class="machine">
   <div class="container">
     <div class="machine_menu">
-      <a href="#" class="machine_menu_item">Главная</a> >
+      <a href="/" class="machine_menu_item">Главная</a> >
       <a href="/catalog/" class="machine_menu_item">Каталог</a> >
       <a href="/brand/{{brand.slug}}" class="machine_menu_item"
         >{{brand.name}}</a
@@ -23,9 +23,15 @@
       {% for car in cars %}
       <div class="machine_wrapper">
         <a href="/{{url}}/{{car.slug}}/" class="machine_wrapper_car">
-          <div class="machine_wrapper_title">
-            <img src="{{car.photo.url}}" alt="" class="machine_wrapper_car_img" />
-          </div>
+          {% if car.photo %}
+          <img src="{{car.photo.url}}" alt="" class="machine_wrapper_car_img" />
+          {% else %}
+          <img
+            src="/media/cars/default-car.png"
+            alt=""
+            class="machine_wrapper_car_img"
+          />
+          {% endif %}
           <div class="machine_wrapper_car_item">
             <h3 class="machine_wrapper_car_item_supdescr">{{car.name}}</h3>
             <!-- <div class="machine_wrapper_car_item_descr"></div> -->

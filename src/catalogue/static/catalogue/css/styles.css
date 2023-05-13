@@ -1,72 +1,4 @@
-/* line 103, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content {
-  padding: 50px 0 0 0;
-}
-
-/* line 105, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_catalog {
-  margin-top: 80px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-/* line 111, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_subcatalog {
-  margin-top: 60px;
-}
-
-/* line 113, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_title {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 25px;
-}
-
-/* line 117, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_selection_wrap {
-  margin-top: 45px;
-}
-
-/* line 120, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.brand_table {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 600px;
-  margin-top: 50px;
-}
-
-/* line 127, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.brand_table__item {
-  display: flex;
-  padding: 4px 0;
-  width: 130px;
-}
-
-/* line 132, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.brand_list {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
-/* line 136, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.brand_list__item {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-/* line 140, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.letter {
-  color: #FFC815;
-  font-size: 17px;
-  font-weight: 600;
-  width: 10px;
-}
+/* line 1731, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu {
   height: 115px;
   background-color: #fff;
@@ -76,22 +8,22 @@
   box-shadow: 1px 1px 21px 3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 1734, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1738, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu_title {
   margin: 0;
   font-size: 22px;
 }
 
-/* line 1738, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1742, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu_wrap {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
-/* line 1742, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1746, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu_wrap_item_brand {
-  width: 230px;
+  width: 145px;
   height: 31px;
   border-radius: 3px;
   border: none;
@@ -99,9 +31,9 @@
   background-color: #F5F5F5;
 }
 
-/* line 1750, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1754, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu_wrap_item_model {
-  width: 230px;
+  width: 150px;
   height: 31px;
   border-radius: 6px;
   border: none;
@@ -109,36 +41,183 @@
   background-color: #F5F5F5;
 }
 
-/* line 1758, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1762, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu_wrap_item_years {
   height: 31px;
-  width: 230px;
+  width: 200px;
   border-radius: 3px;
   border: none;
   font-size: 15px;
   background-color: #F5F5F5;
 }
 
-/* line 1766, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1770, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu_wrap_item_modification {
   height: 31px;
-  width: 230px;
+  width: 170px;
   border-radius: 3px;
   border: none;
   font-size: 15px;
   background-color: #F5F5F5;
 }
 
-/* line 1774, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1778, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .panel_menu_item_btn_click {
   width: 205px;
   height: 50px;
-  cursor: pointer;
   border-radius: 9px;
   border: none;
   background-color: #FFC815;
   color: white;
   font-size: 18px;
   text-transform: uppercase;
-  font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .content .brand_table {
+    width: 100%; }
+  .content .brand_item {
+    width: 114px; }
+  .panel_menu {
+    display: flex;
+    flex-direction: column;
+    height: auto; }
+    .panel_menu_wrap {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      .panel_menu_wrap_btn {
+        margin: 22px 0 0 0;
+        width: 100%;
+        height: 31px; }
+        .panel_menu_wrap_btn_click {
+          width: 100%;
+          font-size: 15px;
+          height: 100%; }
+      .panel_menu_wrap_item {
+        width: 100%; }
+        .panel_menu_wrap_item_brand {
+          width: 100%;
+          max-width: 100%; }
+        .panel_menu_wrap_item_model {
+          width: 100%;
+          max-width: 100%; }
+        .panel_menu_wrap_item_years {
+          width: 100%;
+          max-width: 100%; }
+        .panel_menu_wrap_item_modification {
+          width: 100%;
+          max-width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .content .brand_table {
+    width: 100%; }
+  .content .brand_item {
+    width: 114px; }
+  .panel_menu_wrap {
+    display: flex;
+    align-items: center; }
+    .panel_menu_wrap_btn {
+      height: 35px; }
+      .panel_menu_wrap_btn_click {
+        width: 100%;
+        font-size: 15px; }
+    .panel_menu_wrap_item_brand {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_model {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_years {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_modification {
+      width: 100%;
+      max-width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: auto; }
+  .content .brand_table {
+    width: 100%; }
+  .content .brand_item {
+    width: 114px; }
+  .panel_menu_wrap {
+    display: flex;
+    align-items: center; }
+    .panel_menu_wrap_btn {
+      height: 35px; }
+      .panel_menu_wrap_btn_click {
+        width: 100%;
+        font-size: 15px; }
+    .panel_menu_wrap_item_brand {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_model {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_years {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_modification {
+      width: 100%;
+      max-width: 100%; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: auto; }
+  .content .brand_table {
+    width: 100%; }
+  .content .brand_item {
+    width: 114px; }
+  .panel_menu_wrap_item {
+    width: 150px; }
+    .panel_menu_wrap_item_brand {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_model {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_years {
+      width: 100%;
+      max-width: 100%; }
+    .panel_menu_wrap_item_modification {
+      width: 100%;
+      max-width: 100%; } }
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: auto; }
+  .content .brand_table {
+    width: 100%; }
+  .content .brand_item {
+    width: 114px; }
+  .panel_menu {
+    display: flex;
+    flex-direction: column;
+    height: auto; }
+    .panel_menu_wrap_btn {
+      margin: 22px 0 0 0;
+      height: 50px;
+      width: 205px; }
+      .panel_menu_wrap_btn_click {
+        width: 100%;
+        font-size: 15px;
+        height: 100%; }
+    .panel_menu_wrap_item {
+      width: 180px; }
+      .panel_menu_wrap_item_brand {
+        width: 100%;
+        max-width: 100%; }
+      .panel_menu_wrap_item_model {
+        width: 100%;
+        max-width: 100%; }
+      .panel_menu_wrap_item_years {
+        width: 100%;
+        max-width: 100%; }
+      .panel_menu_wrap_item_modification {
+        width: 100%;
+        max-width: 100%; } }

@@ -15,14 +15,18 @@
     >
   </div>
   <h1 class="products_menu_years">{{modification.fullname}}</h1>
-  <div class="products_descr">Представлено 2 товара</div>
+  <div class="products_descr">Представлено {{spacers | length}} товара</div>
   <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
   <div class="products_list">
     {% for spacer in spacers %}
     <div class="products_list_card">
       <h3 class="products_list_card_title">{{spacer.category}}</h3>
 
-      <img src="{{spacer.photo.url}}" alt="screen" class="products_img" />
+      <img
+        src="{{spacer.photo.url}}"
+        alt="Фото отсутствует"
+        class="products_img"
+      />
       <div class="products_list_card_info">
         <div class="products_list_card_info_article">
           Артикуль: {{spacer.article}}
@@ -38,21 +42,25 @@
         {% endif %}
       </div>
       <div class="products_list_card_wrapper">
+        {% if spacer.price20mm %}
         <button class="products_list_card_wrapper_btn add20mm_btn">
           <input id="add20mm" type="hidden" name="id" value="{{spacer.pk}}" />
           <p class="products_list_card_wrapper_size">В корзину - 20mm -</p>
           <p class="products_list_card_wrapper_price">{{spacer.price20mm}} ₽</p>
         </button>
+        {% endif %} {% if spacer.price30mm %}
         <button class="products_list_card_wrapper_btn add30mm_btn">
           <input id="add30mm" type="hidden" name="id" value="{{spacer.pk}}" />
           <p class="products_list_card_wrapper_size">В корзину - 30mm -</p>
           <p class="products_list_card_wrapper_price">{{spacer.price30mm}} ₽</p>
         </button>
+        {% endif %} {% if spacer.price40mm %}
         <button class="products_list_card_wrapper_btn add40mm_btn">
           <input id="add40mm" type="hidden" name="id" value="{{spacer.pk}}" />
           <p class="products_list_card_wrapper_size">В корзину - 40mm -</p>
           <p class="products_list_card_wrapper_price">{{spacer.price40mm}} ₽</p>
         </button>
+        {% endif %}
       </div>
     </div>
     {% endfor %}

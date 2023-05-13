@@ -78,7 +78,7 @@ class CarModification(models.Model):
         return years
     @property
     def fullname(self):
-        name = self.car.car.brand.name
+        name = self.car.car.brand.name + " " + self.car.car.name
         if self.car.name != self.name:
             name += " " + self.car.name + " " + self.name
         else:
