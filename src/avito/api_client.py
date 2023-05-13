@@ -63,7 +63,6 @@ class AvitoClient:
             data={"client_id":client_id, "client_secret":client_secret,"grant_type":"client_credentials"},
             headers=headers,
         ).json()
-        print(key)
         return (key["access_token"], time.time()+key["expires_in"])
 
     def _cache_api_key(self, api_key: str, expires_in: int):
@@ -71,7 +70,7 @@ class AvitoClient:
             ujson.dump({"api_key":api_key, "expires_in":expires_in}, wf)
 
     def _is_valid_key(self, api_key: str, expires_in: int) -> bool:
-        if time.time() + 3600 < expires_in:
+        if time.time() + 3600 > expires_in:
             return False
         return True
 
