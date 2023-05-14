@@ -1,7 +1,5 @@
 body {
     font-family: "Poppins", sans-serif;
-    font-family: "Inter", sans-serif;
-    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -74,7 +72,6 @@ header {
 /* line 40, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .head_number {
   text-decoration: none;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -229,7 +226,7 @@ header {
     .head_last {
       align-items: baseline;
       position: absolute;
-      top: 183px;
+      top: 175px;
       right: 10px; }
       .head_last_cart {
         height: 41px; }
@@ -244,7 +241,7 @@ header {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 193px;
+    top: 183px;
     left: 20px;
     width: 26px;
     height: 26px;

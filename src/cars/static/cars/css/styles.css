@@ -42,6 +42,7 @@
   align-items: stretch;
   cursor: pointer;
   transition: .3s;
+  padding: 10px;
 }
 
 /* line 410, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
@@ -54,6 +55,8 @@
 .machine_wrapper_car_img {
   text-align: center;
   margin: 0 15px 0 0;
+  width: 220px;
+  height: 150px;
 }
 
 /* line 419, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */

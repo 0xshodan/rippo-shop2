@@ -18,9 +18,10 @@
   })(document);
   </script>
   <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="{% static 'base/css/fonts.css' %}"
+/>
   <link
   rel="stylesheet"
   href="{% static 'base/css/base.css' %}"
@@ -37,11 +38,7 @@ href="{% static 'footer/css/styles.css' %}"
 rel="stylesheet"
 href="{% static 'cartmodal/css/styles.css' %}"
 />
-<script
-src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-crossorigin="anonymous"
-></script>
+<script src="{% static 'base/js/jquery.min.js' %}"></script>
     {% block head %}{% endblock head %}
   </head>
   <body>
@@ -188,9 +185,7 @@ crossorigin="anonymous"
                 {% for item in cart%}
                 <div class="modal_content_product">
 				    <div class="modal_content_product_wrap">
-							<a href="#" class="modal_content_produsct_link">
-                            <img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img">
-                            </a>
+                        <img src="{{item.photo_url}}" alt="" class="modal_content_product_wrap_img">
 						</div>
 
 						<div class="modal_content_product_descr">
@@ -207,7 +202,7 @@ crossorigin="anonymous"
                         </div>
 						<p class="modal_content_product_price">{{item.price}} ₽</p>
                         <input id="spacer_id" type="hidden" name="id" value="{{item.id}}" />
-						<button class="modal_content_product_backet" onclick=on_basket(this)><img src="icons/trash.svg" alt="trash" class="modal_content_product_backet_img"></button>
+						<button class="modal_content_product_backet" onclick=on_basket(this)><img src="{% static 'cartmodal/img/trash.svg' %}" alt="trash" class="modal_content_product_backet_img"></button>
 				</div>
                 {% endfor %}
 				<div class="modal_content_product_text"><span class="modal_content_product_text_link">В корзине <b>{{cart|length}}</b> товаров </span></div>

@@ -22,7 +22,15 @@ def split_by_letter(lst: list[Brand]) -> list[list[Brand]]:
     ret.append(current_list)
     return ret
 
-
+def split_by_letter2(lst: list[Brand]) -> list[tuple[str, Brand]]:
+    ret = []
+    ret.append((lst[0].name[0], lst[0]))
+    for i in range(1, len(lst)):
+        if lst[i].name[0] != ret[i-1][1].name[0]:
+            ret.append((lst[i].name[0], lst[i]))
+        else:
+            ret.append(("", lst[i]))
+    return ret
 class CatalogueView(TemplateView):
     template_name = "pages/catalogue.html"
 
@@ -30,5 +38,5 @@ class CatalogueView(TemplateView):
         context = super(CatalogueView, self).get_context_data(*args, **kwargs)
         brands = Brand.objects.all()
         context["brands"] = brands
-        # context["brands_table"] = split_by_letter(brands)
+        context["brands_table"] = split_by_letter2(brands)
         return context
