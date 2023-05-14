@@ -15,28 +15,36 @@ function addToCart(csrftoken, id, type, car_id) {
       car_id: car_id,
     },
     function (data) {
-      $(".modal_content_products_container").append(
-        `<div class="modal_content_product">
+      if (!$.isEmptyObject(data)) {
+        console.log($(".modal_content"));
+        $(".modal_content").prepend(`
+      <div class="modal_content_product">
         <div class="modal_content_product_wrap">
-        <a href="#" class="modal_content_produsct_link"><img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img"></a>
-      </div>
+          <a href="#" class="modal_content_produsct_link">
+            <img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img">
+          </a>
+        </div>
 
-      <div class="modal_content_prudoct_descr">
-        <b>Проставки ${data.article}</b>
-        <br>
-        <a href="${data.car_slug}" class="modal_content_product_descr_link">Автомобиль: ${data.car_name}</a>
-        <br>
-        Размер проставок: ${data.type}
-      </div>
-
-      <p class="modal_content_product_price">${data.price} ₽</p>
-          <input id="spacer_id" type="hidden" name="id" value="${data.id}" />
-      <button class="modal_content_product_backet" onclick=on_basket(this)>Мусорка</button>
-      </div>`
-      );
+        <div class="modal_content_product_descr">
+          <b>Проставки ${data.article}</b>
+          <br>
+          <a href="${data.car_slug}" class="modal_content_product_descr_link">Автомобиль: ${data.car_name}</a>
+          <br>
+          Размер проставок: ${data.type}
+        </div>
+        <div class="modal_content_product_menu">
+            <button class="modal_content_product_menu_btn" onclick=on_decrement(this)>-</button>
+            <div class="modal_content_product_menu_item">${data.quantity}</div>
+            <button class="modal_content_product_menu_btn" onclick=on_increment(this)>+</button>
+        </div>
+            <p class="modal_content_product_price">${data.price} ₽</p>
+            <input id="spacer_id" type="hidden" name="id" value="${data.id}" />
+            <button class="modal_content_product_backet" onclick=on_basket(this)><img src="icons/trash.svg" alt="trash" class="modal_content_product_backet_img"></button>
+      </div>`);
+        incrementCart();
+      }
     }
   );
-  incrementCart();
 }
 function openCart() {}
 console.log($(".add20mm_btn"));

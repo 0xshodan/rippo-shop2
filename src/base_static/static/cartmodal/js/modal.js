@@ -18,6 +18,51 @@ var csrftoken = getCookie("csrftoken");
 $(".modal_btn").on("click", function () {
   $(".modal").removeClass("modal_active");
 });
+
+function on_increment(e) {
+  var $parent = $(e).parent();
+  var $pparent = $parent.parent();
+  var id = $pparent.children("#spacer_id").val();
+  var quantity = $parent.children(".modal_content_product_menu_item");
+  $.ajax({
+    url: "/cart/",
+    type: "PATCH",
+    // contentType:"application/json",
+    beforeSend: function (xhr) {
+      xhr.setRequestHeader("X-CSRFToken", csrftoken);
+    },
+    data: {
+      csrfmiddlewaretoken: csrftoken,
+      id: id,
+      quantity: 1,
+    },
+  });
+  var qt = parseInt(quantity.text());
+  quantity.text(++qt);
+}
+function on_decrement(e) {
+  var $parent = $(e).parent();
+  var $pparent = $parent.parent();
+  var id = $pparent.children("#spacer_id").val();
+  var quantity = $parent.children(".modal_content_product_menu_item");
+  var qt = parseInt(quantity.text());
+  if (qt > 1) {
+    $.ajax({
+      url: "/cart/",
+      type: "PATCH",
+      // contentType:"application/json",
+      beforeSend: function (xhr) {
+        xhr.setRequestHeader("X-CSRFToken", csrftoken);
+      },
+      data: {
+        csrfmiddlewaretoken: csrftoken,
+        id: id,
+        quantity: -1,
+      },
+    });
+    quantity.text(--qt);
+  }
+}
 function on_basket(e) {
   console.log($(e));
   var $parent = $(e).parent();

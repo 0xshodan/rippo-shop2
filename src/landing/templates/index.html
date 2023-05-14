@@ -2,81 +2,254 @@
 <link rel="stylesheet" href="{% static 'landing/css/styles.css' %}" />
 {% endblock %} {%block content %}
 <main>
-  <section class="main">
-    <div class="main_container container">
-      <h1 class="main_title">
+  <section class="home">
+    <div class="container container_home">
+      <h1 class="home_title">
         Проставки увеличения клиренса <br />от 1300 руб за комплект
       </h1>
 
-      <div class="main_promo_wrap">
+      <div class="home_promo_wrap">
         <img
           src="{% static 'landing/img/prostavla.jpg' %}"
           alt="prostavka"
-          class="main_promo_wrap_img"
+          class="home_promo_wrap_img"
         />
       </div>
 
-      <div class="main_promo">
-        <div class="main_promo_item">
-          <div class="main_promo_item_radius">
-            <div class="main_promo_item_wrap">
+      <div class="home_promo">
+        <div class="home_promo_item">
+          <div class="home_promo_item_radius">
+            <div class="home_promo_item_wrap">
               <img
                 src="{% static 'landing/img/car.png' %}"
                 alt=""
-                class="main_promo_item_img"
+                class="home_promo_item_img"
               />
             </div>
           </div>
-          <span class="main_promo_item_text"
+          <span class="home_promo_item_text"
             >В наличии на большинство моделей авто</span
           >
         </div>
-        <div class="main_promo_item">
-          <div class="main_promo_item_radius">
-            <div class="main_promo_item_wrap">
+        <div class="home_promo_item">
+          <div class="home_promo_item_radius">
+            <div class="home_promo_item_wrap">
               <img
                 src="{% static 'landing/img/plus.png' %}"
                 alt=""
-                class="main_promo_item_img"
+                class="home_promo_item_img"
               />
             </div>
           </div>
-          <span class="main_promo_item_text"
+          <span class="home_promo_item_text"
             >Увеличение клиренса на 20 - 50 мм</span
           >
         </div>
-        <div class="main_promo_item">
-          <div class="main_promo_item_radius">
-            <div class="main_promo_item_wrap">
+        <div class="home_promo_item">
+          <div class="home_promo_item_radius">
+            <div class="home_promo_item_wrap">
               <img
                 src="{% static 'landing/img/car2.png' %}"
                 alt=""
-                class="main_promo_item_img"
+                class="home_promo_item_img"
               />
             </div>
           </div>
-          <span class="main_promo_item_text">Доставка по всей России</span>
+          <span class="home_promo_item_text">Доставка по всей России</span>
         </div>
-        <div class="main_promo_item">
-          <div class="main_promo_item_wallet">
-            <div class="main_promo_item_wallet_wrap">
+        <div class="home_promo_item">
+          <div class="home_promo_item_wallet">
+            <div class="home_promo_item_wallet_wrap">
               <img
                 src="{% static 'landing/img/wallet.svg' %}"
                 alt=""
-                class="main_promo_item_walletimg"
+                class="home_promo_item_walletimg"
               />
             </div>
           </div>
-          <span class="main_promo_item_text">Оплата при получении</span>
+          <span class="home_promo_item_text">Оплата при получении</span>
         </div>
 
-        <div class="main_promo_item_name">
-          <button class="main_promo_item_name_btn">Подбор по моделям</button>
+        <div class="home_promo_item_name">
+          <button class="home_promo_item_name_btn">Подбор по моделям</button>
         </div>
       </div>
     </div>
   </section>
+  <section class="content">
+    <div class="container content_container">
+      <div class="content_optima">
+        <div class="panel_menu">
+          <h3 class="panel_menu_title">Быстрый подбор</h3>
+          <div class="panel_menu_wrap">
+              <div class="panel_menu_wrap_item">
+                  <p class="panel_menu_wrap_item_text">Марка авто</p>
+                  <select class="panel_menu_wrap_item_brand">
+                      <option selected="" value="-1">Не выбрано</option>
+                      {% for brand in brands %}
+                      <option value="{{brand.pk}}">{{brand.name}}</option>
+                      {% endfor %}
+                    </select>
+                  </select>
+              </div>
+              <div class="panel_menu_wrap_item">
+                  <p class="panel_menu_wrap_item_text">Модель авто</p>
+                  <select class="panel_menu_wrap_item_model">
+                      <option value="-1" selected="selected">Все</option>
+                  </select>
+              </div>
+              <div class="panel_menu_wrap_item">
+                  <p class="panel_menu_wrap_item_text">Год выпуска</p>
+                  <select class="panel_menu_wrap_item_years">
+                      <option value="-1" selected="selected">Все</option>
+                  </select>
+              </div>
+              <div class="panel_menu_wrap_item">
+                  <p class="panel_menu_wrap_item_text">Модификация авто</p>
+                  <select class="panel_menu_wrap_item_modification">
+                      <option value="-1" selected="selected">Все</option>
+                  </select>
+              </div>
+              <div class="panel_menu_wrap_btn">
+                  <button class="panel_menu_wrap_btn_click">Подобрать</button>
+              </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="content_promo">
+        <h3 class="content_promo_text">Проставки увеличения клиренса RIPPO</h3>
+        <p class="content_promo_subtext">
+          Проставки для увеличения клиренса торговой марки RIPPO возможно<br />
+          устанавливать практически на всех моделях автомобилей.<br />
+          Установка проставок позволит компенсировать уменьшение<br />
+          клиренса возникшее в результате просадки пружин. А также<br />
+          увеличить клиренс при эксплуатации низких машин на дорогах с<br />
+          плохим покрытием.
+        </p>
+
+        <div class="content_promo_menu">
+          <div class="content_promo_menu_imgwrap">
+            <img
+              src="{% static 'landing/img/prostavka2.png' %}"
+              alt="prostavka"
+              class="content_promo_menu_img"
+            />
+          </div>
+
+          <div class="content_promo_menu_wrap">
+            <div class="content_promo_menu_item">
+              <div class="content_promo_menu_item_radius">
+                <img
+                  src="{% static 'landing/img/water.png' %}"
+                  alt="icons"
+                  class="content_promo_menu_item_img"
+                />
+              </div>
+              <span class="content_promo_menu_item_text"
+                >Не подвержены воздействию влаги и<br />
+                песчано - солевых смесей</span
+              >
+            </div>
+            <div class="content_promo_menu_item">
+              <div class="content_promo_menu_item_radius">
+                <img
+                  src="{% static 'landing/img/arrows.svg' %}"
+                  alt="icons"
+                  class="content_promo_menu_item_img"
+                />
+              </div>
+              <span class="content_promo_menu_item_text"
+                >Обладают необходимой эластичностью,<br />
+                позволяющей эффективно <br />поглощать вибрации</span
+              >
+            </div>
+            <div class="content_promo_menu_item">
+              <div class="content_promo_menu_item_radius">
+                <img
+                  src="{% static 'landing/img/ocean.svg' %}"
+                  alt="icons"
+                  class="content_promo_menu_item_img"
+                />
+              </div>
+              <span class="content_promo_menu_item_text"
+                >Не подвержены воздействию коррозии и нефтепродуктов</span
+              >
+            </div>
+            <div class="content_promo_menu_item">
+              <div class="content_promo_menu_item_radius">
+                <div class="content_promo_menu_item_wrap">
+                  <img
+                    src="{% static 'landing/img/shield.png' %}"
+                    alt="icons"
+                    class="content_promo_menu_item_imgshield"
+                  />
+                </div>
+              </div>
+              <span class="content_promo_menu_item_text"
+                >Имеют большой срок службы, не<br />
+                растрескиваются и не растягиваются в <br />процессе длительной
+                эксплуатации</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="content_promo_descr">
+          Благодаря многолетнему опыту, был подобран оптимальный материал для
+          производства проставок увеличения клиренса.<br />
+          Для изготовления используется эластомер СКУ-ПФЛ-100 – преполимер
+          (форполимер).<br />
+          Назначение преполимера – производство высококачественных литьевых
+          эластомеров горячего отверждения.<br />
+          Материал имеет широкий диапазон рабочих температур (от −50 до +80 °С)
+          обладает высоким сопротивлением истиранию и<br />
+          статическому сжатию, гидролитической стабильностью, морозостойкостью.
+        </div>
+      </div>
+
+      <div class="content_guarant">
+        <div class="content_guarant_radius">
+          <div class="content_guarant_wrap">
+            <img
+              src="{% static 'landing/img/shield.png' %}"
+              alt="icons"
+              class="content_guarant_wrap_img"
+            />
+          </div>
+        </div>
+
+        <div class="content_guarant_descr">
+          <span class="content_guarant_descr_text">Гарантия 5 лет </span>
+          <span class="content_guarant_descr_subtext"
+            >на продукцию представленную на нашем сайте с момента покупки</span
+          >
+        </div>
+      </div>
+
+      <div class="content_before">
+        <div class="content_before_menu">
+          <span class="content_before_menu_item">До установки проставок</span>
+          <img
+            src="{% static 'landing/img/machine1.PNG' %}"
+            alt="machine"
+            class="content_before_menu_img"
+          />
+        </div>
+
+        <div class="content_before_menu">
+          <span class="content_before_menu_item"
+            >После установки проставок</span
+          >
+          <img
+            src="{% static 'landing/img/machine2.PNG' %}"
+            alt="machine"
+            class="content_before_menu_img"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="background">
     <img
       src="{% static 'landing/img/img_prostavka.PNG' %}"
@@ -84,23 +257,24 @@
       class="background_img"
     />
   </section>
-
   <section class="prost_info">
     <div class="prost_info_container container">
       <div class="prost_info_menu">
         <div class="prost_info_menu_item">
-          <img
-            src="{% static 'landing/img/clirens.PNG' %}"
-            alt="clirens"
-            class="prost_info_menu_item_img"
-          />
+          <div class="prost_info_menu_clirens">
+            <img
+              src="{% static 'landing/img/clirens.PNG' %}"
+              alt="clirens"
+              class="prost_info_menu_item_img"
+            />
+          </div>
           <div class="prost_info_menu_item_wrap">
             <span class="prost_info_menu_item_text"
               ><b>Увеличение клиренса от 20 до 50мм</b></span
             >
             <span class="prost_info_menu_item_subtext">
               Проставки используются как для увеличения заводского<br />
-              клиренса, так и для компенсации просевших пружин.<br />
+              клиренса.<br />
               Это самый безопасный и недорогой способ повысить<br />
               дорожный просвет вашего автомобиля.
             </span>
@@ -115,13 +289,11 @@
             <span class="prost_info_menu_item_subtext">
               Благодаря проставкам вы сможете снизить удары и тряску<br />
               при проезде ям и прочих неровностей на<br />
-              дорогах, комфортное передвижение по некачественным<br />
-              дорожным покрытиям станет реальностью.<br />
-              А парковка вашего автомобиля станет более безопасной.
+              дорогах.
             </span>
           </div>
 
-          <div class="prost_info_menu_clirens">
+          <div class="prost_info_menu_clirens clirens_img">
             <img
               src="{% static 'landing/img/clirensup.PNG' %}"
               alt="clirens"
@@ -131,11 +303,13 @@
         </div>
 
         <div class="prost_info_menu_item">
-          <img
-            src="{% static 'landing/img/clirensback.PNG' %}"
-            alt="clirens"
-            class="prost_info_menu_item_img"
-          />
+          <div class="prost_info_menu_clirens">
+            <img
+              src="{% static 'landing/img/clirensback.PNG' %}"
+              alt="clirens"
+              class="prost_info_menu_item_img"
+            />
+          </div>
           <div class="prost_info_menu_item_wrap">
             <span class="prost_info_menu_item_text"
               ><b>Меньше повреждений днища авто</b></span
@@ -151,7 +325,6 @@
       </div>
     </div>
   </section>
-
   <section class="about">
     <div class="about_container container">
       <h3 class="about_title">Отзывы о нас</h3>
@@ -191,7 +364,7 @@
             />
           </div>
 
-          <a href="#" class="about_slider_info_link">
+          <a href="/feedbacks/" class="about_slider_info_link">
             <img
               src="{% static 'landing/img/avito_logo.png' %}"
               alt="avito"
@@ -201,88 +374,71 @@
           <p class="about_slider_info_descr">На основе 721 оценок</p>
         </div>
 
-        <div class="slides">
-          <input type="radio" name="b" id="b1" checked />
-          <input type="radio" name="b" id="b2" />
-          <input type="radio" name="b" id="b3" />
-
-          <div class="slides_menu">
-            <div class="slides_menu_content">
-              <div class="slides_menu_content_info">
+        <div class="slides_wrap">
+          <div class="slides">
+            <div class="slides_content">
+              <div class="slides_content_info">
                 <img
                   src="{% static 'landing/img/user.png' %}"
                   alt="user"
-                  class="slides_menu_content_info_img"
+                  class="slides_content_info_img"
                 />
-                <div class="slides_menu_content_info_wrap">
-                  <span class="slides_menu_content_info_name">Альберт</span>
-                  <div class="slides_menu_content_info_star">
+                <div class="slides_content_info_wrap">
+                  <span class="slides_content_info_name">Альберт</span>
+                  <div class="slides_content_info_star">
                     <img
                       src="{% static 'landing/img/star.svg' %}"
                       alt="star"
-                      class="slides_menu_content_info_star_icon"
+                      class="slides_content_info_star_icon"
                     />
                     <img
                       src="{% static 'landing/img/star.svg' %}"
                       alt="star"
-                      class="slides_menu_content_info_star_icon"
+                      class="slides_content_info_star_icon"
                     />
                     <img
                       src="{% static 'landing/img/star.svg' %}"
                       alt="star"
-                      class="slides_menu_content_info_star_icon"
+                      class="slides_content_info_star_icon"
                     />
                     <img
                       src="{% static 'landing/img/star.svg' %}"
                       alt="star"
-                      class="slides_menu_content_info_star_icon"
+                      class="slides_content_info_star_icon"
                     />
                     <img
                       src="{% static 'landing/img/star.svg' %}"
                       alt="star"
-                      class="slides_menu_content_info_star_icon"
+                      class="slides_content_info_star_icon"
                     />
                   </div>
-                  <span class="slides_menu_content_info_date"
-                    >9 мая 2023 г.</span
-                  >
+                  <span class="slides_content_info_date">9 мая 2023 г.</span>
                 </div>
               </div>
 
-              <div class="slides_menu_content_text">
-                <h2 class="slides_menu_content_text_descr">
+              <div class="slides_content_text">
+                <h2 class="slides_content_text_descr">
                   Сделка состоялась «2-6 Проставки для увеличения клиренса»
                 </h2>
 
-                <a href="#" class="slides_menu_content_text_link"
+                <a href="/feedbacks/" class="slides_content_text_link"
                   >Отзыв на авито</a
                 >
               </div>
             </div>
           </div>
-          <div class="slides_navigation">
-            <label for="b1" class="slides_navigation_lbl"></label>
-            <label for="b2" class="slides_navigation_lbl"></label>
-            <label for="b3" class="slides_navigation_lbl"></label>
-          </div>
-        </div>
 
-        <div class="slides">
-          <input type="radio" name="b" id="b1" checked />
-          <input type="radio" name="b" id="b2" />
-          <input type="radio" name="b" id="b3" />
-
-          <div class="slides_menu">
-            <div class="slides_menu_content">
-              <div class="slides_menu_content_info">
+          <div class="slides slides_date">
+            <div class="slides_content">
+              <div class="slides_content_info">
                 <img
                   src="{% static 'landing/img/user.png' %}"
                   alt="user"
-                  class="slides_menu_content_info_img"
+                  class="slides_content_info_img"
                 />
-                <div class="slides_menu_content_info_wrap">
-                  <span class="slides_menu_content_info_name">Альберт</span>
-                  <div class="slides_menu_content_info_star">
+                <div class="slides_content_info_wrap">
+                  <span class="slides_content_info_name">Альберт</span>
+                  <div class="slides_content_info_star">
                     <img
                       src="{% static 'landing/img/star.svg' %}"
                       alt="star"
@@ -309,18 +465,16 @@
                       class="slides_menu_content_info_star_icon"
                     />
                   </div>
-                  <span class="slides_menu_content_info_date"
-                    >9 мая 2023 г.</span
-                  >
+                  <span class="slides_content_info_date">9 мая 2023 г.</span>
                 </div>
               </div>
 
-              <div class="slides_menu_content_text">
-                <h2 class="slides_menu_content_text_descr">
+              <div class="slides_content_text">
+                <h2 class="slides_content_text_descr">
                   Сделка состоялась «2-6 Проставки для увеличения клиренса»
                 </h2>
 
-                <a href="#" class="slides_menu_content_text_link"
+                <a href="/feedbacks/" class="slides_content_text_link"
                   >Отзыв на авито</a
                 >
               </div>
@@ -330,93 +484,106 @@
       </div>
     </div>
   </section>
-
   <section class="answer">
     <div class="answer_container container">
       <h3 class="answer_title">Ответы на часто задаваемые вопросы</h3>
 
       <div class="answer_menu">
-        <div class="answer_menu_item">
-          <a href="#" class="answer_menu_item_link"
-            >Как увеличить проходимость автомобиля?</a
+        <btn class="answer_menu_item">
+          <span href="#" class="answer_menu_item_btn"
+            >Как увеличить проходимость автомобиля?</span
           >
-          <a href="#" class="answer_menu_item_arrowdown"
-            ><img
-              src="{% static 'landing/img/arrowdown.png' %}"
-              alt="arrowdown"
-              class="answer_menu_item_icon"
-          /></a>
+          <img
+            src="{% static 'landing/img/arrowdown.png' %}"
+            alt="arrowdown"
+            class="answer_menu_item_icon"
+          />
+        </btn>
+
+        <div class="answer_reply">
+          <p class="answer_reply_text">
+            На проходимость автомобиля влияет ряд факторов. Тип привода,
+            передний и задний свесы, протектор установленной резины и конечно же
+            дорожный просвет. И если на первые два параметра владелец автомобиля
+            повлиять не может, то установка подходящих покрышек и увеличение
+            дорожного просвета вполне ему по силам. Способы увеличения дорожного
+            просвета, тема отдельного разговора. Но в любом случае, желательно
+            придерживаться заводских параметров клиренса. В этом случае подвеска
+            работат в оптимальном режиме.
+          </p>
         </div>
+
         <div class="answer_menu_item">
-          <a href="#" class="answer_menu_item_link"
+          <a href="#" class="answer_menu_item_btn"
             >Зачем ставят проставки увеличения клиренса?</a
           >
-          <a href="#" class="answer_menu_item_arrowdown"
-            ><img
+          <btn href="#" class="answer_menu_item_btn">
+            <img
               src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
-          /></a>
+            />
+          </btn>
         </div>
         <div class="answer_menu_item">
           <a href="#" class="answer_menu_item_link"
             >Какой высоты нужно ставить проставки увеличения клиренса?</a
           >
-          <a href="#" class="answer_menu_item_arrowdown"
+          <btn href="#" class="answer_menu_item_arrowdown"
             ><img
               src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
-          /></a>
+          /></btn>
         </div>
         <div class="answer_menu_item">
           <a href="#" class="answer_menu_item_link"
             >Как проставки увелечения клиренса влияют на ходовые качества
             автомобиля?</a
           >
-          <a href="#" class="answer_menu_item_arrowdown"
+          <btn href="#" class="answer_menu_item_arrowdown"
             ><img
               src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
-          /></a>
+          /></btn>
         </div>
         <div class="answer_menu_item">
           <a href="#" class="answer_menu_item_link"
             >На сколько можно поднять автомобиль с помощью проставок?</a
           >
-          <a href="#" class="answer_menu_item_arrowdown"
+          <btn href="#" class="answer_menu_item_arrowdown"
             ><img
               src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
-          /></a>
+          /></btn>
         </div>
         <div class="answer_menu_item">
           <a href="#" class="answer_menu_item_link"
             >Какие проставки лучше, плиуретан или алюминий?</a
           >
-          <a href="#" class="answer_menu_item_arrowdown"
+          <btn href="#" class="answer_menu_item_arrowdown"
             ><img
               src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
-          /></a>
+          /></btn>
         </div>
         <div class="answer_menu_item">
           <a href="#" class="answer_menu_item_link"
             >Что такое клиренс автомобиля?</a
           >
-          <a href="#" class="answer_menu_item_arrowdown"
+          <btn href="#" class="answer_menu_item_arrowdown"
             ><img
               src="{% static 'landing/img/arrowdown.png' %}"
               alt="arrowdown"
               class="answer_menu_item_icon"
-          /></a>
+          /></btn>
         </div>
       </div>
     </div>
   </section>
 </main>
-
+<script src="{% static 'landing/js/index.js' %}"></script>
 {% endblock %}

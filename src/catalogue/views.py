@@ -30,6 +30,5 @@ class CatalogueView(TemplateView):
         context = super(CatalogueView, self).get_context_data(*args, **kwargs)
         brands = Brand.objects.all()
         context["brands"] = brands
-        context["brands_table"] = split_by_letter(brands)
-        print(context["brands_table"])
+        # context["brands_table"] = split_by_letter(brands)
         return context

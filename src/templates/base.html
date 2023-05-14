@@ -170,7 +170,7 @@ crossorigin="anonymous"
   </footer>
 
   <div class="modal">
-		<div class="modal_container">
+	<div class="modal_container">
 			<div class="modal_head">
 				<button class="modal_btn">×</button>
 				<h5 class="modal_head_title">
@@ -185,8 +185,8 @@ crossorigin="anonymous"
 					<i class="fa fa-info-circle"></i>
 					&nbsp;&nbsp;Товар Проставки 7-297 добавлен в вашу корзину!
 				</div> -->
-                <div class="modal_content_product">
                 {% for item in cart%}
+                <div class="modal_content_product">
 				    <div class="modal_content_product_wrap">
 							<a href="#" class="modal_content_produsct_link">
                             <img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img">
@@ -201,25 +201,24 @@ crossorigin="anonymous"
 							Размер проставок: {{item.type}}
 						</div>
                         <div class="modal_content_product_menu">
-                            <button class="modal_content_product_menu_btn">-</button>
-                            <div class="modal_content_product_menu_item">10</div>
-                            <button class="modal_content_product_menu_btn">+</button>
+                            <button class="modal_content_product_menu_btn" onclick=on_decrement(this)>-</button>
+                            <div class="modal_content_product_menu_item">{{item.quantity}}</div>
+                            <button class="modal_content_product_menu_btn" onclick=on_increment(this)>+</button>
                         </div>
 						<p class="modal_content_product_price">{{item.price}} ₽</p>
                         <input id="spacer_id" type="hidden" name="id" value="{{item.id}}" />
 						<button class="modal_content_product_backet" onclick=on_basket(this)><img src="icons/trash.svg" alt="trash" class="modal_content_product_backet_img"></button>
 				</div>
                 {% endfor %}
-                </div>
-				<div class="modal_content_product_text"><a href="#" class="modal_content_product_text_link">В корзине <b>1</b> товаров, на <b>1700 ₽</a></b> </div>
+				<div class="modal_content_product_text"><span class="modal_content_product_text_link">В корзине <b>{{cart|length}}</b> товаров </span></div>
 
 				<div class="modal_content_product_footer">
 					<button class="modal_content_product_footer_btn">Продолжить закупки</button>
 					<button class="modal_content_product_footer_btn red">Оформить заказ</button>
 				</div>
-			</div>
-		</div>
+            </div>
 	</div>
+  </div>
   <script src="{% static 'header/js/openCart.js' %}"></script>
   <script src="{% static 'cartmodal/js/modal.js' %}"></script>
   </body>

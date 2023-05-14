@@ -1,0 +1,15 @@
+<div class="brand_table">
+  {% for brands in brands_table %}
+  <div class="brand_table__item">
+    <span class="letter">{{brands.0.name.0}}</span>
+    <div class="brand_list">
+      {% for brand in brands %}
+      <a href="/brand/{{ brand.slug }}/" class="brand_list__item">{{
+        brand.name
+      }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<span class="letter">{{brands.0.name.0}}</span>

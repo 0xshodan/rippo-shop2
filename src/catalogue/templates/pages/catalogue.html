@@ -43,18 +43,13 @@
       </div>
     </div>
 
-<div class="brand_table">
-    {% for brands in brands_table %}
-    <div class="brand_table__item">
-    <span class="letter">{{brands.0.name.0}}</span>
-      <div class="brand_list">
-        {% for brand in brands %}
-        <a href="/brand/{{brand.slug}}/" class="brand_list__item">{{brand.name}}</a>
-        {% endfor %}
-      </div>
-    </div>
+<ul class="brand_table">
+    {% for brand in brands %}
+    <li class="brand_table__item">
+      <a href="/brand/{{brand.slug}}/" class="brand_list__item">{{brand.name}}</a>
+    </li>
     {% endfor %}
-</div>
+</ul>
 </div>
 </section>
 </div>

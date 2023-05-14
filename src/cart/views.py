@@ -3,6 +3,7 @@ from django.views.generic import View
 
 from cars.models import CarModification
 from spacers.models import Spacer
+
 from .cart import Cart
 
 
@@ -23,6 +24,14 @@ class CartView(View):
         cart.remove(spacer_id=data["id"])
         return HttpResponse()
 
+    def patch(self, request):
+        cart = Cart(request)
+        data = QueryDict(request.body)
+        if data["quantity"] == "1":
+            cart.increment_quantity(data["id"])
+        elif data["quantity"] == "-1":
+            cart.decrement_quantity(data["id"])
+        return HttpResponse()
 
 # @require_POST
 # def cart_add(request, spacer_id):

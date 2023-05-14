@@ -1,88 +1,81 @@
-/* line 1395, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main {
+/* line 1408, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home {
   background-color: #fff;
   min-height: 800px;
   padding: 40px 0 20px 0;
   min-height: 650px;
 }
 
-/* line 1400, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_container {
-  width: 1160px;
-  margin: auto;
-  font-family: 'Inter', sans-serif;
-}
-
-/* line 1404, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_title {
+/* line 1413, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_title {
   font-size: 46px;
   line-height: 61px;
   font-weight: 600;
 }
 
-/* line 1408, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo {
+/* line 1417, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo {
   margin-top: 40px;
 }
 
-/* line 1410, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item {
+/* line 1419, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item {
   margin-top: 15px;
   display: flex;
   align-items: center;
 }
 
-/* line 1414, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_radius {
+/* line 1423, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_radius {
   border-radius: 50%;
   width: 37px;
   height: 37px;
   background-color: #FFE839;
-}
-
-/* line 1419, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_wallet {
-  border-radius: 50%;
-  width: 37px;
-  height: 37px;
-  background-color: #FFE839;
-}
-
-/* line 1424, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_wallet_wrap {
-  margin: 10px;
-}
-
-/* line 1426, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_wrap {
-  margin: 6px;
 }
 
 /* line 1428, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_img {
+.home_promo_item_wallet {
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  background-color: #FFE839;
+}
+
+/* line 1433, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_wallet_wrap {
+  margin: 10px;
+}
+
+/* line 1435, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_wrap {
+  margin: 6px;
+}
+
+/* line 1437, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_img {
   width: 25px;
   height: 25px;
 }
 
-/* line 1431, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_walletimg {
+/* line 1440, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_walletimg {
   width: 17px;
   height: 17px;
 }
 
-/* line 1434, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_text {
+/* line 1443, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_text {
   margin-left: 15px;
   font-size: 18px;
 }
 
-/* line 1437, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_name {
+/* line 1446, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_name {
   margin-top: 40px;
 }
 
-/* line 1439, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_item_name_btn {
+/* line 1448, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_item_name_btn {
   width: 200px;
   height: 50px;
   border-radius: 5px;
@@ -92,116 +85,200 @@
   font-size: 14px;
 }
 
-/* line 1447, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_wrap {
+/* line 1456, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_wrap {
   float: right;
 }
 
-/* line 1449, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.main_promo_wrap_img {
+/* line 1458, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.home_promo_wrap_img {
   width: 466px;
   height: 335px;
 }
 
-/* line 1452, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1461, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content {
   padding: 10px 0 60px;
 }
 
-/* line 1454, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_container {
-  font-family: 'Inter', sans-serif;
-  width: 1320px;
-  margin: auto;
-  font-family: 'Inter', sans-serif;
-}
-
-/* line 1459, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1463, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_optima {
   margin-top: -35px;
 }
 
-/* line 1461, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_guarant {
+/* line 1730, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.panel_menu {
+  height: 115px;
   background-color: #fff;
-  height: 100px;
-  width: 500px;
+  padding: 25px 30px 28px 19px;
+  border-radius: 15px;
+  border: 1px solid #e1e2e8;
+  box-shadow: 1px 1px 21px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 1737, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.panel_menu_title {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* line 1741, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.panel_menu_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+/* line 1745, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.panel_menu_wrap_item_brand {
+  width: 230px;
+  height: 31px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+  background-color: #F5F5F5;
+}
+
+/* line 1753, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+
+.panel_menu_wrap_btn_click {
+  width: 205px;
+  height: 50px;
+  border-radius: 9px;
+  border: none;
+  background-color: #FFC815;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* line 1763, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.panel_menu_wrap_item_model {
+  width: 230px;
+  height: 31px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  background-color: #F5F5F5;
+}
+
+/* line 1771, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.panel_menu_wrap_item_years {
+  height: 31px;
+  width: 230px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+  background-color: #F5F5F5;
+}
+
+/* line 1779, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.panel_menu_wrap_item_modification {
+  height: 31px;
+  width: 230px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+  background-color: #F5F5F5;
+}
+
+/* line 1465, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.content_guarant {
+  margin: 50px auto 0;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 140px;
+  width: 1000px;
   display: flex;
   align-items: center;
   box-shadow: 1px 1px 24px 3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 1468, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1474, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_guarant_radius {
   background-color: #FFE839;
   border-radius: 50%;
-  width: 41px;
-  height: 41px;
+  width: 80px;
+  height: 80px;
   margin-left: 20px;
 }
 
-/* line 1474, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_guarant_radius_wrap {
-  margin: 3px;
+/* line 1480, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.content_guarant_wrap {
+  margin: 5px;
 }
 
-/* line 1476, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_guarant_radius_img {
-  width: 45px;
-  height: 45px;
+/* line 1482, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.content_guarant_wrap_img {
+  width: 70px;
+  height: 70px;
 }
 
-/* line 1479, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.content_guarant_subtext {
+/* line 1485, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.content_guarant_descr {
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
-  margin-top: 8px;
-  font-size: 16px;
+}
+
+/* line 1489, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.content_guarant_descr_text {
+  font-weight: 600;
+  font-size: 20px;
   line-height: 24px;
 }
 
-/* line 1484, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1493, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.content_guarant_descr_subtext {
+  color: #585858;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+/* line 1497, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_menu {
   margin-top: -35px;
 }
 
-/* line 1486, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1499, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_menu_btn {
   width: 164px;
   height: 50px;
   font-size: 18px;
 }
 
-/* line 1490, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1503, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo {
   margin-top: 80px;
 }
 
-/* line 1492, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1505, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_text {
   font-size: 25px;
   font-weight: 600;
 }
 
-/* line 1495, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1508, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_subtext {
   margin-top: 20px;
   color: #404040;
   font-size: 15px;
 }
 
-/* line 1499, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1512, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu {
   display: flex;
   margin-top: 50px;
 }
 
-/* line 1502, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1515, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu_img {
   width: 550px;
   height: 400px;
 }
 
-/* line 1505, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1518, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu_item {
   display: flex;
   align-items: center;
@@ -212,7 +289,7 @@
   box-shadow: 1px 1px 13px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* line 1513, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1526, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu_item_radius {
   background-color: #FFE839;
   border-radius: 50%;
@@ -221,30 +298,30 @@
   margin-left: 20px;
 }
 
-/* line 1519, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1532, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu_item_wrap {
   margin: 3px;
 }
 
-/* line 1521, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1534, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu_item_img {
   width: 40px;
   height: 40px;
 }
 
-/* line 1524, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1537, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu_item_imgshield {
   width: 35px;
   height: 35px;
 }
 
-/* line 1527, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1540, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_menu_item_text {
   margin-left: 20px;
   font-size: 16px;
 }
 
-/* line 1530, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1543, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_promo_descr {
   text-align: center;
   font-size: 14px;
@@ -252,14 +329,14 @@
   line-height: 25px;
 }
 
-/* line 1535, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1548, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_before {
   margin-top: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-/* line 1540, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1553, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_before_menu_item {
   display: block;
   text-align: center;
@@ -267,104 +344,100 @@
   font-weight: 600;
 }
 
-/* line 1545, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1558, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .content_before_menu_img {
   margin-top: 45px;
   width: 450px;
   height: 300px;
 }
 
-/* line 1550, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1563, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .background {
   width: 100vw;
-  height: 140px;
 }
 
-/* line 1554, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1565, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.background_img {
+  width: 100vw;
+}
+
+/* line 1568, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .prost_info {
   padding: 80px 0 0 0;
 }
 
-/* line 1556, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.prost_info_container {
-  width: 1000px;
-  margin: auto;
-  font-family: 'Inter', sans-serif;
-}
-
-/* line 1561, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1572, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .prost_info_menu_item {
   background-color: #fff;
-  margin-top: 40px;
+  margin: 40px auto;
   display: flex;
   align-items: center;
+  width: 1000px;
 }
 
-/* line 1566, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1578, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .prost_info_menu_item_img {
   width: 370px;
   height: 183px;
 }
 
-/* line 1569, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1581, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .prost_info_menu_item_wrap {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
 }
 
-/* line 1573, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1585, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .prost_info_menu_item_text {
   text-align: center;
   font-size: 18px;
 }
 
-/* line 1576, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1588, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .prost_info_menu_item_subtext {
   font-size: 15px;
   margin-top: 10px;
   line-height: 24px;
 }
 
-/* line 1580, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1592, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .prost_info_menu_clirens {
+  text-align: right;
+}
+
+/* line 1595, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.clirens_img {
   flex: auto;
   text-align: right;
 }
 
-/* line 1585, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1600, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about {
   padding: 50px 0 20px 0;
 }
 
-/* line 1587, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.about_container {
-  width: 1000px;
-  margin: auto;
-}
-
-/* line 1590, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1602, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about_title {
   font-size: 28px;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 1594, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1606, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about_subtitle {
   font-size: 15px;
   margin: 15px 0 0;
 }
 
-/* line 1597, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1609, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about_slider {
   margin-top: 35px;
   display: flex;
-  width: 300%;
   height: 100%;
 }
 
-/* line 1602, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1613, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about_slider_info {
   background-color: #F8F8F8;
   text-align: center;
@@ -373,38 +446,37 @@
   padding: 1px;
 }
 
-/* line 1608, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1619, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about_slider_info_title {
   font-weight: 400;
   margin: 10px 0;
 }
 
-/* line 1612, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1623, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about_slider_info_link_img {
   width: 60px;
   height: 23px;
 }
 
-/* line 1615, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1626, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .about_slider_info_descr {
   color: #BEBEBE;
   font-size: 12px;
   margin: 0;
 }
 
-/* line 1622, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1633, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .slides {
   position: relative;
 }
 
-/* line 1624, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu {
-  width: 25%;
+/* line 1635, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_wrap {
+  display: flex;
 }
 
-/* line 1626, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content {
-  width: 350px;
+/* line 1637, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content {
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #D3D3D3;
@@ -414,106 +486,77 @@
   overflow: hidden;
 }
 
-/* line 1635, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_info {
+/* line 1645, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_info {
   align-items: center;
   display: flex;
 }
 
-/* line 1638, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_info_img {
+/* line 1648, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_info_img {
   width: 37px;
   height: 37px;
 }
 
-/* line 1641, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_info_wrap {
+/* line 1651, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_info_wrap {
   line-height: 10px;
   margin-left: 10px;
 }
 
-/* line 1644, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_info_name {
+/* line 1654, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_info_name {
   color: #585858;
   font-size: 14px;
 }
 
-/* line 1647, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_info_star {
+/* line 1657, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_info_star {
   margin: 6px 0;
 }
 
-/* line 1649, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_info_star_icon {
+/* line 1659, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_info_star_icon {
   width: 13px;
   height: 13px;
 }
 
-/* line 1652, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_info_date {
+/* line 1662, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_info_date {
   font-size: 11px;
   color: #808080;
 }
 
-/* line 1655, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_text {
+/* line 1665, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_text {
   padding: 11px;
 }
 
-/* line 1657, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_text_descr {
+/* line 1667, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_text_descr {
   font-size: 17px;
 }
 
-/* line 1659, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_menu_content_text_link {
+/* line 1669, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.slides_content_text_link {
   font-size: 13px;
   margin-top: 20px;
   color: #808080;
 }
 
-/* line 1663, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_navigation {
-  position: absolute;
-  left: 50%;
-  display: flex;
-  transform: translateX(-50%);
-}
-
-/* line 1668, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.slides_navigation_lbl {
-  display: flex;
-  width: 150px;
-  height: 8px;
-  margin: 6px;
-  cursor: pointer;
-  background-color: #E8E8E8;
-}
-
-/* line 1675, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-input[name="b"] {
-  visibility: hidden;
-}
-
-/* line 1678, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1674, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .answer {
   padding: 50px 0 30px;
 }
 
-/* line 1680, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.answer_container {
-  width: 1160px;
-  margin: auto;
-}
-
-/* line 1683, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1677, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .answer_title {
   font-size: 25px;
   font-weight: 400;
   margin-bottom: 40px;
 }
 
-/* line 1688, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1682, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .answer_menu_item {
   display: flex;
   justify-content: space-between;
@@ -522,16 +565,756 @@ input[name="b"] {
   box-shadow: 0px 1px 4px 1px lightgray;
   margin-top: 20px;
   padding: 5px;
+  cursor: pointer;
 }
 
-/* line 1696, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-.answer_menu_item_link {
-  text-decoration: none;
-  color: black;
+/* line 1691, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.answer_menu_item_btn {
+  cursor: pointer;
 }
 
-/* line 1699, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+/* line 1693, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .answer_menu_item_icon {
   width: 18px;
   height: 18px;
+}
+
+/* line 1696, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.answer_reply {
+  box-shadow: 0px 1px 4px 1px lightgray;
+  padding: 8px;
+}
+
+/* line 1699, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.answer_reply_text {
+  font-size: 15px;
+  margin: 0;
+}
+
+/* line 1702, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+.answer_reply_active {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  /* line 3, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_title {
+    font-size: 27px;
+    line-height: normal;
+    margin: 0;
+  }
+  /* line 7, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_wrap {
+    width: 195px;
+    height: 160px;
+    margin-top: 50px;
+  }
+  /* line 11, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_wrap_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 16, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_item_text {
+    font-size: 16px;
+    margin-left: 12px;
+  }
+  /* line 21, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 25, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 28, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_item {
+    width: 100%;
+    border: 10px;
+  }
+  /* line 31, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_item_text {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  /* line 34, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant {
+    width: 100%;
+  }
+  /* line 36, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_radius {
+    width: 81px;
+    height: 71px;
+  }
+  /* line 40, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_wrap_img {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 43, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_descr {
+    margin-left: 15px;
+  }
+  /* line 45, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_descr_text {
+    font-size: 19px;
+  }
+  /* line 47, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_descr_subtext {
+    font-size: 16px;
+  }
+  /* line 49, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before {
+    justify-content: space-around;
+  }
+  /* line 51, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu {
+    width: 180px;
+    height: 180px;
+  }
+  /* line 54, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu_img {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 58, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu_item {
+    font-size: 17px;
+  }
+  /* line 60, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background {
+    display: none;
+  }
+  /* line 63, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info {
+    padding: 0;
+  }
+  /* line 66, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 69, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 72, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_wrap {
+    margin: 12px;
+  }
+  /* line 74, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_text {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+  }
+  /* line 77, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_subtext {
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+  }
+  /* line 80, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_clirens {
+    height: 140px;
+    width: 450px;
+  }
+  /* line 85, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about_slider {
+    width: 100%;
+    flex-direction: column;
+  }
+  /* line 88, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about_slider_info {
+    height: 172px;
+  }
+  /* line 90, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides {
+    width: 100%;
+  }
+  /* line 92, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides_content {
+    margin: 0;
+  }
+
+   /* line 7, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+/* line 11, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* line 15, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn {
+  margin: 22px 0 0 0;
+  width: 100%;
+  height: 31px;
+}
+/* line 19, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn_click {
+  width: 100%;
+  font-size: 15px;
+  height: 100%;
+}
+/* line 23, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item {
+  width: 100%;
+}
+/* line 25, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_brand {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 28, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_model {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 31, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_years {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 34, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_modification {
+  width: 100%;
+  max-width: 100%;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* line 97, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_title {
+    font-size: 27px;
+    line-height: normal;
+    margin: 0;
+  }
+  /* line 101, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_wrap {
+    width: 270px;
+    height: 170px;
+    margin-top: 50px;
+  }
+  /* line 105, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_wrap_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 110, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_item_text {
+    font-size: 16px;
+    margin-left: 12px;
+  }
+  /* line 116, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 120, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 123, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_item {
+    width: 100%;
+    border: 10px;
+  }
+  /* line 126, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_item_text {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  /* line 129, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant {
+    width: 100%;
+  }
+  /* line 131, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_radius {
+    width: 81px;
+    height: 71px;
+  }
+  /* line 135, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_wrap_img {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 138, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_descr {
+    margin-left: 15px;
+  }
+  /* line 140, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_descr_text {
+    font-size: 19px;
+  }
+  /* line 142, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant_descr_subtext {
+    font-size: 16px;
+  }
+  /* line 144, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before {
+    justify-content: space-around;
+  }
+  /* line 146, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu {
+    width: 260px;
+    height: 260px;
+  }
+  /* line 149, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu_img {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 153, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu_item {
+    font-size: 17px;
+  }
+  /* line 155, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background {
+    display: none;
+  }
+  /* line 158, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info {
+    padding: 0;
+  }
+  /* line 161, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 164, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 167, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_wrap {
+    margin: 12px;
+  }
+  /* line 169, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_text {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+  }
+  /* line 172, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_subtext {
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+  }
+  /* line 175, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_clirens {
+    height: 140px;
+    width: 450px;
+  }
+  /* line 180, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about_slider {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 184, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about_slider_info {
+    height: 172px;
+  }
+  /* line 186, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides {
+    width: 100%;
+  }
+  /* line 189, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides_menu_content {
+    margin: 0;
+  }
+
+   /* line 7, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+/* line 11, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* line 15, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn {
+  margin: 22px 0 0 0;
+  width: 100%;
+  height: 31px;
+}
+/* line 19, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn_click {
+  width: 100%;
+  font-size: 15px;
+  height: 100%;
+}
+/* line 23, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item {
+  width: 100%;
+}
+/* line 25, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_brand {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 28, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_model {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 31, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_years {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 34, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_modification {
+  width: 100%;
+  max-width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* line 194, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_title {
+    font-size: 35px;
+    margin: 0;
+    line-height: 40px;
+  }
+  /* line 199, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_wrap {
+    width: 290px;
+    height: 190px;
+  }
+  /* line 202, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_wrap_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 207, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_subtext {
+    font-size: 16px;
+  }
+  /* line 209, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 212, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 215, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_descr {
+    font-size: 16px;
+  }
+  /* line 217, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant {
+    width: 100%;
+  }
+  /* line 219, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before {
+    justify-content: space-between;
+  }
+  /* line 221, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu {
+    width: 350px;
+  }
+  /* line 223, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 226, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background {
+    padding: 50px 0;
+  }
+  /* line 228, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background_img {
+    width: 100%;
+    height: 80px;
+  }
+  /* line 232, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info {
+    padding: 0;
+  }
+  /* line 235, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item {
+    margin: 0 0 30px 0;
+    width: 100%;
+  }
+  /* line 239, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about {
+    padding: 0 0 20px 0;
+  }
+  /* line 241, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about_slider {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  /* line 245, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides_wrap {
+    display: flex;
+  }
+  /* line 248, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides_content {
+    margin: 0;
+    height: 100%;
+  }
+  /* line 251, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides_date {
+    margin-left: 10px;
+  }
+
+  /* line 40, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.content .brand_table {
+  width: 100%;
+}
+/* line 42, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.content .brand_item {
+  width: 114px;
+}
+/* line 45, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap {
+  display: flex;
+  align-items: center;
+}
+/* line 48, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn {
+  height: 35px;
+}
+/* line 50, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn_click {
+  width: 100%;
+  font-size: 17px;
+  height: 42px;
+  background-color: #FFC815;
+}
+/* line 56, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_brand {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 59, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_model {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 62, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_years {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 65, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_modification {
+  width: 100%;
+  max-width: 100%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 258, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_title {
+    font-size: 40px;
+    margin: 0;
+  }
+  /* line 263, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .home_promo_wrap_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 269, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_subtext {
+    font-size: 16px;
+  }
+  /* line 271, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_descr {
+    font-size: 16px;
+  }
+  /* line 274, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_menu_item {
+    width: 100%;
+  }
+  /* line 276, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_guarant {
+    width: 100%;
+  }
+  /* line 279, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu {
+    height: 290px;
+  }
+  /* line 281, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_before_menu_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 285, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background {
+    padding: 50px 0;
+  }
+  /* line 287, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background_img {
+    height: 100px;
+  }
+  /* line 290, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info {
+    padding: 0;
+  }
+  /* line 293, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item {
+    margin: 0 0 40px 0;
+    width: 100%;
+  }
+  /* line 296, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_img {
+    display: inline;
+  }
+  /* line 298, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .clirens_img {
+    flex: auto;
+    text-align: right;
+  }
+  /* line 301, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about {
+    padding: 0 0 20px 0;
+  }
+
+  /* line 71, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.content .brand_table {
+  width: 100%;
+}
+/* line 73, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.content .brand_item {
+  width: 114px;
+}
+/* line 77, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+/* line 79, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_brand {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 82, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_model {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 85, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_years {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 88, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_modification {
+  width: 100%;
+  max-width: 100%;
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* line 307, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_subtext {
+    font-size: 16px;
+  }
+  /* line 309, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .content_promo_descr {
+    font-size: 16px;
+  }
+  /* line 311, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background {
+    padding: 50px 0;
+  }
+  /* line 313, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .background_img {
+    height: 100px;
+  }
+  /* line 315, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info {
+    padding: 0;
+  }
+  /* line 318, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item {
+    margin: 40px auto;
+    width: 900px;
+  }
+  /* line 321, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .prost_info_menu_item_img {
+    display: inline;
+  }
+  /* line 323, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .clirens_img {
+    flex: auto;
+    text-align: right;
+  }
+  /* line 327, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .about {
+    padding: 0 0 20px 0;
+  }
+  /* line 330, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-lending.sass */
+  .slides_wrap {
+    align-items: center;
+  }
+
+  /* line 94, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.content .brand_table {
+  width: 100%;
+}
+/* line 96, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.content .brand_item {
+  width: 114px;
+}
+/* line 98, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+/* line 103, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn {
+  margin: 22px 0 0 0;
+  height: 50px;
+  width: 205px;
+}
+/* line 107, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_btn_click {
+  width: 100%;
+  font-size: 15px;
+  height: 100%;
+}
+/* line 111, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item {
+  width: 180px;
+}
+/* line 113, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_brand {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 116, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_model {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 119, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_years {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 122, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-panel.sass */
+.panel_menu_wrap_item_modification {
+  width: 100%;
+  max-width: 100%;
+}
 }
