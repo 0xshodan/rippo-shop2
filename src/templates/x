@@ -1,0 +1,1 @@
+<img src="{% static 'header/icons/user.png' %}" alt="icon" class="head_last_user_img">

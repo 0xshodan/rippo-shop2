@@ -32,10 +32,6 @@
 />
 <link
 rel="stylesheet"
-href="{% static 'footer/css/styles.css' %}"
-/>
-<link
-rel="stylesheet"
 href="{% static 'cartmodal/css/styles.css' %}"
 />
 <script src="{% static 'base/js/jquery.min.js' %}"></script>
@@ -65,7 +61,8 @@ href="{% static 'cartmodal/css/styles.css' %}"
 							<button class="head_last_cart_btn"><img src="{% static 'header/icons/cart.png' %}" alt="icon" class="head_last_cart_btn_img"></button>
 							<div class="head_last_cart_text">{{cart|length}}</div>
 						</div>
-						<a href="#" class="head_last_user"><img src="{% static 'header/icons/user.png' %}" alt="icon" class="head_last_user_img"></a>
+
+						<a href="#" class="head_last_user">Войти</a>
 					</div>
 			    </div>
 		    </div>
@@ -100,14 +97,16 @@ href="{% static 'cartmodal/css/styles.css' %}"
 	</header>
     {% block content %}{% endblock content %}
     <footer class="footer">
-      <div class="container">
+      <div class="container container_footer_top">
           <div class="footer_top">
               <div class="footer_rippo">
-                  <img src="{% static 'base/img/logo.svg' %}" alt="logo" class="footer_logo">
-                  <div class="footer_descr">Интернет-магазин проставок<br>
-                      для увеличения клиренса авто</div>
+                <div class="footer_rippo_wrap">
+                    <a href="/" class="footer_rippo_wrap_link"><img src="{% static 'base/img/logo.svg' %}" alt="logo" class="footer_logo"></a>
+                </div>
+                  <div class="head_descr footer_text">Проставки для увелечения клиренса</div>
                   <div class="footer_ip">ИП Нехамкин Дмитрий
-                      <br>Вячеславович<br>ИНН: 910226323090</div>
+                      <br>Вячеславович<br>ИНН: 910226323090
+                  </div>
                   <div class="footer_icon">
                       <a href="#"><img src="{% static 'footer/img/telegram.svg' %}" alt="tg" class="footer_telegram"></a>
                       <a href="#"><img src="{% static 'footer/img/whatsapp.svg' %}" alt="wh"class="footer_whatsapp"></a>
@@ -144,7 +143,7 @@ href="{% static 'cartmodal/css/styles.css' %}"
           </div>
 
           <div class="footer_bottom">
-              <div class="footer_bottom_container">
+              <div class="container container_footer_bottom">
                   <div class="footer_bottom_descr">Принимаем к оплате:</div>
 
                   <div class="footer_bottom_img">
