@@ -200,8 +200,9 @@ href="{% static 'cartmodal/css/styles.css' %}"
                             <div class="modal_content_product_menu_item">{{item.quantity}}</div>
                             <button class="modal_content_product_menu_btn" onclick=on_increment(this)>+</button>
                         </div>
-						<p class="modal_content_product_price">{{item.price}} ₽</p>
+						<p class="modal_content_product_price">{% widthratio item.price 1 item.quantity %} ₽</p>
                         <input id="spacer_id" type="hidden" name="id" value="{{item.id}}" />
+                        <input id="spacer_price" type="hidden" name="price" value="{{item.price}}" />
 						<button class="modal_content_product_backet" onclick=on_basket(this)><img src="{% static 'cartmodal/img/trash.svg' %}" alt="trash" class="modal_content_product_backet_img"></button>
 				</div>
                 {% endfor %}

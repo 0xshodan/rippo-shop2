@@ -32,7 +32,7 @@ class Cart(object):
                 car_name += " " + car.name
             data = {
                     "id": spacer_id,
-                    "quantity": 0,
+                    "quantity": 1,
                     "price": str(price),
                     "type": type,
                     "article": spacer.article,
@@ -99,6 +99,7 @@ class Cart(object):
         """
         Перебор элементов в корзине и получение продуктов из базы данных.
         """
+        print(self.cart)
         for item in self.cart.values():
             item["price"] = int(item["price"])
             item["total_price"] = item["price"] * item["quantity"]

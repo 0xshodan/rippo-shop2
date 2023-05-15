@@ -24,6 +24,9 @@ function on_increment(e) {
   var $pparent = $parent.parent();
   var id = $pparent.children("#spacer_id").val();
   var quantity = $parent.children(".modal_content_product_menu_item");
+  var price = $pparent.children(".modal_content_product_price");
+  var spacer_price = parseInt($pparent.children("#spacer_price").val());
+  var current_price = parseInt(price.text().split(" ")[0]);
   $.ajax({
     url: "/cart/",
     type: "PATCH",
@@ -38,6 +41,8 @@ function on_increment(e) {
     },
   });
   var qt = parseInt(quantity.text());
+  var newPrice = current_price + spacer_price;
+  price.text(`${newPrice} ₽`);
   quantity.text(++qt);
 }
 function on_decrement(e) {
@@ -46,6 +51,9 @@ function on_decrement(e) {
   var id = $pparent.children("#spacer_id").val();
   var quantity = $parent.children(".modal_content_product_menu_item");
   var qt = parseInt(quantity.text());
+  var price = $pparent.children(".modal_content_product_price");
+  var spacer_price = parseInt($pparent.children("#spacer_price").val());
+  var current_price = parseInt(price.text().split(" ")[0]);
   if (qt > 1) {
     $.ajax({
       url: "/cart/",
@@ -61,6 +69,8 @@ function on_decrement(e) {
       },
     });
     quantity.text(--qt);
+    var newPrice = current_price - spacer_price;
+    price.text(`${newPrice} ₽`);
   }
 }
 function on_basket(e) {

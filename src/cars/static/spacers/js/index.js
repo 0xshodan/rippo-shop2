@@ -39,7 +39,8 @@ function addToCart(csrftoken, id, type, car_id) {
         </div>
             <p class="modal_content_product_price">${data.price} ₽</p>
             <input id="spacer_id" type="hidden" name="id" value="${data.id}" />
-            <button class="modal_content_product_backet" onclick=on_basket(this)><img src="icons/trash.svg" alt="trash" class="modal_content_product_backet_img"></button>
+            <input id="spacer_price" type="hidden" name="price" value="${data.price}" />
+            <button class="modal_content_product_backet" onclick=on_basket(this)><img src="/static/cartmodal/img/trash.svg" alt="trash" class="modal_content_product_backet_img"></button>
       </div>`);
         incrementCart();
       }
