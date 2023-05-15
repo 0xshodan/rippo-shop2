@@ -53,11 +53,10 @@
 
 /* line 468, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 .machine_wrapper_car_img {
-  text-align: center;
-  height: 135px;
-  width: 120px;
-  min-width: 120px;
-  margin: 0 15px 0 0;
+    text-align: center;
+    margin: 0 15px 0 0;
+    width: 220px;
+    height: 150px;
 }
 
 /* line 474, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
