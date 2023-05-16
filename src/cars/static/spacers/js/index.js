@@ -21,7 +21,7 @@ function addToCart(csrftoken, id, type, car_id) {
       <div class="modal_content_product">
         <div class="modal_content_product_wrap">
           <a href="#" class="modal_content_produsct_link">
-            <img src="icons/modalicon.jpg" alt="" class="modal_content_product_wrap_img">
+            <img src="${data.photo_url}" alt="" class="modal_content_product_wrap_img">
           </a>
         </div>
 
