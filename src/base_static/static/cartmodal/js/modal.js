@@ -74,9 +74,7 @@ function on_decrement(e) {
   }
 }
 function on_basket(e) {
-  console.log($(e));
   var $parent = $(e).parent();
-  console.log($parent.children("#spacer_id"));
   var id = $parent.children("#spacer_id").val();
   $.ajax({
     url: "/cart/",
@@ -94,4 +92,16 @@ function on_basket(e) {
   var element = $(".head_last_cart_text");
   var current = parseInt(element.text());
   element.text(--current);
+  var $now = $(".modal_content_product_text_link");
+  var qt = parseInt($now.text().split(" ")[2]);
+  --qt;
+  if (qt === 0) {
+    $now.text("Корзина пуста");
+  } else {
+    $now.text(`В корзине ${qt} товаров`);
+  }
 }
+
+$(".modal_content_product_footer_btn").on("click", function () {
+  $(".modal").removeClass("modal_active");
+});

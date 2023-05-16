@@ -41,6 +41,12 @@ class CarGeneration(models.Model):
         related_name="generations",
         verbose_name="Модель автомобиля",
     )
+    front_offload = models.PositiveSmallIntegerField(verbose_name="Клиренс передней оси без нагрузки", null = True, blank=True)
+    front = models.PositiveSmallIntegerField(verbose_name="Клиренс передней оси с нагрузкой", null = True, blank=True)
+    back_offload = models.PositiveSmallIntegerField(verbose_name="Клиренс задней оси без нагрузки", null = True, blank=True)
+    back = models.PositiveSmallIntegerField(verbose_name="Клиренс задней оси с нагрузкой", null = True, blank=True)
+    bottom_offload = models.PositiveSmallIntegerField(verbose_name="Нижняя точка (дорожный просвет) без нагрузки", null = True, blank=True)
+    bottom = models.PositiveSmallIntegerField(verbose_name="Нижняя точка (дорожный просвет) с нагрузкой", null = True, blank=True)
 
     class Meta:
         verbose_name = "Поколение автомобиля"

@@ -62,7 +62,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 9,
-    "fields": { "name": "1007", "slug": "peugeot-1007-1007", "car": 2 }
+    "fields": {
+      "name": "1007",
+      "slug": "peugeot-1007-1007",
+      "car": 2,
+      "front_offload": 146,
+      "front": 128,
+      "back_offload": 185,
+      "back": 163,
+      "bottom_offload": 140,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -72,7 +82,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 11,
-    "fields": { "name": "108", "slug": "peugeot-108-108", "car": 6 }
+    "fields": {
+      "name": "108",
+      "slug": "peugeot-108-108",
+      "car": 6,
+      "front_offload": 135,
+      "front": 123,
+      "back_offload": 169,
+      "back": 154,
+      "bottom_offload": 130,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -170,7 +190,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 25,
-    "fields": { "name": "160", "slug": "fiat-tipo-160", "car": 1399 }
+    "fields": {
+      "name": "160",
+      "slug": "fiat-tipo-160",
+      "car": 1399,
+      "front_offload": 170,
+      "front": 145,
+      "back_offload": 222,
+      "back": 192,
+      "bottom_offload": 163,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -198,7 +228,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 29,
-    "fields": { "name": "2", "slug": "hyundai-solaris-2", "car": 1299 }
+    "fields": {
+      "name": "2",
+      "slug": "hyundai-solaris-2",
+      "car": 1299,
+      "front_offload": 145,
+      "front": 132,
+      "back_offload": 189,
+      "back": 172,
+      "bottom_offload": 139,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -271,7 +311,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 38,
-    "fields": { "name": "206", "slug": "peugeot-206-206", "car": 26 }
+    "fields": {
+      "name": "206",
+      "slug": "peugeot-206-206",
+      "car": 26,
+      "front_offload": 146,
+      "front": 130,
+      "back_offload": 185,
+      "back": 165,
+      "bottom_offload": 140,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -483,7 +533,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 74,
-    "fields": { "name": "301", "slug": "peugeot-301-301", "car": 70 }
+    "fields": {
+      "name": "301",
+      "slug": "peugeot-301-301",
+      "car": 70,
+      "front_offload": 141,
+      "front": 125,
+      "back_offload": 178,
+      "back": 158,
+      "bottom_offload": 135,
+      "bottom": 118
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -861,7 +921,13 @@
     "fields": {
       "name": "8V Рестайлинг",
       "slug": "audi-a3-8v-restajling",
-      "car": 144
+      "car": 144,
+      "front_offload": 138,
+      "front": 123,
+      "back_offload": 178,
+      "back": 159,
+      "bottom_offload": 132,
+      "bottom": 116
     }
   },
   {
@@ -1016,17 +1082,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 151,
-    "fields": { "name": "A", "slug": "opel-corsa-a", "car": 449 }
+    "fields": {
+      "name": "A",
+      "slug": "opel-corsa-a",
+      "car": 449,
+      "front_offload": 149,
+      "front": 125,
+      "back_offload": 187,
+      "back": 160,
+      "bottom_offload": 144,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 152,
-    "fields": { "name": "A", "slug": "opel-frontera-a", "car": 634 }
+    "fields": {
+      "name": "A",
+      "slug": "opel-frontera-a",
+      "car": 634,
+      "front_offload": 217,
+      "front": 196,
+      "back_offload": 259,
+      "back": 229,
+      "bottom_offload": 202,
+      "bottom": 179
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 153,
-    "fields": { "name": "A", "slug": "opel-zafira-a", "car": 1584 }
+    "fields": {
+      "name": "A",
+      "slug": "opel-zafira-a",
+      "car": 1584,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1066,7 +1162,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 161,
-    "fields": { "name": "A", "slug": "opel-omega-a", "car": 1022 }
+    "fields": {
+      "name": "A",
+      "slug": "opel-omega-a",
+      "car": 1022,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1086,7 +1192,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 165,
-    "fields": { "name": "A", "slug": "opel-vectra-a", "car": 1461 }
+    "fields": {
+      "name": "A",
+      "slug": "opel-vectra-a",
+      "car": 1461,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1177,7 +1293,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 176,
-    "fields": { "name": "A5", "slug": "volkswagen-beetle-a5", "car": 268 }
+    "fields": {
+      "name": "A5",
+      "slug": "volkswagen-beetle-a5",
+      "car": 268,
+      "front_offload": 137,
+      "front": 123,
+      "back_offload": 172,
+      "back": 155,
+      "bottom_offload": 132,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1598,12 +1724,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 237,
-    "fields": { "name": "B", "slug": "opel-frontera-b", "car": 634 }
+    "fields": {
+      "name": "B",
+      "slug": "opel-frontera-b",
+      "car": 634,
+      "front_offload": 217,
+      "front": 198,
+      "back_offload": 259,
+      "back": 231,
+      "bottom_offload": 202,
+      "bottom": 181
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 238,
-    "fields": { "name": "B", "slug": "opel-zafira-b", "car": 1584 }
+    "fields": {
+      "name": "B",
+      "slug": "opel-zafira-b",
+      "car": 1584,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1613,7 +1759,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 240,
-    "fields": { "name": "B", "slug": "opel-corsa-b", "car": 449 }
+    "fields": {
+      "name": "B",
+      "slug": "opel-corsa-b",
+      "car": 449,
+      "front_offload": 145,
+      "front": 123,
+      "back_offload": 182,
+      "back": 157,
+      "bottom_offload": 140,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1638,7 +1794,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 245,
-    "fields": { "name": "B", "slug": "opel-omega-b", "car": 1022 }
+    "fields": {
+      "name": "B",
+      "slug": "opel-omega-b",
+      "car": 1022,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1668,12 +1834,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 251,
-    "fields": { "name": "B", "slug": "opel-vectra-b", "car": 1461 }
+    "fields": {
+      "name": "B",
+      "slug": "opel-vectra-b",
+      "car": 1461,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 252,
-    "fields": { "name": "B", "slug": "opel-combo-b", "car": 428 }
+    "fields": {
+      "name": "B",
+      "slug": "opel-combo-b",
+      "car": 428,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1797,27 +1983,77 @@
   {
     "model": "cars.CarGeneration",
     "pk": 268,
-    "fields": { "name": "B14", "slug": "nissan-sunny-b14", "car": 1342 }
+    "fields": {
+      "name": "B14",
+      "slug": "nissan-sunny-b14",
+      "car": 1342,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 269,
-    "fields": { "name": "B15", "slug": "nissan-sunny-b15", "car": 1342 }
+    "fields": {
+      "name": "B15",
+      "slug": "nissan-sunny-b15",
+      "car": 1342,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 270,
-    "fields": { "name": "B16", "slug": "nissan-sentra-b16", "car": 1272 }
+    "fields": {
+      "name": "B16",
+      "slug": "nissan-sentra-b16",
+      "car": 1272,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 271,
-    "fields": { "name": "B3", "slug": "volkswagen-passat-b3", "car": 1054 }
+    "fields": {
+      "name": "B3",
+      "slug": "volkswagen-passat-b3",
+      "car": 1054,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 272,
-    "fields": { "name": "B4", "slug": "volkswagen-passat-b4", "car": 1054 }
+    "fields": {
+      "name": "B4",
+      "slug": "volkswagen-passat-b4",
+      "car": 1054,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1827,7 +2063,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 274,
-    "fields": { "name": "B5", "slug": "volkswagen-passat-b5", "car": 1054 }
+    "fields": {
+      "name": "B5",
+      "slug": "volkswagen-passat-b5",
+      "car": 1054,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1844,23 +2090,59 @@
     "fields": {
       "name": "B5 Рестайлинг",
       "slug": "audi-a4-b5-restajling",
-      "car": 145
+      "car": 145,
+      "front_offload": 153,
+      "front": 134,
+      "back_offload": 198,
+      "back": 174,
+      "bottom_offload": 147,
+      "bottom": 127
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 277,
-    "fields": { "name": "B6", "slug": "volkswagen-passat-b6", "car": 1054 }
+    "fields": {
+      "name": "B6",
+      "slug": "volkswagen-passat-b6",
+      "car": 1054,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 278,
-    "fields": { "name": "B7", "slug": "volkswagen-passat-b7", "car": 1054 }
+    "fields": {
+      "name": "B7",
+      "slug": "volkswagen-passat-b7",
+      "car": 1054,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 279,
-    "fields": { "name": "B8", "slug": "volkswagen-passat-b8", "car": 1054 }
+    "fields": {
+      "name": "B8",
+      "slug": "volkswagen-passat-b8",
+      "car": 1054,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -1981,7 +2263,13 @@
     "fields": {
       "name": "Bm Рестайлинг",
       "slug": "mazda-axela-bm-restajling",
-      "car": 245
+      "car": 245,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
     }
   },
   {
@@ -1990,7 +2278,13 @@
     "fields": {
       "name": "Bm Рестайлинг",
       "slug": "mazda-3-bm-restajling",
-      "car": 61
+      "car": 61,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
     }
   },
   {
@@ -2085,7 +2379,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 312,
-    "fields": { "name": "C", "slug": "opel-vectra-c", "car": 1461 }
+    "fields": {
+      "name": "C",
+      "slug": "opel-vectra-c",
+      "car": 1461,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -2095,7 +2399,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 314,
-    "fields": { "name": "C", "slug": "opel-combo-c", "car": 428 }
+    "fields": {
+      "name": "C",
+      "slug": "opel-combo-c",
+      "car": 428,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -2110,12 +2424,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 317,
-    "fields": { "name": "C", "slug": "opel-corsa-c", "car": 449 }
+    "fields": {
+      "name": "C",
+      "slug": "opel-corsa-c",
+      "car": 449,
+      "front_offload": 145,
+      "front": 125,
+      "back_offload": 182,
+      "back": 159,
+      "bottom_offload": 140,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 318,
-    "fields": { "name": "C", "slug": "opel-zafira-c", "car": 1584 }
+    "fields": {
+      "name": "C",
+      "slug": "opel-zafira-c",
+      "car": 1584,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -2306,7 +2640,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 341,
-    "fields": { "name": "C8", "slug": "audi-a6-c8", "car": 149 }
+    "fields": {
+      "name": "C8",
+      "slug": "audi-a6-c8",
+      "car": 149,
+      "front_offload": 138,
+      "front": 127,
+      "back_offload": 178,
+      "back": 163,
+      "bottom_offload": 132,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -2645,7 +2989,13 @@
     "fields": {
       "name": "Citan w415",
       "slug": "mercedes-benz-citan-citan-w415",
-      "car": 409
+      "car": 409,
+      "front_offload": 157,
+      "front": 144,
+      "back_offload": 193,
+      "back": 174,
+      "bottom_offload": 147,
+      "bottom": 133
     }
   },
   {
@@ -2665,7 +3015,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 392,
-    "fields": { "name": "Cl11", "slug": "suzuki-alto-cl11", "car": 186 }
+    "fields": {
+      "name": "Cl11",
+      "slug": "suzuki-alto-cl11",
+      "car": 186,
+      "front_offload": 169,
+      "front": 143,
+      "back_offload": 214,
+      "back": 183,
+      "bottom_offload": 162,
+      "bottom": 135
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -2851,7 +3211,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 418,
-    "fields": { "name": "D", "slug": "opel-corsa-d", "car": 449 }
+    "fields": {
+      "name": "D",
+      "slug": "opel-corsa-d",
+      "car": 449,
+      "front_offload": 137,
+      "front": 121,
+      "back_offload": 172,
+      "back": 153,
+      "bottom_offload": 132,
+      "bottom": 115
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -2861,7 +3231,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 420,
-    "fields": { "name": "D", "slug": "opel-combo-d", "car": 428 }
+    "fields": {
+      "name": "D",
+      "slug": "opel-combo-d",
+      "car": 428,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3029,7 +3409,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 444,
-    "fields": { "name": "E", "slug": "opel-kadett-e", "car": 798 }
+    "fields": {
+      "name": "E",
+      "slug": "opel-kadett-e",
+      "car": 798,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3049,7 +3439,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 448,
-    "fields": { "name": "E", "slug": "opel-corsa-e", "car": 449 }
+    "fields": {
+      "name": "E",
+      "slug": "opel-corsa-e",
+      "car": 449,
+      "front_offload": 137,
+      "front": 125,
+      "back_offload": 172,
+      "back": 157,
+      "bottom_offload": 132,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3072,7 +3472,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 451,
-    "fields": { "name": "E110", "slug": "toyota-corolla-e110", "car": 439 }
+    "fields": {
+      "name": "E110",
+      "slug": "toyota-corolla-e110",
+      "car": 439,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3080,7 +3490,13 @@
     "fields": {
       "name": "E160 Рестайлинг",
       "slug": "toyota-corolla-e160-restajling",
-      "car": 439
+      "car": 439,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
     }
   },
   {
@@ -3125,7 +3541,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 460,
-    "fields": { "name": "E36", "slug": "bmw-z3-e36", "car": 1571 }
+    "fields": {
+      "name": "E36",
+      "slug": "bmw-z3-e36",
+      "car": 1571,
+      "front_offload": 140,
+      "front": 121,
+      "back_offload": 174,
+      "back": 152,
+      "bottom_offload": 135,
+      "bottom": 115
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3437,7 +3863,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 508,
-    "fields": { "name": "F", "slug": "opel-astra-f", "car": 215 }
+    "fields": {
+      "name": "F",
+      "slug": "opel-astra-f",
+      "car": 215,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3737,7 +4173,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 552,
-    "fields": { "name": "G", "slug": "opel-astra-g", "car": 215 }
+    "fields": {
+      "name": "G",
+      "slug": "opel-astra-g",
+      "car": 215,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3760,7 +4206,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 555,
-    "fields": { "name": "G01", "slug": "bmw-x3-g01", "car": 1529 }
+    "fields": {
+      "name": "G01",
+      "slug": "bmw-x3-g01",
+      "car": 1529,
+      "front_offload": 196,
+      "front": 186,
+      "back_offload": 222,
+      "back": 204,
+      "bottom_offload": 220,
+      "bottom": 208
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -3770,7 +4226,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 557,
-    "fields": { "name": "G02", "slug": "bmw-x4-g02", "car": 1530 }
+    "fields": {
+      "name": "G02",
+      "slug": "bmw-x4-g02",
+      "car": 1530,
+      "front_offload": 196,
+      "front": 186,
+      "back_offload": 222,
+      "back": 204,
+      "bottom_offload": 220,
+      "bottom": 208
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -4087,7 +4553,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 602,
-    "fields": { "name": "H", "slug": "opel-astra-h", "car": 215 }
+    "fields": {
+      "name": "H",
+      "slug": "opel-astra-h",
+      "car": 215,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -4130,7 +4606,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 609,
-    "fields": { "name": "H200", "slug": "toyota-hiace-h200", "car": 722 }
+    "fields": {
+      "name": "H200",
+      "slug": "toyota-hiace-h200",
+      "car": 722,
+      "front_offload": 195,
+      "front": 180,
+      "back_offload": 233,
+      "back": 210,
+      "bottom_offload": 181,
+      "bottom": 164
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -4178,7 +4664,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 617,
-    "fields": { "name": "Ha36", "slug": "suzuki-alto-ha36", "car": 186 }
+    "fields": {
+      "name": "Ha36",
+      "slug": "suzuki-alto-ha36",
+      "car": 186,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -6745,17 +7241,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1124,
-    "fields": { "name": "I (620)", "slug": "lifan-solano-i-620", "car": 1298 }
+    "fields": {
+      "name": "I (620)",
+      "slug": "lifan-solano-i-620",
+      "car": 1298,
+      "front_offload": 145,
+      "front": 131,
+      "back_offload": 192,
+      "back": 173,
+      "bottom_offload": 139,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1125,
-    "fields": { "name": "I (8L)", "slug": "audi-a3-i-8l", "car": 144 }
+    "fields": {
+      "name": "I (8L)",
+      "slug": "audi-a3-i-8l",
+      "car": 144,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1126,
-    "fields": { "name": "I (8L)", "slug": "audi-s3-i-8l", "car": 1213 }
+    "fields": {
+      "name": "I (8L)",
+      "slug": "audi-s3-i-8l",
+      "car": 1213,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -6769,7 +7295,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1128,
-    "fields": { "name": "I (8N)", "slug": "audi-tt-i-8n", "car": 1356 }
+    "fields": {
+      "name": "I (8N)",
+      "slug": "audi-tt-i-8n",
+      "car": 1356,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -6783,7 +7319,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1130,
-    "fields": { "name": "I (955)", "slug": "porsche-cayenne-i-955", "car": 381 }
+    "fields": {
+      "name": "I (955)",
+      "slug": "porsche-cayenne-i-955",
+      "car": 381,
+      "front_offload": 206,
+      "front": 190,
+      "back_offload": 234,
+      "back": 210,
+      "bottom_offload": 192,
+      "bottom": 174
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -6835,7 +7381,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1138,
-    "fields": { "name": "I (B5)", "slug": "audi-s4-i-b5", "car": 1214 }
+    "fields": {
+      "name": "I (B5)",
+      "slug": "audi-s4-i-b5",
+      "car": 1214,
+      "front_offload": 153,
+      "front": 134,
+      "back_offload": 198,
+      "back": 174,
+      "bottom_offload": 147,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -6849,7 +7405,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1140,
-    "fields": { "name": "I (BK)", "slug": "mazda-3-i-bk", "car": 61 }
+    "fields": {
+      "name": "I (BK)",
+      "slug": "mazda-3-i-bk",
+      "car": 61,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -6863,7 +7429,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1142,
-    "fields": { "name": "I (C10)", "slug": "toyota-passo-i-c10", "car": 1057 }
+    "fields": {
+      "name": "I (C10)",
+      "slug": "toyota-passo-i-c10",
+      "car": 1057,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -6949,12 +7525,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1152,
-    "fields": { "name": "I (C4)", "slug": "audi-a6-i-c4", "car": 149 }
+    "fields": {
+      "name": "I (C4)",
+      "slug": "audi-a6-i-c4",
+      "car": 149,
+      "front_offload": 153,
+      "front": 132,
+      "back_offload": 198,
+      "back": 172,
+      "bottom_offload": 147,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1153,
-    "fields": { "name": "I (C4)", "slug": "audi-s6-i-c4", "car": 1217 }
+    "fields": {
+      "name": "I (C4)",
+      "slug": "audi-s6-i-c4",
+      "car": 1217,
+      "front_offload": 153,
+      "front": 132,
+      "back_offload": 198,
+      "back": 172,
+      "bottom_offload": 147,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7006,12 +7602,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1161,
-    "fields": { "name": "I (D2)", "slug": "audi-s8-i-d2", "car": 1221 }
+    "fields": {
+      "name": "I (D2)",
+      "slug": "audi-s8-i-d2",
+      "car": 1221,
+      "front_offload": 153,
+      "front": 134,
+      "back_offload": 198,
+      "back": 174,
+      "bottom_offload": 147,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1162,
-    "fields": { "name": "I (D2)", "slug": "audi-a8-i-d2", "car": 152 }
+    "fields": {
+      "name": "I (D2)",
+      "slug": "audi-a8-i-d2",
+      "car": 152,
+      "front_offload": 153,
+      "front": 134,
+      "back_offload": 198,
+      "back": 174,
+      "bottom_offload": 147,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7058,17 +7674,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1169,
-    "fields": { "name": "I (E30)", "slug": "bmw-m3-i-e30", "car": 895 }
+    "fields": {
+      "name": "I (E30)",
+      "slug": "bmw-m3-i-e30",
+      "car": 895,
+      "front_offload": 164,
+      "front": 141,
+      "back_offload": 212,
+      "back": 184,
+      "bottom_offload": 157,
+      "bottom": 133
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1170,
-    "fields": { "name": "I (E50)", "slug": "nissan-elgrand-i-e50", "car": 538 }
+    "fields": {
+      "name": "I (E50)",
+      "slug": "nissan-elgrand-i-e50",
+      "car": 538,
+      "front_offload": 214,
+      "front": 195,
+      "back_offload": 257,
+      "back": 229,
+      "bottom_offload": 199,
+      "bottom": 178
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1171,
-    "fields": { "name": "I (E53)", "slug": "bmw-x5-i-e53", "car": 1531 }
+    "fields": {
+      "name": "I (E53)",
+      "slug": "bmw-x5-i-e53",
+      "car": 1531,
+      "front_offload": 206,
+      "front": 188,
+      "back_offload": 234,
+      "back": 208,
+      "bottom_offload": 192,
+      "bottom": 172
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7092,7 +7738,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1175,
-    "fields": { "name": "I (E71)", "slug": "bmw-x6-i-e71", "car": 1534 }
+    "fields": {
+      "name": "I (E71)",
+      "slug": "bmw-x6-i-e71",
+      "car": 1534,
+      "front_offload": 206,
+      "front": 192,
+      "back_offload": 234,
+      "back": 211,
+      "bottom_offload": 230,
+      "bottom": 214
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7115,7 +7771,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1178,
-    "fields": { "name": "I (E83)", "slug": "bmw-x3-i-e83", "car": 1529 }
+    "fields": {
+      "name": "I (E83)",
+      "slug": "bmw-x3-i-e83",
+      "car": 1529,
+      "front_offload": 206,
+      "front": 190,
+      "back_offload": 234,
+      "back": 210,
+      "bottom_offload": 192,
+      "bottom": 174
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7129,7 +7795,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1180,
-    "fields": { "name": "I (E84)", "slug": "bmw-x1-i-e84", "car": 1527 }
+    "fields": {
+      "name": "I (E84)",
+      "slug": "bmw-x1-i-e84",
+      "car": 1527,
+      "front_offload": 206,
+      "front": 192,
+      "back_offload": 234,
+      "back": 211,
+      "bottom_offload": 230,
+      "bottom": 214
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7143,7 +7819,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1182,
-    "fields": { "name": "I (E85/E86)", "slug": "bmw-z4-i-e85e86", "car": 1573 }
+    "fields": {
+      "name": "I (E85/E86)",
+      "slug": "bmw-z4-i-e85e86",
+      "car": 1573,
+      "front_offload": 143,
+      "front": 126,
+      "back_offload": 185,
+      "back": 164,
+      "bottom_offload": 137,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7171,7 +7857,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1186,
-    "fields": { "name": "I (F10)", "slug": "toyota-celsior-i-f10", "car": 392 }
+    "fields": {
+      "name": "I (F10)",
+      "slug": "toyota-celsior-i-f10",
+      "car": 392,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7254,7 +7950,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1197,
-    "fields": { "name": "I (J1)", "slug": "hyundai-elantra-i-j1", "car": 535 }
+    "fields": {
+      "name": "I (J1)",
+      "slug": "hyundai-elantra-i-j1",
+      "car": 535,
+      "front_offload": 161,
+      "front": 136,
+      "back_offload": 209,
+      "back": 179,
+      "bottom_offload": 154,
+      "bottom": 128
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7274,12 +7980,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1201,
-    "fields": { "name": "I (M10)", "slug": "toyota-ipsum-i-m10", "car": 773 }
+    "fields": {
+      "name": "I (M10)",
+      "slug": "toyota-ipsum-i-m10",
+      "car": 773,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1202,
-    "fields": { "name": "I (N15)", "slug": "nissan-almera-i-n15", "car": 178 }
+    "fields": {
+      "name": "I (N15)",
+      "slug": "nissan-almera-i-n15",
+      "car": 178,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7287,7 +8013,13 @@
     "fields": {
       "name": "I (NHW10)",
       "slug": "toyota-prius-i-nhw10",
-      "car": 1096
+      "car": 1096,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
@@ -7302,7 +8034,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1205,
-    "fields": { "name": "I (P10)", "slug": "nissan-primera-i-p10", "car": 1094 }
+    "fields": {
+      "name": "I (P10)",
+      "slug": "nissan-primera-i-p10",
+      "car": 1094,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7367,12 +8109,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1214,
-    "fields": { "name": "I (RC)", "slug": "hyundai-tiburon-i-rc", "car": 1385 }
+    "fields": {
+      "name": "I (RC)",
+      "slug": "hyundai-tiburon-i-rc",
+      "car": 1385,
+      "front_offload": 161,
+      "front": 138,
+      "back_offload": 209,
+      "back": 181,
+      "bottom_offload": 154,
+      "bottom": 130
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1215,
-    "fields": { "name": "I (RD)", "slug": "hyundai-coupe-i-rd", "car": 454 }
+    "fields": {
+      "name": "I (RD)",
+      "slug": "hyundai-coupe-i-rd",
+      "car": 454,
+      "front_offload": 150,
+      "front": 129,
+      "back_offload": 196,
+      "back": 171,
+      "bottom_offload": 144,
+      "bottom": 122
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7380,7 +8142,13 @@
     "fields": {
       "name": "I (RD) Рестайлинг",
       "slug": "hyundai-tiburon-i-rd-restajling",
-      "car": 1385
+      "car": 1385,
+      "front_offload": 150,
+      "front": 129,
+      "back_offload": 196,
+      "back": 171,
+      "bottom_offload": 144,
+      "bottom": 122
     }
   },
   {
@@ -7412,7 +8180,13 @@
     "fields": {
       "name": "I (U20)",
       "slug": "toyota-highlander-i-u20",
-      "car": 723
+      "car": 723,
+      "front_offload": 211,
+      "front": 196,
+      "back_offload": 252,
+      "back": 228,
+      "bottom_offload": 248,
+      "bottom": 231
     }
   },
   {
@@ -7692,7 +8466,13 @@
     "fields": {
       "name": "I (W638)",
       "slug": "mercedes-benz-vito-i-w638",
-      "car": 1496
+      "car": 1496,
+      "front_offload": 207,
+      "front": 189,
+      "back_offload": 254,
+      "back": 227,
+      "bottom_offload": 194,
+      "bottom": 174
     }
   },
   {
@@ -7701,7 +8481,13 @@
     "fields": {
       "name": "I (W639)",
       "slug": "mercedes-benz-viano-i-w639",
-      "car": 1487
+      "car": 1487,
+      "front_offload": 187,
+      "front": 173,
+      "back_offload": 231,
+      "back": 209,
+      "bottom_offload": 176,
+      "bottom": 160
     }
   },
   {
@@ -7814,7 +8600,13 @@
     "fields": {
       "name": "I (XU10)",
       "slug": "toyota-harrier-i-xu10",
-      "car": 720
+      "car": 720,
+      "front_offload": 217,
+      "front": 198,
+      "back_offload": 259,
+      "back": 231,
+      "bottom_offload": 202,
+      "bottom": 181
     }
   },
   {
@@ -7829,7 +8621,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1268,
-    "fields": { "name": "I (XU20)", "slug": "toyota-kluger-i-xu20", "car": 811 }
+    "fields": {
+      "name": "I (XU20)",
+      "slug": "toyota-kluger-i-xu20",
+      "car": 811,
+      "front_offload": 211,
+      "front": 192,
+      "back_offload": 252,
+      "back": 224,
+      "bottom_offload": 197,
+      "bottom": 176
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7855,13 +8657,29 @@
     "fields": {
       "name": "I (Y10)",
       "slug": "nissan-wingroad-i-y10",
-      "car": 1516
+      "car": 1516,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 1272,
-    "fields": { "name": "I (Z10)", "slug": "nissan-cube-i-z10", "car": 472 }
+    "fields": {
+      "name": "I (Z10)",
+      "slug": "nissan-cube-i-z10",
+      "car": 472,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -7871,7 +8689,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 1274,
-    "fields": { "name": "I (Z50)", "slug": "nissan-murano-i-z50", "car": 985 }
+    "fields": {
+      "name": "I (Z50)",
+      "slug": "nissan-murano-i-z50",
+      "car": 985,
+      "front_offload": 211,
+      "front": 194,
+      "back_offload": 252,
+      "back": 226,
+      "bottom_offload": 197,
+      "bottom": 178
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -10779,7 +11607,13 @@
     "fields": {
       "name": "I Рестайлинг (957)",
       "slug": "porsche-cayenne-i-restajling-957",
-      "car": 381
+      "car": 381,
+      "front_offload": 206,
+      "front": 192,
+      "back_offload": 234,
+      "back": 211,
+      "bottom_offload": 230,
+      "bottom": 214
     }
   },
   {
@@ -10833,7 +11667,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "ford-escape-i-restajling-2",
-      "car": 554
+      "car": 554,
+      "front_offload": 210,
+      "front": 195,
+      "back_offload": 251,
+      "back": 227,
+      "bottom_offload": 247,
+      "bottom": 230
     }
   },
   {
@@ -10851,7 +11691,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "subaru-pleo-i-restajling-2",
-      "car": 1079
+      "car": 1079,
+      "front_offload": 146,
+      "front": 129,
+      "back_offload": 190,
+      "back": 169,
+      "bottom_offload": 140,
+      "bottom": 122
     }
   },
   {
@@ -10914,7 +11760,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "citroen-c1-i-restajling-2",
-      "car": 307
+      "car": 307,
+      "front_offload": 138,
+      "front": 125,
+      "back_offload": 177,
+      "back": 161,
+      "bottom_offload": 133,
+      "bottom": 119
     }
   },
   {
@@ -10923,7 +11775,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "volkswagen-sharan-i-restajling-2",
-      "car": 1277
+      "car": 1277,
+      "front_offload": 195,
+      "front": 180,
+      "back_offload": 233,
+      "back": 210,
+      "bottom_offload": 181,
+      "bottom": 164
     }
   },
   {
@@ -10950,7 +11808,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "chevrolet-captiva-i-restajling-2",
-      "car": 362
+      "car": 362,
+      "front_offload": 199,
+      "front": 188,
+      "back_offload": 238,
+      "back": 218,
+      "bottom_offload": 236,
+      "bottom": 223
     }
   },
   {
@@ -10959,7 +11823,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "toyota-aygo-i-restajling-2",
-      "car": 247
+      "car": 247,
+      "front_offload": 137,
+      "front": 123,
+      "back_offload": 172,
+      "back": 155,
+      "bottom_offload": 132,
+      "bottom": 117
     }
   },
   {
@@ -10968,7 +11838,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "kia-spectra-i-restajling-2",
-      "car": 1316
+      "car": 1316,
+      "front_offload": 150,
+      "front": 131,
+      "back_offload": 196,
+      "back": 172,
+      "bottom_offload": 144,
+      "bottom": 124
     }
   },
   {
@@ -10977,7 +11853,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "saab-9-5-i-restajling-2",
-      "car": 128
+      "car": 128,
+      "front_offload": 141,
+      "front": 125,
+      "back_offload": 178,
+      "back": 158,
+      "bottom_offload": 135,
+      "bottom": 118
     }
   },
   {
@@ -10995,7 +11877,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "renault-symbol-i-restajling-2",
-      "car": 1348
+      "car": 1348,
+      "front_offload": 149,
+      "front": 132,
+      "back_offload": 194,
+      "back": 172,
+      "bottom_offload": 143,
+      "bottom": 125
     }
   },
   {
@@ -11004,7 +11892,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "jeep-compass-i-restajling-2",
-      "car": 432
+      "car": 432,
+      "front_offload": 199,
+      "front": 188,
+      "back_offload": 238,
+      "back": 218,
+      "bottom_offload": 236,
+      "bottom": 223
     }
   },
   {
@@ -11022,7 +11916,13 @@
     "fields": {
       "name": "I Рестайлинг 2",
       "slug": "renault-koleos-i-restajling-2",
-      "car": 814
+      "car": 814,
+      "front_offload": 203,
+      "front": 189,
+      "back_offload": 235,
+      "back": 212,
+      "bottom_offload": 233,
+      "bottom": 217
     }
   },
   {
@@ -13089,7 +13989,13 @@
     "fields": {
       "name": "II (4m) Рестайлинг",
       "slug": "audi-q7-ii-4m-restajling",
-      "car": 1122
+      "car": 1122,
+      "front_offload": 196,
+      "front": 186,
+      "back_offload": 222,
+      "back": 204,
+      "bottom_offload": 220,
+      "bottom": 208
     }
   },
   {
@@ -13100,7 +14006,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2027,
-    "fields": { "name": "II (8J)", "slug": "audi-tt-ii-8j", "car": 1356 }
+    "fields": {
+      "name": "II (8J)",
+      "slug": "audi-tt-ii-8j",
+      "car": 1356,
+      "front_offload": 143,
+      "front": 128,
+      "back_offload": 185,
+      "back": 166,
+      "bottom_offload": 137,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13133,7 +14049,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2032,
-    "fields": { "name": "II (8P)", "slug": "audi-a3-ii-8p", "car": 144 }
+    "fields": {
+      "name": "II (8P)",
+      "slug": "audi-a3-ii-8p",
+      "car": 144,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13173,7 +14099,13 @@
     "fields": {
       "name": "II (958)",
       "slug": "porsche-cayenne-ii-958",
-      "car": 381
+      "car": 381,
+      "front_offload": 196,
+      "front": 184,
+      "back_offload": 222,
+      "back": 202,
+      "bottom_offload": 220,
+      "bottom": 206
     }
   },
   {
@@ -13191,7 +14123,13 @@
     "fields": {
       "name": "II (987)",
       "slug": "porsche-boxster-ii-987",
-      "car": 291
+      "car": 291,
+      "front_offload": 143,
+      "front": 128,
+      "back_offload": 185,
+      "back": 166,
+      "bottom_offload": 137,
+      "bottom": 121
     }
   },
   {
@@ -13200,7 +14138,13 @@
     "fields": {
       "name": "II (987) Рестайлинг 1",
       "slug": "porsche-boxster-ii-987-restajling-1",
-      "car": 291
+      "car": 291,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
     }
   },
   {
@@ -13215,7 +14159,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2042,
-    "fields": { "name": "II (A32)", "slug": "nissan-cefiro-ii-a32", "car": 388 }
+    "fields": {
+      "name": "II (A32)",
+      "slug": "nissan-cefiro-ii-a32",
+      "car": 388,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13229,7 +14183,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2044,
-    "fields": { "name": "II (B3)", "slug": "audi-90-ii-b3", "car": 130 }
+    "fields": {
+      "name": "II (B3)",
+      "slug": "audi-90-ii-b3",
+      "car": 130,
+      "front_offload": 164,
+      "front": 141,
+      "back_offload": 212,
+      "back": 184,
+      "bottom_offload": 157,
+      "bottom": 133
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13248,12 +14212,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2047,
-    "fields": { "name": "II (B6)", "slug": "audi-a4-ii-b6", "car": 145 }
+    "fields": {
+      "name": "II (B6)",
+      "slug": "audi-a4-ii-b6",
+      "car": 145,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2048,
-    "fields": { "name": "II (B6)", "slug": "audi-s4-ii-b6", "car": 1214 }
+    "fields": {
+      "name": "II (B6)",
+      "slug": "audi-s4-ii-b6",
+      "car": 1214,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13268,7 +14252,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2051,
-    "fields": { "name": "II (BL)", "slug": "mazda-3-ii-bl", "car": 61 }
+    "fields": {
+      "name": "II (BL)",
+      "slug": "mazda-3-ii-bl",
+      "car": 61,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13310,17 +14304,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2057,
-    "fields": { "name": "II (C30)", "slug": "toyota-passo-ii-c30", "car": 1057 }
+    "fields": {
+      "name": "II (C30)",
+      "slug": "toyota-passo-ii-c30",
+      "car": 1057,
+      "front_offload": 143,
+      "front": 131,
+      "back_offload": 181,
+      "back": 165,
+      "bottom_offload": 137,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2058,
-    "fields": { "name": "II (C5)", "slug": "audi-s6-ii-c5", "car": 1217 }
+    "fields": {
+      "name": "II (C5)",
+      "slug": "audi-s6-ii-c5",
+      "car": 1217,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2059,
-    "fields": { "name": "II (C5)", "slug": "audi-a6-ii-c5", "car": 149 }
+    "fields": {
+      "name": "II (C5)",
+      "slug": "audi-a6-ii-c5",
+      "car": 149,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13392,12 +14416,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2071,
-    "fields": { "name": "II (E34)", "slug": "bmw-m5-ii-e34", "car": 897 }
+    "fields": {
+      "name": "II (E34)",
+      "slug": "bmw-m5-ii-e34",
+      "car": 897,
+      "front_offload": 153,
+      "front": 130,
+      "back_offload": 198,
+      "back": 171,
+      "bottom_offload": 147,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2072,
-    "fields": { "name": "II (E36)", "slug": "bmw-m3-ii-e36", "car": 895 }
+    "fields": {
+      "name": "II (E36)",
+      "slug": "bmw-m3-ii-e36",
+      "car": 895,
+      "front_offload": 153,
+      "front": 132,
+      "back_offload": 198,
+      "back": 172,
+      "bottom_offload": 147,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13405,13 +14449,29 @@
     "fields": {
       "name": "II (E51)",
       "slug": "nissan-elgrand-ii-e51",
-      "car": 538
+      "car": 538,
+      "front_offload": 204,
+      "front": 187,
+      "back_offload": 245,
+      "back": 219,
+      "bottom_offload": 190,
+      "bottom": 171
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2074,
-    "fields": { "name": "II (E63/E64)", "slug": "bmw-m6-ii-e63e64", "car": 898 }
+    "fields": {
+      "name": "II (E63/E64)",
+      "slug": "bmw-m6-ii-e63e64",
+      "car": 898,
+      "front_offload": 143,
+      "front": 126,
+      "back_offload": 185,
+      "back": 164,
+      "bottom_offload": 137,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13434,7 +14494,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2077,
-    "fields": { "name": "II (E70)", "slug": "bmw-x5-ii-e70", "car": 1531 }
+    "fields": {
+      "name": "II (E70)",
+      "slug": "bmw-x5-ii-e70",
+      "car": 1531,
+      "front_offload": 206,
+      "front": 192,
+      "back_offload": 234,
+      "back": 211,
+      "bottom_offload": 230,
+      "bottom": 214
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13448,7 +14518,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2079,
-    "fields": { "name": "II (E89)", "slug": "bmw-z4-ii-e89", "car": 1573 }
+    "fields": {
+      "name": "II (E89)",
+      "slug": "bmw-z4-ii-e89",
+      "car": 1573,
+      "front_offload": 138,
+      "front": 125,
+      "back_offload": 178,
+      "back": 161,
+      "bottom_offload": 132,
+      "bottom": 118
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13471,7 +14551,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2082,
-    "fields": { "name": "II (F16)", "slug": "bmw-x6-ii-f16", "car": 1534 }
+    "fields": {
+      "name": "II (F16)",
+      "slug": "bmw-x6-ii-f16",
+      "car": 1534,
+      "front_offload": 196,
+      "front": 186,
+      "back_offload": 222,
+      "back": 204,
+      "bottom_offload": 220,
+      "bottom": 208
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13479,7 +14569,13 @@
     "fields": {
       "name": "II (F20)",
       "slug": "toyota-celsior-ii-f20",
-      "car": 392
+      "car": 392,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
     }
   },
   {
@@ -13512,7 +14608,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2087,
-    "fields": { "name": "II (F25)", "slug": "bmw-x3-ii-f25", "car": 1529 }
+    "fields": {
+      "name": "II (F25)",
+      "slug": "bmw-x3-ii-f25",
+      "car": 1529,
+      "front_offload": 196,
+      "front": 182,
+      "back_offload": 222,
+      "back": 200,
+      "bottom_offload": 220,
+      "bottom": 204
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13526,7 +14632,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2089,
-    "fields": { "name": "II (F48)", "slug": "bmw-x1-ii-f48", "car": 1527 }
+    "fields": {
+      "name": "II (F48)",
+      "slug": "bmw-x1-ii-f48",
+      "car": 1527,
+      "front_offload": 196,
+      "front": 186,
+      "back_offload": 222,
+      "back": 204,
+      "bottom_offload": 220,
+      "bottom": 208
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13569,7 +14685,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2096,
-    "fields": { "name": "II (GK)", "slug": "hyundai-coupe-ii-gk", "car": 454 }
+    "fields": {
+      "name": "II (GK)",
+      "slug": "hyundai-coupe-ii-gk",
+      "car": 454,
+      "front_offload": 150,
+      "front": 131,
+      "back_offload": 196,
+      "back": 172,
+      "bottom_offload": 144,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13577,7 +14703,13 @@
     "fields": {
       "name": "II (GK)",
       "slug": "hyundai-tiburon-ii-gk",
-      "car": 1385
+      "car": 1385,
+      "front_offload": 150,
+      "front": 131,
+      "back_offload": 196,
+      "back": 172,
+      "bottom_offload": 144,
+      "bottom": 124
     }
   },
   {
@@ -13636,18 +14768,44 @@
     "fields": {
       "name": "II (J2, J3)",
       "slug": "hyundai-elantra-ii-j2-j3",
-      "car": 535
+      "car": 535,
+      "front_offload": 161,
+      "front": 138,
+      "back_offload": 209,
+      "back": 181,
+      "bottom_offload": 154,
+      "bottom": 130
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2105,
-    "fields": { "name": "II (K11)", "slug": "nissan-march-ii-k11", "car": 924 }
+    "fields": {
+      "name": "II (K11)",
+      "slug": "nissan-march-ii-k11",
+      "car": 924,
+      "front_offload": 145,
+      "front": 123,
+      "back_offload": 182,
+      "back": 157,
+      "bottom_offload": 140,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2106,
-    "fields": { "name": "II (K11)", "slug": "nissan-micra-ii-k11", "car": 952 }
+    "fields": {
+      "name": "II (K11)",
+      "slug": "nissan-micra-ii-k11",
+      "car": 952,
+      "front_offload": 149,
+      "front": 127,
+      "back_offload": 187,
+      "back": 162,
+      "bottom_offload": 144,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13698,7 +14856,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2113,
-    "fields": { "name": "II (M20)", "slug": "toyota-ipsum-ii-m20", "car": 773 }
+    "fields": {
+      "name": "II (M20)",
+      "slug": "toyota-ipsum-ii-m20",
+      "car": 773,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13712,7 +14880,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2115,
-    "fields": { "name": "II (N16)", "slug": "nissan-almera-ii-n16", "car": 178 }
+    "fields": {
+      "name": "II (N16)",
+      "slug": "nissan-almera-ii-n16",
+      "car": 178,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13729,7 +14907,13 @@
     "fields": {
       "name": "II (NHW20)",
       "slug": "toyota-prius-ii-nhw20",
-      "car": 1096
+      "car": 1096,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
     }
   },
   {
@@ -13738,7 +14922,13 @@
     "fields": {
       "name": "II (P11)",
       "slug": "nissan-primera-ii-p11",
-      "car": 1094
+      "car": 1094,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
     }
   },
   {
@@ -13862,7 +15052,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2133,
-    "fields": { "name": "II (TJ)", "slug": "jeep-wrangler-ii-tj", "car": 1520 }
+    "fields": {
+      "name": "II (TJ)",
+      "slug": "jeep-wrangler-ii-tj",
+      "car": 1520,
+      "front_offload": 215,
+      "front": 196,
+      "back_offload": 257,
+      "back": 229,
+      "bottom_offload": 201,
+      "bottom": 180
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13888,7 +15088,13 @@
     "fields": {
       "name": "II (U40)",
       "slug": "toyota-highlander-ii-u40",
-      "car": 723
+      "car": 723,
+      "front_offload": 200,
+      "front": 189,
+      "back_offload": 239,
+      "back": 219,
+      "bottom_offload": 237,
+      "bottom": 224
     }
   },
   {
@@ -13908,7 +15114,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2139,
-    "fields": { "name": "II (V20)", "slug": "toyota-camry-ii-v20", "car": 355 }
+    "fields": {
+      "name": "II (V20)",
+      "slug": "toyota-camry-ii-v20",
+      "car": 355,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -13986,7 +15202,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2149,
-    "fields": { "name": "II (W20)", "slug": "toyota-mr2-ii-w20", "car": 911 }
+    "fields": {
+      "name": "II (W20)",
+      "slug": "toyota-mr2-ii-w20",
+      "car": 911,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -14210,7 +15436,13 @@
     "fields": {
       "name": "II (W639)",
       "slug": "mercedes-benz-vito-ii-w639",
-      "car": 1496
+      "car": 1496,
+      "front_offload": 197,
+      "front": 181,
+      "back_offload": 242,
+      "back": 217,
+      "bottom_offload": 185,
+      "bottom": 167
     }
   },
   {
@@ -14279,7 +15511,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2182,
-    "fields": { "name": "II (XJ)", "slug": "jeep-cherokee-ii-xj", "car": 406 }
+    "fields": {
+      "name": "II (XJ)",
+      "slug": "jeep-cherokee-ii-xj",
+      "car": 406,
+      "front_offload": 215,
+      "front": 194,
+      "back_offload": 257,
+      "back": 227,
+      "bottom_offload": 201,
+      "bottom": 178
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -14296,7 +15538,13 @@
     "fields": {
       "name": "II (XP90)",
       "slug": "toyota-vitz-ii-xp90",
-      "car": 1497
+      "car": 1497,
+      "front_offload": 140,
+      "front": 122,
+      "back_offload": 176,
+      "back": 155,
+      "bottom_offload": 135,
+      "bottom": 116
     }
   },
   {
@@ -14314,7 +15562,13 @@
     "fields": {
       "name": "II (XU30)",
       "slug": "toyota-harrier-ii-xu30",
-      "car": 720
+      "car": 720,
+      "front_offload": 200,
+      "front": 189,
+      "back_offload": 239,
+      "back": 219,
+      "bottom_offload": 237,
+      "bottom": 224
     }
   },
   {
@@ -14323,7 +15577,13 @@
     "fields": {
       "name": "II (XU40)",
       "slug": "toyota-kluger-ii-xu40",
-      "car": 811
+      "car": 811,
+      "front_offload": 211,
+      "front": 196,
+      "back_offload": 252,
+      "back": 228,
+      "bottom_offload": 248,
+      "bottom": 231
     }
   },
   {
@@ -14359,13 +15619,29 @@
     "fields": {
       "name": "II (Y11)",
       "slug": "nissan-wingroad-ii-y11",
-      "car": 1516
+      "car": 1516,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2192,
-    "fields": { "name": "II (Y32)", "slug": "nissan-cima-ii-y32", "car": 407 }
+    "fields": {
+      "name": "II (Y32)",
+      "slug": "nissan-cima-ii-y32",
+      "car": 407,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -14384,7 +15660,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2195,
-    "fields": { "name": "II (Z51)", "slug": "nissan-murano-ii-z51", "car": 985 }
+    "fields": {
+      "name": "II (Z51)",
+      "slug": "nissan-murano-ii-z51",
+      "car": 985,
+      "front_offload": 211,
+      "front": 196,
+      "back_offload": 252,
+      "back": 228,
+      "bottom_offload": 248,
+      "bottom": 231
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -14438,7 +15724,13 @@
     "fields": {
       "name": "II (f60)",
       "slug": "mini-countryman-ii-f60",
-      "car": 453
+      "car": 453,
+      "front_offload": 138,
+      "front": 127,
+      "back_offload": 178,
+      "back": 163,
+      "bottom_offload": 132,
+      "bottom": 120
     }
   },
   {
@@ -14454,7 +15746,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2205,
-    "fields": { "name": "II (l30)", "slug": "nissan-altima-ii-l30", "car": 184 }
+    "fields": {
+      "name": "II (l30)",
+      "slug": "nissan-altima-ii-l30",
+      "car": 184,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -15930,7 +17232,13 @@
     "fields": {
       "name": "II Рестайлинг (DE2)",
       "slug": "mazda-2-ii-restajling-de2",
-      "car": 20
+      "car": 20,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
     }
   },
   {
@@ -15939,7 +17247,13 @@
     "fields": {
       "name": "II Рестайлинг 1",
       "slug": "subaru-impreza-ii-restajling-1",
-      "car": 757
+      "car": 757,
+      "front_offload": 162,
+      "front": 139,
+      "back_offload": 211,
+      "back": 183,
+      "bottom_offload": 155,
+      "bottom": 131
     }
   },
   {
@@ -16002,7 +17316,13 @@
     "fields": {
       "name": "II Рестайлинг 2",
       "slug": "peugeot-partner-ii-restajling-2",
-      "car": 1051
+      "car": 1051,
+      "front_offload": 141,
+      "front": 129,
+      "back_offload": 178,
+      "back": 162,
+      "bottom_offload": 135,
+      "bottom": 122
     }
   },
   {
@@ -16011,7 +17331,13 @@
     "fields": {
       "name": "II Рестайлинг 2",
       "slug": "lexus-gx-ii-restajling-2",
-      "car": 675
+      "car": 675,
+      "front_offload": 196,
+      "front": 186,
+      "back_offload": 222,
+      "back": 204,
+      "bottom_offload": 220,
+      "bottom": 208
     }
   },
   {
@@ -16038,7 +17364,13 @@
     "fields": {
       "name": "II Рестайлинг 2",
       "slug": "subaru-impreza-ii-restajling-2",
-      "car": 757
+      "car": 757,
+      "front_offload": 152,
+      "front": 131,
+      "back_offload": 197,
+      "back": 172,
+      "bottom_offload": 145,
+      "bottom": 123
     }
   },
   {
@@ -16047,7 +17379,13 @@
     "fields": {
       "name": "II Рестайлинг 2",
       "slug": "citroen-berlingo-ii-restajling-2",
-      "car": 271
+      "car": 271,
+      "front_offload": 149,
+      "front": 132,
+      "back_offload": 194,
+      "back": 172,
+      "bottom_offload": 143,
+      "bottom": 125
     }
   },
   {
@@ -16065,7 +17403,13 @@
     "fields": {
       "name": "II Рестайлинг 2",
       "slug": "renault-clio-ii-restajling-2",
-      "car": 418
+      "car": 418,
+      "front_offload": 147,
+      "front": 126,
+      "back_offload": 188,
+      "back": 164,
+      "bottom_offload": 141,
+      "bottom": 119
     }
   },
   {
@@ -17097,7 +18441,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2580,
-    "fields": { "name": "III (8S)", "slug": "audi-tt-iii-8s", "car": 1356 }
+    "fields": {
+      "name": "III (8S)",
+      "slug": "audi-tt-iii-8s",
+      "car": 1356,
+      "front_offload": 138,
+      "front": 127,
+      "back_offload": 178,
+      "back": 163,
+      "bottom_offload": 132,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17107,7 +18461,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2582,
-    "fields": { "name": "III (8V)", "slug": "audi-s3-iii-8v", "car": 1213 }
+    "fields": {
+      "name": "III (8V)",
+      "slug": "audi-s3-iii-8v",
+      "car": 1213,
+      "front_offload": 138,
+      "front": 125,
+      "back_offload": 178,
+      "back": 161,
+      "bottom_offload": 132,
+      "bottom": 118
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17156,18 +18520,44 @@
     "fields": {
       "name": "III (A33)",
       "slug": "nissan-cefiro-iii-a33",
-      "car": 388
+      "car": 388,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2589,
-    "fields": { "name": "III (B7)", "slug": "audi-a4-iii-b7", "car": 145 }
+    "fields": {
+      "name": "III (B7)",
+      "slug": "audi-a4-iii-b7",
+      "car": 145,
+      "front_offload": 143,
+      "front": 126,
+      "back_offload": 185,
+      "back": 164,
+      "bottom_offload": 137,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2590,
-    "fields": { "name": "III (B7)", "slug": "audi-s4-iii-b7", "car": 1214 }
+    "fields": {
+      "name": "III (B7)",
+      "slug": "audi-s4-iii-b7",
+      "car": 1214,
+      "front_offload": 143,
+      "front": 126,
+      "back_offload": 185,
+      "back": 164,
+      "bottom_offload": 137,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17177,7 +18567,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2592,
-    "fields": { "name": "III (BF)", "slug": "mazda-323-iii-bf", "car": 85 }
+    "fields": {
+      "name": "III (BF)",
+      "slug": "mazda-323-iii-bf",
+      "car": 85,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17212,18 +18612,44 @@
     "fields": {
       "name": "III (C3) Рестайлинг",
       "slug": "audi-100-iii-c3-restajling",
-      "car": 1
+      "car": 1,
+      "front_offload": 164,
+      "front": 141,
+      "back_offload": 212,
+      "back": 184,
+      "bottom_offload": 157,
+      "bottom": 133
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2597,
-    "fields": { "name": "III (C6)", "slug": "audi-s6-iii-c6", "car": 1217 }
+    "fields": {
+      "name": "III (C6)",
+      "slug": "audi-s6-iii-c6",
+      "car": 1217,
+      "front_offload": 143,
+      "front": 128,
+      "back_offload": 185,
+      "back": 166,
+      "bottom_offload": 137,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2598,
-    "fields": { "name": "III (C6)", "slug": "audi-a6-iii-c6", "car": 149 }
+    "fields": {
+      "name": "III (C6)",
+      "slug": "audi-a6-iii-c6",
+      "car": 149,
+      "front_offload": 143,
+      "front": 126,
+      "back_offload": 185,
+      "back": 164,
+      "bottom_offload": 137,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17310,7 +18736,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2609,
-    "fields": { "name": "III (DJ)", "slug": "mazda-2-iii-dj", "car": 20 }
+    "fields": {
+      "name": "III (DJ)",
+      "slug": "mazda-2-iii-dj",
+      "car": 20,
+      "front_offload": 143,
+      "front": 131,
+      "back_offload": 181,
+      "back": 165,
+      "bottom_offload": 137,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17357,12 +18793,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2616,
-    "fields": { "name": "III (E39)", "slug": "bmw-m5-iii-e39", "car": 897 }
+    "fields": {
+      "name": "III (E39)",
+      "slug": "bmw-m5-iii-e39",
+      "car": 897,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2617,
-    "fields": { "name": "III (E46)", "slug": "bmw-m3-iii-e46", "car": 895 }
+    "fields": {
+      "name": "III (E46)",
+      "slug": "bmw-m3-iii-e46",
+      "car": 895,
+      "front_offload": 143,
+      "front": 124,
+      "back_offload": 185,
+      "back": 162,
+      "bottom_offload": 137,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17370,7 +18826,13 @@
     "fields": {
       "name": "III (E52)",
       "slug": "nissan-elgrand-iii-e52",
-      "car": 538
+      "car": 538,
+      "front_offload": 188,
+      "front": 177,
+      "back_offload": 226,
+      "back": 207,
+      "bottom_offload": 175,
+      "bottom": 162
     }
   },
   {
@@ -17388,7 +18850,13 @@
     "fields": {
       "name": "III (F06/F13/F12)",
       "slug": "bmw-m6-iii-f06f13f12",
-      "car": 898
+      "car": 898,
+      "front_offload": 138,
+      "front": 125,
+      "back_offload": 178,
+      "back": 161,
+      "bottom_offload": 132,
+      "bottom": 118
     }
   },
   {
@@ -17403,7 +18871,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2622,
-    "fields": { "name": "III (F15)", "slug": "bmw-x5-iii-f15", "car": 1531 }
+    "fields": {
+      "name": "III (F15)",
+      "slug": "bmw-x5-iii-f15",
+      "car": 1531,
+      "front_offload": 196,
+      "front": 184,
+      "back_offload": 222,
+      "back": 202,
+      "bottom_offload": 220,
+      "bottom": 206
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17411,7 +18889,13 @@
     "fields": {
       "name": "III (F30)",
       "slug": "toyota-celsior-iii-f30",
-      "car": 392
+      "car": 392,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
@@ -17452,7 +18936,13 @@
     "fields": {
       "name": "III (J30)",
       "slug": "nissan-maxima-iii-j30",
-      "car": 940
+      "car": 940,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
     }
   },
   {
@@ -17461,7 +18951,13 @@
     "fields": {
       "name": "III (JK)",
       "slug": "jeep-wrangler-iii-jk",
-      "car": 1520
+      "car": 1520,
+      "front_offload": 210,
+      "front": 195,
+      "back_offload": 251,
+      "back": 227,
+      "bottom_offload": 247,
+      "bottom": 230
     }
   },
   {
@@ -17470,7 +18966,13 @@
     "fields": {
       "name": "III (K12)",
       "slug": "nissan-micra-iii-k12",
-      "car": 952
+      "car": 952,
+      "front_offload": 145,
+      "front": 127,
+      "back_offload": 182,
+      "back": 161,
+      "bottom_offload": 140,
+      "bottom": 121
     }
   },
   {
@@ -17479,7 +18981,13 @@
     "fields": {
       "name": "III (K12)",
       "slug": "nissan-march-iii-k12",
-      "car": 924
+      "car": 924,
+      "front_offload": 140,
+      "front": 124,
+      "back_offload": 176,
+      "back": 157,
+      "bottom_offload": 135,
+      "bottom": 118
     }
   },
   {
@@ -17503,7 +19011,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2634,
-    "fields": { "name": "III (KJ)", "slug": "jeep-cherokee-iii-kj", "car": 406 }
+    "fields": {
+      "name": "III (KJ)",
+      "slug": "jeep-cherokee-iii-kj",
+      "car": 406,
+      "front_offload": 210,
+      "front": 191,
+      "back_offload": 251,
+      "back": 223,
+      "bottom_offload": 196,
+      "bottom": 175
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17552,13 +19070,29 @@
     "fields": {
       "name": "III (N13)",
       "slug": "nissan-pulsar-iii-n13",
-      "car": 1109
+      "car": 1109,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2641,
-    "fields": { "name": "III (NC)", "slug": "mazda-mx-5-iii-nc", "car": 916 }
+    "fields": {
+      "name": "III (NC)",
+      "slug": "mazda-mx-5-iii-nc",
+      "car": 916,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17584,7 +19118,13 @@
     "fields": {
       "name": "III (P12)",
       "slug": "nissan-primera-iii-p12",
-      "car": 1094
+      "car": 1094,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
     }
   },
   {
@@ -17784,7 +19324,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2667,
-    "fields": { "name": "III (W30)", "slug": "toyota-mr2-iii-w30", "car": 911 }
+    "fields": {
+      "name": "III (W30)",
+      "slug": "toyota-mr2-iii-w30",
+      "car": 911,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17792,7 +19342,13 @@
     "fields": {
       "name": "III (W447)",
       "slug": "mercedes-benz-vito-iii-w447",
-      "car": 1496
+      "car": 1496,
+      "front_offload": 181,
+      "front": 171,
+      "back_offload": 223,
+      "back": 205,
+      "bottom_offload": 170,
+      "bottom": 158
     }
   },
   {
@@ -17828,7 +19384,13 @@
     "fields": {
       "name": "III (X80)",
       "slug": "toyota-cresta-iii-x80",
-      "car": 458
+      "car": 458,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
     }
   },
   {
@@ -17864,7 +19426,13 @@
     "fields": {
       "name": "III (XD)",
       "slug": "hyundai-elantra-iii-xd",
-      "car": 535
+      "car": 535,
+      "front_offload": 150,
+      "front": 129,
+      "back_offload": 196,
+      "back": 171,
+      "bottom_offload": 144,
+      "bottom": 122
     }
   },
   {
@@ -17882,7 +19450,13 @@
     "fields": {
       "name": "III (XP130)",
       "slug": "toyota-vitz-iii-xp130",
-      "car": 1497
+      "car": 1497,
+      "front_offload": 137,
+      "front": 121,
+      "back_offload": 172,
+      "back": 153,
+      "bottom_offload": 132,
+      "bottom": 115
     }
   },
   {
@@ -17909,7 +19483,13 @@
     "fields": {
       "name": "III (XV10)",
       "slug": "toyota-camry-iii-xv10",
-      "car": 355
+      "car": 355,
+      "front_offload": 169,
+      "front": 143,
+      "back_offload": 214,
+      "back": 183,
+      "bottom_offload": 162,
+      "bottom": 135
     }
   },
   {
@@ -17936,7 +19516,13 @@
     "fields": {
       "name": "III (Y12)",
       "slug": "nissan-wingroad-iii-y12",
-      "car": 1516
+      "car": 1516,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
     }
   },
   {
@@ -17951,12 +19537,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2686,
-    "fields": { "name": "III (Y33)", "slug": "nissan-cima-iii-y33", "car": 407 }
+    "fields": {
+      "name": "III (Y33)",
+      "slug": "nissan-cima-iii-y33",
+      "car": 407,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2687,
-    "fields": { "name": "III (Z12)", "slug": "nissan-cube-iii-z12", "car": 472 }
+    "fields": {
+      "name": "III (Z12)",
+      "slug": "nissan-cube-iii-z12",
+      "car": 472,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -17982,7 +19588,13 @@
     "fields": {
       "name": "III (ZVW30/35)",
       "slug": "toyota-prius-iii-zvw3035",
-      "car": 1096
+      "car": 1096,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
     }
   },
   {
@@ -18010,7 +19622,13 @@
     "fields": {
       "name": "III (gj) Рестайлинг 2",
       "slug": "mazda-6-iii-gj-restajling-2",
-      "car": 108
+      "car": 108,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
     }
   },
   {
@@ -18019,7 +19637,13 @@
     "fields": {
       "name": "III (l31)",
       "slug": "nissan-altima-iii-l31",
-      "car": 184
+      "car": 184,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
@@ -18037,7 +19661,13 @@
     "fields": {
       "name": "III 718 (982)",
       "slug": "porsche-cayman-iii-718-982",
-      "car": 382
+      "car": 382,
+      "front_offload": 138,
+      "front": 127,
+      "back_offload": 178,
+      "back": 163,
+      "bottom_offload": 132,
+      "bottom": 120
     }
   },
   {
@@ -18767,7 +20397,13 @@
     "fields": {
       "name": "III Рестайлинг 2",
       "slug": "renault-megane-iii-restajling-2",
-      "car": 942
+      "car": 942,
+      "front_offload": 149,
+      "front": 128,
+      "back_offload": 194,
+      "back": 169,
+      "bottom_offload": 143,
+      "bottom": 121
     }
   },
   {
@@ -18776,7 +20412,13 @@
     "fields": {
       "name": "III Рестайлинг 2",
       "slug": "renault-scenic-iii-restajling-2",
-      "car": 1256
+      "car": 1256,
+      "front_offload": 149,
+      "front": 130,
+      "back_offload": 194,
+      "back": 171,
+      "bottom_offload": 143,
+      "bottom": 123
     }
   },
   {
@@ -18794,7 +20436,13 @@
     "fields": {
       "name": "III Рестайлинг 2",
       "slug": "mitsubishi-rvr-iii-restajling-2",
-      "car": 1162
+      "car": 1162,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
@@ -18803,7 +20451,13 @@
     "fields": {
       "name": "III Рестайлинг 2",
       "slug": "lexus-lx-iii-restajling-2",
-      "car": 828
+      "car": 828,
+      "front_offload": 206,
+      "front": 188,
+      "back_offload": 234,
+      "back": 208,
+      "bottom_offload": 192,
+      "bottom": 172
     }
   },
   {
@@ -18821,7 +20475,13 @@
     "fields": {
       "name": "III Рестайлинг 2",
       "slug": "toyota-avalon-iii-restajling-2",
-      "car": 232
+      "car": 232,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
@@ -18830,7 +20490,13 @@
     "fields": {
       "name": "III Рестайлинг 2",
       "slug": "toyota-avensis-iii-restajling-2",
-      "car": 240
+      "car": 240,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
     }
   },
   {
@@ -18848,7 +20514,13 @@
     "fields": {
       "name": "III Рестайлинг 2",
       "slug": "dodge-challenger-iii-restajling-2",
-      "car": 400
+      "car": 400,
+      "front_offload": 168,
+      "front": 142,
+      "back_offload": 213,
+      "back": 182,
+      "bottom_offload": 161,
+      "bottom": 134
     }
   },
   {
@@ -18866,7 +20538,13 @@
     "fields": {
       "name": "III Рестайлинг 3",
       "slug": "toyota-estima-iii-restajling-3",
-      "car": 563
+      "car": 563,
+      "front_offload": 195,
+      "front": 180,
+      "back_offload": 233,
+      "back": 210,
+      "bottom_offload": 181,
+      "bottom": 164
     }
   },
   {
@@ -18875,7 +20553,13 @@
     "fields": {
       "name": "III Рестайлинг 3",
       "slug": "mitsubishi-outlander-iii-restajling-3",
-      "car": 1035
+      "car": 1035,
+      "front_offload": 200,
+      "front": 189,
+      "back_offload": 239,
+      "back": 219,
+      "bottom_offload": 237,
+      "bottom": 224
     }
   },
   {
@@ -19411,7 +21095,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2894,
-    "fields": { "name": "IV (A32)", "slug": "nissan-maxima-iv-a32", "car": 940 }
+    "fields": {
+      "name": "IV (A32)",
+      "slug": "nissan-maxima-iv-a32",
+      "car": 940,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19419,23 +21113,59 @@
     "fields": {
       "name": "IV (B14)",
       "slug": "nissan-sentra-iv-b14",
-      "car": 1272
+      "car": 1272,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2896,
-    "fields": { "name": "IV (B3)", "slug": "audi-80-iv-b3", "car": 122 }
+    "fields": {
+      "name": "IV (B3)",
+      "slug": "audi-80-iv-b3",
+      "car": 122,
+      "front_offload": 164,
+      "front": 141,
+      "back_offload": 212,
+      "back": 184,
+      "bottom_offload": 157,
+      "bottom": 133
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2897,
-    "fields": { "name": "IV (B8)", "slug": "audi-s4-iv-b8", "car": 1214 }
+    "fields": {
+      "name": "IV (B8)",
+      "slug": "audi-s4-iv-b8",
+      "car": 1214,
+      "front_offload": 138,
+      "front": 123,
+      "back_offload": 178,
+      "back": 159,
+      "bottom_offload": 132,
+      "bottom": 116
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2898,
-    "fields": { "name": "IV (B8)", "slug": "audi-a4-iv-b8", "car": 145 }
+    "fields": {
+      "name": "IV (B8)",
+      "slug": "audi-a4-iv-b8",
+      "car": 145,
+      "front_offload": 143,
+      "front": 128,
+      "back_offload": 185,
+      "back": 166,
+      "bottom_offload": 137,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19472,22 +21202,62 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2903,
-    "fields": { "name": "IV (BG)", "slug": "mazda-323-iv-bg", "car": 85 }
+    "fields": {
+      "name": "IV (BG)",
+      "slug": "mazda-323-iv-bg",
+      "car": 85,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2904,
-    "fields": { "name": "IV (C4)", "slug": "audi-100-iv-c4", "car": 1 }
+    "fields": {
+      "name": "IV (C4)",
+      "slug": "audi-100-iv-c4",
+      "car": 1,
+      "front_offload": 164,
+      "front": 141,
+      "back_offload": 212,
+      "back": 184,
+      "bottom_offload": 157,
+      "bottom": 133
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2905,
-    "fields": { "name": "IV (C7)", "slug": "audi-a6-iv-c7", "car": 149 }
+    "fields": {
+      "name": "IV (C7)",
+      "slug": "audi-a6-iv-c7",
+      "car": 149,
+      "front_offload": 138,
+      "front": 123,
+      "back_offload": 178,
+      "back": 159,
+      "bottom_offload": 132,
+      "bottom": 116
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2906,
-    "fields": { "name": "IV (C7)", "slug": "audi-s6-iv-c7", "car": 1217 }
+    "fields": {
+      "name": "IV (C7)",
+      "slug": "audi-s6-iv-c7",
+      "car": 1217,
+      "front_offload": 138,
+      "front": 127,
+      "back_offload": 178,
+      "back": 163,
+      "bottom_offload": 132,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19537,7 +21307,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2912,
-    "fields": { "name": "IV (DJ)", "slug": "mazda-demio-iv-dj", "car": 496 }
+    "fields": {
+      "name": "IV (DJ)",
+      "slug": "mazda-demio-iv-dj",
+      "car": 496,
+      "front_offload": 137,
+      "front": 125,
+      "back_offload": 172,
+      "back": 157,
+      "bottom_offload": 132,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19575,7 +21355,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2918,
-    "fields": { "name": "IV (E60/E61)", "slug": "bmw-m5-iv-e60e61", "car": 897 }
+    "fields": {
+      "name": "IV (E60/E61)",
+      "slug": "bmw-m5-iv-e60e61",
+      "car": 897,
+      "front_offload": 143,
+      "front": 126,
+      "back_offload": 185,
+      "back": 164,
+      "bottom_offload": 137,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19585,7 +21375,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2920,
-    "fields": { "name": "IV (EF)", "slug": "hyundai-sonata-iv-ef", "car": 1303 }
+    "fields": {
+      "name": "IV (EF)",
+      "slug": "hyundai-sonata-iv-ef",
+      "car": 1303,
+      "front_offload": 150,
+      "front": 129,
+      "back_offload": 196,
+      "back": 171,
+      "bottom_offload": 144,
+      "bottom": 122
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19599,12 +21399,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2922,
-    "fields": { "name": "IV (F50)", "slug": "nissan-cima-iv-f50", "car": 407 }
+    "fields": {
+      "name": "IV (F50)",
+      "slug": "nissan-cima-iv-f50",
+      "car": 407,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2923,
-    "fields": { "name": "IV (GE)", "slug": "mazda-626-iv-ge", "car": 113 }
+    "fields": {
+      "name": "IV (GE)",
+      "slug": "mazda-626-iv-ge",
+      "car": 113,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19618,17 +21438,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2925,
-    "fields": { "name": "IV (HD)", "slug": "hyundai-elantra-iv-hd", "car": 535 }
+    "fields": {
+      "name": "IV (HD)",
+      "slug": "hyundai-elantra-iv-hd",
+      "car": 535,
+      "front_offload": 150,
+      "front": 133,
+      "back_offload": 196,
+      "back": 174,
+      "bottom_offload": 144,
+      "bottom": 126
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2926,
-    "fields": { "name": "IV (K13)", "slug": "nissan-march-iv-k13", "car": 924 }
+    "fields": {
+      "name": "IV (K13)",
+      "slug": "nissan-march-iv-k13",
+      "car": 924,
+      "front_offload": 137,
+      "front": 121,
+      "back_offload": 172,
+      "back": 153,
+      "bottom_offload": 132,
+      "bottom": 115
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2927,
-    "fields": { "name": "IV (K13)", "slug": "nissan-micra-iv-k13", "car": 952 }
+    "fields": {
+      "name": "IV (K13)",
+      "slug": "nissan-micra-iv-k13",
+      "car": 952,
+      "front_offload": 137,
+      "front": 123,
+      "back_offload": 172,
+      "back": 155,
+      "bottom_offload": 132,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19647,12 +21497,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2930,
-    "fields": { "name": "IV (KK)", "slug": "jeep-cherokee-iv-kk", "car": 406 }
+    "fields": {
+      "name": "IV (KK)",
+      "slug": "jeep-cherokee-iv-kk",
+      "car": 406,
+      "front_offload": 210,
+      "front": 195,
+      "back_offload": 251,
+      "back": 227,
+      "bottom_offload": 247,
+      "bottom": 230
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 2931,
-    "fields": { "name": "IV (L40)", "slug": "toyota-corsa-iv-l40", "car": 448 }
+    "fields": {
+      "name": "IV (L40)",
+      "slug": "toyota-corsa-iv-l40",
+      "car": 448,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19678,7 +21548,13 @@
     "fields": {
       "name": "IV (N14)",
       "slug": "nissan-pulsar-iv-n14",
-      "car": 1109
+      "car": 1109,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
     }
   },
   {
@@ -19723,7 +21599,13 @@
     "fields": {
       "name": "IV (T160)",
       "slug": "toyota-celica-iv-t160",
-      "car": 391
+      "car": 391,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
     }
   },
   {
@@ -19833,7 +21715,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2952,
-    "fields": { "name": "IV (X351)", "slug": "jaguar-xj-iv-x351", "car": 1551 }
+    "fields": {
+      "name": "IV (X351)",
+      "slug": "jaguar-xj-iv-x351",
+      "car": 1551,
+      "front_offload": 134,
+      "front": 123,
+      "back_offload": 174,
+      "back": 159,
+      "bottom_offload": 129,
+      "bottom": 117
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19866,7 +21758,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2957,
-    "fields": { "name": "IV (X90)", "slug": "toyota-cresta-iv-x90", "car": 458 }
+    "fields": {
+      "name": "IV (X90)",
+      "slug": "toyota-cresta-iv-x90",
+      "car": 458,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19874,7 +21776,13 @@
     "fields": {
       "name": "IV (XV20)",
       "slug": "toyota-camry-iv-xv20",
-      "car": 355
+      "car": 355,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
     }
   },
   {
@@ -19899,7 +21807,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2962,
-    "fields": { "name": "IV (g05)", "slug": "bmw-x5-iv-g05", "car": 1531 }
+    "fields": {
+      "name": "IV (g05)",
+      "slug": "bmw-x5-iv-g05",
+      "car": 1531,
+      "front_offload": 196,
+      "front": 186,
+      "back_offload": 222,
+      "back": 204,
+      "bottom_offload": 220,
+      "bottom": 208
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19909,7 +21827,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 2964,
-    "fields": { "name": "IV (l32)", "slug": "nissan-altima-iv-l32", "car": 184 }
+    "fields": {
+      "name": "IV (l32)",
+      "slug": "nissan-altima-iv-l32",
+      "car": 184,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -19917,7 +21845,13 @@
     "fields": {
       "name": "IV 718 (982)",
       "slug": "porsche-boxster-iv-718-982",
-      "car": 291
+      "car": 291,
+      "front_offload": 138,
+      "front": 127,
+      "back_offload": 178,
+      "back": 163,
+      "bottom_offload": 132,
+      "bottom": 120
     }
   },
   {
@@ -20255,7 +22189,13 @@
     "fields": {
       "name": "IV Рестайлинг 1",
       "slug": "mitsubishi-pajero-iv-restajling-1",
-      "car": 1040
+      "car": 1040,
+      "front_offload": 217,
+      "front": 194,
+      "back_offload": 259,
+      "back": 227,
+      "bottom_offload": 202,
+      "bottom": 177
     }
   },
   {
@@ -20264,7 +22204,13 @@
     "fields": {
       "name": "IV Рестайлинг 2",
       "slug": "renault-espace-iv-restajling-2",
-      "car": 558
+      "car": 558,
+      "front_offload": 160,
+      "front": 135,
+      "back_offload": 208,
+      "back": 178,
+      "bottom_offload": 153,
+      "bottom": 127
     }
   },
   {
@@ -20273,7 +22219,13 @@
     "fields": {
       "name": "IV Рестайлинг 2",
       "slug": "mitsubishi-pajero-iv-restajling-2",
-      "car": 1040
+      "car": 1040,
+      "front_offload": 217,
+      "front": 196,
+      "back_offload": 259,
+      "back": 229,
+      "bottom_offload": 202,
+      "bottom": 179
     }
   },
   {
@@ -20282,13 +22234,29 @@
     "fields": {
       "name": "IV Рестайлинг 2",
       "slug": "seat-ibiza-iv-restajling-2",
-      "car": 752
+      "car": 752,
+      "front_offload": 162,
+      "front": 141,
+      "back_offload": 211,
+      "back": 185,
+      "bottom_offload": 155,
+      "bottom": 133
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3007,
-    "fields": { "name": "IX", "slug": "mitsubishi-lancer-ix", "car": 836 }
+    "fields": {
+      "name": "IX",
+      "slug": "mitsubishi-lancer-ix",
+      "car": 836,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -20360,7 +22328,13 @@
     "fields": {
       "name": "IX (E120, E130)",
       "slug": "toyota-corolla-ix-e120-e130",
-      "car": 439
+      "car": 439,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
@@ -20378,7 +22352,13 @@
     "fields": {
       "name": "IX (R33)",
       "slug": "nissan-skyline-ix-r33",
-      "car": 1294
+      "car": 1294,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
     }
   },
   {
@@ -20405,7 +22385,13 @@
     "fields": {
       "name": "IX (U12)",
       "slug": "nissan-bluebird-ix-u12",
-      "car": 280
+      "car": 280,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
     }
   },
   {
@@ -20420,7 +22406,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3027,
-    "fields": { "name": "IX (Y32)", "slug": "nissan-gloria-ix-y32", "car": 687 }
+    "fields": {
+      "name": "IX (Y32)",
+      "slug": "nissan-gloria-ix-y32",
+      "car": 687,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -20546,7 +22542,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3045,
-    "fields": { "name": "J", "slug": "opel-astra-j", "car": 215 }
+    "fields": {
+      "name": "J",
+      "slug": "opel-astra-j",
+      "car": 215,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -20573,7 +22579,13 @@
     "fields": {
       "name": "J11 Рестайлинг",
       "slug": "nissan-qashqai-j11-restajling",
-      "car": 1133
+      "car": 1133,
+      "front_offload": 211,
+      "front": 196,
+      "back_offload": 252,
+      "back": 228,
+      "bottom_offload": 248,
+      "bottom": 231
     }
   },
   {
@@ -20617,7 +22629,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3056,
-    "fields": { "name": "Jl", "slug": "jeep-wrangler-jl", "car": 1520 }
+    "fields": {
+      "name": "Jl",
+      "slug": "jeep-wrangler-jl",
+      "car": 1520,
+      "front_offload": 199,
+      "front": 188,
+      "back_offload": 238,
+      "back": 218,
+      "bottom_offload": 236,
+      "bottom": 223
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -20632,7 +22654,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3059,
-    "fields": { "name": "K", "slug": "opel-astra-k", "car": 215 }
+    "fields": {
+      "name": "K",
+      "slug": "opel-astra-k",
+      "car": 215,
+      "front_offload": 143,
+      "front": 131,
+      "back_offload": 181,
+      "back": 165,
+      "bottom_offload": 137,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -20724,7 +22756,13 @@
     "fields": {
       "name": "Kl Рестайлинг",
       "slug": "jeep-cherokee-kl-restajling",
-      "car": 406
+      "car": 406,
+      "front_offload": 199,
+      "front": 188,
+      "back_offload": 238,
+      "back": 218,
+      "bottom_offload": 236,
+      "bottom": 223
     }
   },
   {
@@ -21250,7 +23288,13 @@
     "fields": {
       "name": "Mg InnoVatIon",
       "slug": "kia-lotze-mg-innovation",
-      "car": 881
+      "car": 881,
+      "front_offload": 150,
+      "front": 133,
+      "back_offload": 196,
+      "back": 174,
+      "bottom_offload": 144,
+      "bottom": 126
     }
   },
   {
@@ -21259,7 +23303,13 @@
     "fields": {
       "name": "Mg adVance",
       "slug": "kia-lotze-mg-advance",
-      "car": 881
+      "car": 881,
+      "front_offload": 150,
+      "front": 131,
+      "back_offload": 196,
+      "back": 172,
+      "bottom_offload": 144,
+      "bottom": 124
     }
   },
   {
@@ -21299,12 +23349,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3158,
-    "fields": { "name": "Mk5", "slug": "ford-fiesta-mk5", "car": 601 }
+    "fields": {
+      "name": "Mk5",
+      "slug": "ford-fiesta-mk5",
+      "car": 601,
+      "front_offload": 142,
+      "front": 126,
+      "back_offload": 180,
+      "back": 160,
+      "bottom_offload": 136,
+      "bottom": 119
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3159,
-    "fields": { "name": "Mk6", "slug": "ford-fiesta-mk6", "car": 601 }
+    "fields": {
+      "name": "Mk6",
+      "slug": "ford-fiesta-mk6",
+      "car": 601,
+      "front_offload": 147,
+      "front": 131,
+      "back_offload": 186,
+      "back": 166,
+      "bottom_offload": 141,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -21379,12 +23449,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3170,
-    "fields": { "name": "N13", "slug": "nissan-sunny-n13", "car": 1342 }
+    "fields": {
+      "name": "N13",
+      "slug": "nissan-sunny-n13",
+      "car": 1342,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3171,
-    "fields": { "name": "N14", "slug": "nissan-sunny-n14", "car": 1342 }
+    "fields": {
+      "name": "N14",
+      "slug": "nissan-sunny-n14",
+      "car": 1342,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -21921,7 +24011,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3248,
-    "fields": { "name": "R1", "slug": "subaru-r1-r1", "car": 1141 }
+    "fields": {
+      "name": "R1",
+      "slug": "subaru-r1-r1",
+      "car": 1141,
+      "front_offload": 144,
+      "front": 127,
+      "back_offload": 184,
+      "back": 164,
+      "bottom_offload": 138,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -21950,7 +24050,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3253,
-    "fields": { "name": "R50", "slug": "nissan-terrano-r50", "car": 1379 }
+    "fields": {
+      "name": "R50",
+      "slug": "nissan-terrano-r50",
+      "car": 1379,
+      "front_offload": 200,
+      "front": 189,
+      "back_offload": 239,
+      "back": 219,
+      "bottom_offload": 237,
+      "bottom": 224
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -21958,7 +24068,13 @@
     "fields": {
       "name": "R52 Рестайлинг",
       "slug": "nissan-pathfinder-r52-restajling",
-      "car": 1060
+      "car": 1060,
+      "front_offload": 200,
+      "front": 189,
+      "back_offload": 239,
+      "back": 219,
+      "bottom_offload": 237,
+      "bottom": 224
     }
   },
   {
@@ -22395,7 +24511,13 @@
     "fields": {
       "name": "S80 II Рестайлинг 2",
       "slug": "volvo-s80-s80-ii-restajling-2",
-      "car": 1222
+      "car": 1222,
+      "front_offload": 135,
+      "front": 120,
+      "back_offload": 176,
+      "back": 157,
+      "bottom_offload": 130,
+      "bottom": 114
     }
   },
   {
@@ -22580,7 +24702,13 @@
     "fields": {
       "name": "Serena I (C23)",
       "slug": "nissan-serena-serena-i-c23",
-      "car": 1275
+      "car": 1275,
+      "front_offload": 214,
+      "front": 195,
+      "back_offload": 257,
+      "back": 229,
+      "bottom_offload": 199,
+      "bottom": 178
     }
   },
   {
@@ -22589,7 +24717,13 @@
     "fields": {
       "name": "Serena II (C24)",
       "slug": "nissan-serena-serena-ii-c24",
-      "car": 1275
+      "car": 1275,
+      "front_offload": 204,
+      "front": 185,
+      "back_offload": 245,
+      "back": 217,
+      "bottom_offload": 190,
+      "bottom": 169
     }
   },
   {
@@ -22598,7 +24732,13 @@
     "fields": {
       "name": "Serena III (C25)",
       "slug": "nissan-serena-serena-iii-c25",
-      "car": 1275
+      "car": 1275,
+      "front_offload": 204,
+      "front": 189,
+      "back_offload": 245,
+      "back": 221,
+      "bottom_offload": 190,
+      "bottom": 173
     }
   },
   {
@@ -22607,7 +24747,13 @@
     "fields": {
       "name": "Serena IV (C26)",
       "slug": "nissan-serena-serena-iv-c26",
-      "car": 1275
+      "car": 1275,
+      "front_offload": 195,
+      "front": 180,
+      "back_offload": 233,
+      "back": 210,
+      "bottom_offload": 181,
+      "bottom": 164
     }
   },
   {
@@ -22880,7 +25026,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3391,
-    "fields": { "name": "T3", "slug": "volkswagen-transporter-t3", "car": 1424 }
+    "fields": {
+      "name": "T3",
+      "slug": "volkswagen-transporter-t3",
+      "car": 1424,
+      "front_offload": 210,
+      "front": 187,
+      "back_offload": 252,
+      "back": 220,
+      "bottom_offload": 195,
+      "bottom": 170
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -22888,33 +25044,89 @@
     "fields": {
       "name": "T32 Рестайлинг",
       "slug": "nissan-x-trail-t32-restajling",
-      "car": 1523
+      "car": 1523,
+      "front_offload": 200,
+      "front": 187,
+      "back_offload": 239,
+      "back": 217,
+      "bottom_offload": 237,
+      "bottom": 222
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3393,
-    "fields": { "name": "T4", "slug": "volkswagen-transporter-t4", "car": 1424 }
+    "fields": {
+      "name": "T4",
+      "slug": "volkswagen-transporter-t4",
+      "car": 1424,
+      "front_offload": 214,
+      "front": 193,
+      "back_offload": 257,
+      "back": 227,
+      "bottom_offload": 199,
+      "bottom": 176
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3394,
-    "fields": { "name": "T4", "slug": "volkswagen-california-t4", "car": 352 }
+    "fields": {
+      "name": "T4",
+      "slug": "volkswagen-california-t4",
+      "car": 352,
+      "front_offload": 214,
+      "front": 193,
+      "back_offload": 257,
+      "back": 227,
+      "bottom_offload": 199,
+      "bottom": 176
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3395,
-    "fields": { "name": "T4", "slug": "volkswagen-eurovan-t4", "car": 568 }
+    "fields": {
+      "name": "T4",
+      "slug": "volkswagen-eurovan-t4",
+      "car": 568,
+      "front_offload": 214,
+      "front": 193,
+      "back_offload": 257,
+      "back": 227,
+      "bottom_offload": 199,
+      "bottom": 176
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3396,
-    "fields": { "name": "T4", "slug": "volkswagen-multivan-t4", "car": 984 }
+    "fields": {
+      "name": "T4",
+      "slug": "volkswagen-multivan-t4",
+      "car": 984,
+      "front_offload": 214,
+      "front": 195,
+      "back_offload": 257,
+      "back": 229,
+      "bottom_offload": 199,
+      "bottom": 178
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3397,
-    "fields": { "name": "T4", "slug": "volkswagen-caravelle-t4", "car": 365 }
+    "fields": {
+      "name": "T4",
+      "slug": "volkswagen-caravelle-t4",
+      "car": 365,
+      "front_offload": 214,
+      "front": 193,
+      "back_offload": 257,
+      "back": 227,
+      "bottom_offload": 199,
+      "bottom": 176
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -22928,22 +25140,62 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3399,
-    "fields": { "name": "T5", "slug": "volkswagen-transporter-t5", "car": 1424 }
+    "fields": {
+      "name": "T5",
+      "slug": "volkswagen-transporter-t5",
+      "car": 1424,
+      "front_offload": 204,
+      "front": 187,
+      "back_offload": 245,
+      "back": 219,
+      "bottom_offload": 190,
+      "bottom": 171
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3400,
-    "fields": { "name": "T5", "slug": "volkswagen-california-t5", "car": 352 }
+    "fields": {
+      "name": "T5",
+      "slug": "volkswagen-california-t5",
+      "car": 352,
+      "front_offload": 204,
+      "front": 187,
+      "back_offload": 245,
+      "back": 219,
+      "bottom_offload": 190,
+      "bottom": 171
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3401,
-    "fields": { "name": "T5", "slug": "volkswagen-multivan-t5", "car": 984 }
+    "fields": {
+      "name": "T5",
+      "slug": "volkswagen-multivan-t5",
+      "car": 984,
+      "front_offload": 195,
+      "front": 180,
+      "back_offload": 233,
+      "back": 210,
+      "bottom_offload": 181,
+      "bottom": 164
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3402,
-    "fields": { "name": "T5", "slug": "volkswagen-caravelle-t5", "car": 365 }
+    "fields": {
+      "name": "T5",
+      "slug": "volkswagen-caravelle-t5",
+      "car": 365,
+      "front_offload": 195,
+      "front": 180,
+      "back_offload": 233,
+      "back": 210,
+      "bottom_offload": 181,
+      "bottom": 164
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -22975,22 +25227,62 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3406,
-    "fields": { "name": "T6", "slug": "volkswagen-california-t6", "car": 352 }
+    "fields": {
+      "name": "T6",
+      "slug": "volkswagen-california-t6",
+      "car": 352,
+      "front_offload": 188,
+      "front": 177,
+      "back_offload": 226,
+      "back": 207,
+      "bottom_offload": 175,
+      "bottom": 162
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3407,
-    "fields": { "name": "T6", "slug": "volkswagen-transporter-t6", "car": 1424 }
+    "fields": {
+      "name": "T6",
+      "slug": "volkswagen-transporter-t6",
+      "car": 1424,
+      "front_offload": 188,
+      "front": 177,
+      "back_offload": 226,
+      "back": 207,
+      "bottom_offload": 175,
+      "bottom": 162
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3408,
-    "fields": { "name": "T6", "slug": "volkswagen-caravelle-t6", "car": 365 }
+    "fields": {
+      "name": "T6",
+      "slug": "volkswagen-caravelle-t6",
+      "car": 365,
+      "front_offload": 188,
+      "front": 177,
+      "back_offload": 226,
+      "back": 207,
+      "bottom_offload": 175,
+      "bottom": 162
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3409,
-    "fields": { "name": "T6", "slug": "volkswagen-multivan-t6", "car": 984 }
+    "fields": {
+      "name": "T6",
+      "slug": "volkswagen-multivan-t6",
+      "car": 984,
+      "front_offload": 188,
+      "front": 177,
+      "back_offload": 226,
+      "back": 207,
+      "bottom_offload": 175,
+      "bottom": 162
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23333,7 +25625,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3456,
-    "fields": { "name": "Typ 8X", "slug": "audi-s1-typ-8x", "car": 1210 }
+    "fields": {
+      "name": "Typ 8X",
+      "slug": "audi-s1-typ-8x",
+      "car": 1210,
+      "front_offload": 132,
+      "front": 121,
+      "back_offload": 164,
+      "back": 150,
+      "bottom_offload": 127,
+      "bottom": 115
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23669,17 +25971,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3520,
-    "fields": { "name": "V (A33)", "slug": "nissan-maxima-v-a33", "car": 940 }
+    "fields": {
+      "name": "V (A33)",
+      "slug": "nissan-maxima-v-a33",
+      "car": 940,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3521,
-    "fields": { "name": "V (B15)", "slug": "nissan-sentra-v-b15", "car": 1272 }
+    "fields": {
+      "name": "V (B15)",
+      "slug": "nissan-sentra-v-b15",
+      "car": 1272,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3522,
-    "fields": { "name": "V (B4)", "slug": "audi-80-v-b4", "car": 122 }
+    "fields": {
+      "name": "V (B4)",
+      "slug": "audi-80-v-b4",
+      "car": 122,
+      "front_offload": 153,
+      "front": 130,
+      "back_offload": 198,
+      "back": 171,
+      "bottom_offload": 147,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23694,12 +26026,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3525,
-    "fields": { "name": "V (B9)", "slug": "audi-a4-v-b9", "car": 145 }
+    "fields": {
+      "name": "V (B9)",
+      "slug": "audi-a4-v-b9",
+      "car": 145,
+      "front_offload": 138,
+      "front": 127,
+      "back_offload": 178,
+      "back": 163,
+      "bottom_offload": 132,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3526,
-    "fields": { "name": "V (BA)", "slug": "mazda-323-v-ba", "car": 85 }
+    "fields": {
+      "name": "V (BA)",
+      "slug": "mazda-323-v-ba",
+      "car": 85,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23750,17 +26102,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3533,
-    "fields": { "name": "V (F10)", "slug": "bmw-m5-v-f10", "car": 897 }
+    "fields": {
+      "name": "V (F10)",
+      "slug": "bmw-m5-v-f10",
+      "car": 897,
+      "front_offload": 138,
+      "front": 123,
+      "back_offload": 178,
+      "back": 159,
+      "bottom_offload": 132,
+      "bottom": 116
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3534,
-    "fields": { "name": "V (F80)", "slug": "bmw-m3-v-f80", "car": 895 }
+    "fields": {
+      "name": "V (F80)",
+      "slug": "bmw-m3-v-f80",
+      "car": 895,
+      "front_offload": 138,
+      "front": 125,
+      "back_offload": 178,
+      "back": 161,
+      "bottom_offload": 132,
+      "bottom": 118
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3535,
-    "fields": { "name": "V (GF)", "slug": "mazda-626-v-gf", "car": 113 }
+    "fields": {
+      "name": "V (GF)",
+      "slug": "mazda-626-v-gf",
+      "car": 113,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23770,7 +26152,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3537,
-    "fields": { "name": "V (L50)", "slug": "toyota-corsa-v-l50", "car": 448 }
+    "fields": {
+      "name": "V (L50)",
+      "slug": "toyota-corsa-v-l50",
+      "car": 448,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23807,12 +26199,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3542,
-    "fields": { "name": "V (LX)", "slug": "dodge-charger-v-lx", "car": 403 }
+    "fields": {
+      "name": "V (LX)",
+      "slug": "dodge-charger-v-lx",
+      "car": 403,
+      "front_offload": 147,
+      "front": 131,
+      "back_offload": 186,
+      "back": 166,
+      "bottom_offload": 141,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3543,
-    "fields": { "name": "V (MD)", "slug": "hyundai-elantra-v-md", "car": 535 }
+    "fields": {
+      "name": "V (MD)",
+      "slug": "hyundai-elantra-v-md",
+      "car": 535,
+      "front_offload": 145,
+      "front": 130,
+      "back_offload": 189,
+      "back": 170,
+      "bottom_offload": 139,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23826,12 +26238,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3545,
-    "fields": { "name": "V (N15)", "slug": "nissan-pulsar-v-n15", "car": 1109 }
+    "fields": {
+      "name": "V (N15)",
+      "slug": "nissan-pulsar-v-n15",
+      "car": 1109,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3546,
-    "fields": { "name": "V (NF)", "slug": "hyundai-sonata-v-nf", "car": 1303 }
+    "fields": {
+      "name": "V (NF)",
+      "slug": "hyundai-sonata-v-nf",
+      "car": 1303,
+      "front_offload": 150,
+      "front": 131,
+      "back_offload": 196,
+      "back": 172,
+      "bottom_offload": 144,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23877,7 +26309,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3552,
-    "fields": { "name": "V (T170)", "slug": "toyota-carina-v-t170", "car": 367 }
+    "fields": {
+      "name": "V (T170)",
+      "slug": "toyota-carina-v-t170",
+      "car": 367,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23919,7 +26361,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3558,
-    "fields": { "name": "V (X100)", "slug": "toyota-cresta-v-x100", "car": 458 }
+    "fields": {
+      "name": "V (X100)",
+      "slug": "toyota-cresta-v-x100",
+      "car": 458,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23947,7 +26399,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3562,
-    "fields": { "name": "V (XV30)", "slug": "toyota-camry-v-xv30", "car": 355 }
+    "fields": {
+      "name": "V (XV30)",
+      "slug": "toyota-camry-v-xv30",
+      "car": 355,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23957,17 +26419,47 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3564,
-    "fields": { "name": "V (Y51)", "slug": "nissan-cima-v-y51", "car": 407 }
+    "fields": {
+      "name": "V (Y51)",
+      "slug": "nissan-cima-v-y51",
+      "car": 407,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3565,
-    "fields": { "name": "V (Y61)", "slug": "nissan-safari-v-y61", "car": 1240 }
+    "fields": {
+      "name": "V (Y61)",
+      "slug": "nissan-safari-v-y61",
+      "car": 1240,
+      "front_offload": 217,
+      "front": 198,
+      "back_offload": 259,
+      "back": 231,
+      "bottom_offload": 202,
+      "bottom": 181
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3566,
-    "fields": { "name": "V (Y61)", "slug": "nissan-patrol-v-y61", "car": 1062 }
+    "fields": {
+      "name": "V (Y61)",
+      "slug": "nissan-patrol-v-y61",
+      "car": 1062,
+      "front_offload": 211,
+      "front": 192,
+      "back_offload": 252,
+      "back": 224,
+      "bottom_offload": 197,
+      "bottom": 176
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -23990,7 +26482,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3569,
-    "fields": { "name": "V (a90)", "slug": "toyota-supra-v-a90", "car": 1344 }
+    "fields": {
+      "name": "V (a90)",
+      "slug": "toyota-supra-v-a90",
+      "car": 1344,
+      "front_offload": 126,
+      "front": 114,
+      "back_offload": 121,
+      "back": 107,
+      "bottom_offload": 117,
+      "bottom": 104
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -24238,7 +26740,13 @@
     "fields": {
       "name": "V Рестайлинг 2",
       "slug": "ford-explorer-v-restajling-2",
-      "car": 581
+      "car": 581,
+      "front_offload": 215,
+      "front": 196,
+      "back_offload": 257,
+      "back": 229,
+      "bottom_offload": 201,
+      "bottom": 180
     }
   },
   {
@@ -24247,7 +26755,13 @@
     "fields": {
       "name": "V Рестайлинг 2",
       "slug": "ford-escort-v-restajling-2",
-      "car": 555
+      "car": 555,
+      "front_offload": 215,
+      "front": 190,
+      "back_offload": 257,
+      "back": 223,
+      "bottom_offload": 201,
+      "bottom": 174
     }
   },
   {
@@ -24282,12 +26796,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3605,
-    "fields": { "name": "V36", "slug": "nissan-skyline-v36", "car": 1294 }
+    "fields": {
+      "name": "V36",
+      "slug": "nissan-skyline-v36",
+      "car": 1294,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3606,
-    "fields": { "name": "V40", "slug": "toyota-camry-v40", "car": 355 }
+    "fields": {
+      "name": "V40",
+      "slug": "toyota-camry-v40",
+      "car": 355,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -24548,7 +27082,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3655,
-    "fields": { "name": "VI (A34)", "slug": "nissan-maxima-vi-a34", "car": 940 }
+    "fields": {
+      "name": "VI (A34)",
+      "slug": "nissan-maxima-vi-a34",
+      "car": 940,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -24567,7 +27111,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3658,
-    "fields": { "name": "VI (BJ)", "slug": "mazda-323-vi-bj", "car": 85 }
+    "fields": {
+      "name": "VI (BJ)",
+      "slug": "mazda-323-vi-bj",
+      "car": 85,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -24589,7 +27143,13 @@
     "fields": {
       "name": "VI (E90)",
       "slug": "toyota-corolla-vi-e90",
-      "car": 439
+      "car": 439,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
     }
   },
   {
@@ -24641,7 +27201,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3668,
-    "fields": { "name": "VI (LD)", "slug": "dodge-charger-vi-ld", "car": 403 }
+    "fields": {
+      "name": "VI (LD)",
+      "slug": "dodge-charger-vi-ld",
+      "car": 403,
+      "front_offload": 142,
+      "front": 130,
+      "back_offload": 180,
+      "back": 164,
+      "bottom_offload": 136,
+      "bottom": 123
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -24676,7 +27246,13 @@
     "fields": {
       "name": "VI (T190)",
       "slug": "toyota-carina-vi-t190",
-      "car": 367
+      "car": 367,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
     }
   },
   {
@@ -24730,7 +27306,13 @@
     "fields": {
       "name": "VI (XV40)",
       "slug": "toyota-camry-vi-xv40",
-      "car": 355
+      "car": 355,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
     }
   },
   {
@@ -24748,7 +27330,13 @@
     "fields": {
       "name": "VI (Y62)",
       "slug": "nissan-patrol-vi-y62",
-      "car": 1062
+      "car": 1062,
+      "front_offload": 200,
+      "front": 187,
+      "back_offload": 239,
+      "back": 217,
+      "bottom_offload": 237,
+      "bottom": 222
     }
   },
   {
@@ -24763,7 +27351,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3682,
-    "fields": { "name": "VI (YF)", "slug": "hyundai-sonata-vi-yf", "car": 1303 }
+    "fields": {
+      "name": "VI (YF)",
+      "slug": "hyundai-sonata-vi-yf",
+      "car": 1303,
+      "front_offload": 145,
+      "front": 128,
+      "back_offload": 189,
+      "back": 168,
+      "bottom_offload": 139,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -24780,7 +27378,13 @@
     "fields": {
       "name": "VI (ad) Рестайлинг",
       "slug": "hyundai-elantra-vi-ad-restajling",
-      "car": 535
+      "car": 535,
+      "front_offload": 145,
+      "front": 130,
+      "back_offload": 189,
+      "back": 170,
+      "bottom_offload": 139,
+      "bottom": 123
     }
   },
   {
@@ -24795,7 +27399,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3686,
-    "fields": { "name": "VI (l34)", "slug": "nissan-altima-vi-l34", "car": 184 }
+    "fields": {
+      "name": "VI (l34)",
+      "slug": "nissan-altima-vi-l34",
+      "car": 184,
+      "front_offload": 143,
+      "front": 131,
+      "back_offload": 181,
+      "back": 165,
+      "bottom_offload": 137,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -25026,7 +27640,13 @@
     "fields": {
       "name": "VII (A35)",
       "slug": "nissan-maxima-vii-a35",
-      "car": 940
+      "car": 940,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
     }
   },
   {
@@ -25035,7 +27655,13 @@
     "fields": {
       "name": "VII (B17)",
       "slug": "nissan-sentra-vii-b17",
-      "car": 1272
+      "car": 1272,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
     }
   },
   {
@@ -25058,7 +27684,13 @@
     "fields": {
       "name": "VII (E100)",
       "slug": "toyota-corolla-vii-e100",
-      "car": 439
+      "car": 439,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
     }
   },
   {
@@ -25076,7 +27708,13 @@
     "fields": {
       "name": "VII (HA25)",
       "slug": "suzuki-alto-vii-ha25",
-      "car": 186
+      "car": 186,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
     }
   },
   {
@@ -25094,7 +27732,13 @@
     "fields": {
       "name": "VII (LF)",
       "slug": "hyundai-sonata-vii-lf",
-      "car": 1303
+      "car": 1303,
+      "front_offload": 145,
+      "front": 132,
+      "back_offload": 189,
+      "back": 172,
+      "bottom_offload": 139,
+      "bottom": 125
     }
   },
   {
@@ -25112,7 +27756,13 @@
     "fields": {
       "name": "VII (T210)",
       "slug": "toyota-carina-vii-t210",
-      "car": 367
+      "car": 367,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
     }
   },
   {
@@ -25121,7 +27771,13 @@
     "fields": {
       "name": "VII (T230)",
       "slug": "toyota-celica-vii-t230",
-      "car": 391
+      "car": 391,
+      "front_offload": 169,
+      "front": 143,
+      "back_offload": 214,
+      "back": 183,
+      "bottom_offload": 162,
+      "bottom": 135
     }
   },
   {
@@ -25139,7 +27795,13 @@
     "fields": {
       "name": "VII (U11)",
       "slug": "nissan-bluebird-vii-u11",
-      "car": 280
+      "car": 280,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
     }
   },
   {
@@ -25157,7 +27819,13 @@
     "fields": {
       "name": "VII (XV50) Рестайлинг",
       "slug": "toyota-camry-vii-xv50-restajling",
-      "car": 355
+      "car": 355,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
     }
   },
   {
@@ -25344,7 +28012,13 @@
     "fields": {
       "name": "VIII (A36)",
       "slug": "nissan-maxima-viii-a36",
-      "car": 940
+      "car": 940,
+      "front_offload": 143,
+      "front": 131,
+      "back_offload": 181,
+      "back": 165,
+      "bottom_offload": 137,
+      "bottom": 124
     }
   },
   {
@@ -25398,7 +28072,13 @@
     "fields": {
       "name": "VIII (R32)",
       "slug": "nissan-skyline-viii-r32",
-      "car": 1294
+      "car": 1294,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
     }
   },
   {
@@ -25416,7 +28096,13 @@
     "fields": {
       "name": "VIII (T12, T72)",
       "slug": "nissan-bluebird-viii-t12-t72",
-      "car": 280
+      "car": 280,
+      "front_offload": 169,
+      "front": 145,
+      "back_offload": 214,
+      "back": 185,
+      "bottom_offload": 162,
+      "bottom": 137
     }
   },
   {
@@ -25434,7 +28120,13 @@
     "fields": {
       "name": "VIII (Y31)",
       "slug": "nissan-gloria-viii-y31",
-      "car": 687
+      "car": 687,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
     }
   },
   {
@@ -25452,7 +28144,13 @@
     "fields": {
       "name": "VIII (dn8)",
       "slug": "hyundai-sonata-viii-dn8",
-      "car": 1303
+      "car": 1303,
+      "front_offload": 145,
+      "front": 132,
+      "back_offload": 189,
+      "back": 172,
+      "bottom_offload": 139,
+      "bottom": 125
     }
   },
   {
@@ -25828,7 +28526,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3827,
-    "fields": { "name": "Wd21", "slug": "nissan-terrano-wd21", "car": 1379 }
+    "fields": {
+      "name": "Wd21",
+      "slug": "nissan-terrano-wd21",
+      "car": 1379,
+      "front_offload": 217,
+      "front": 194,
+      "back_offload": 259,
+      "back": 227,
+      "bottom_offload": 202,
+      "bottom": 177
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -25913,7 +28621,13 @@
     "fields": {
       "name": "X (E140, E150)",
       "slug": "toyota-corolla-x-e140-e150",
-      "car": 439
+      "car": 439,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
     }
   },
   {
@@ -25928,12 +28642,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3843,
-    "fields": { "name": "X (R34)", "slug": "nissan-skyline-x-r34", "car": 1294 }
+    "fields": {
+      "name": "X (R34)",
+      "slug": "nissan-skyline-x-r34",
+      "car": 1294,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3844,
-    "fields": { "name": "X (S150)", "slug": "toyota-crown-x-s150", "car": 466 }
+    "fields": {
+      "name": "X (S150)",
+      "slug": "toyota-crown-x-s150",
+      "car": 466,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -25943,12 +28677,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3846,
-    "fields": { "name": "X (U13)", "slug": "nissan-bluebird-x-u13", "car": 280 }
+    "fields": {
+      "name": "X (U13)",
+      "slug": "nissan-bluebird-x-u13",
+      "car": 280,
+      "front_offload": 158,
+      "front": 134,
+      "back_offload": 201,
+      "back": 172,
+      "bottom_offload": 152,
+      "bottom": 127
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3847,
-    "fields": { "name": "X (Y33)", "slug": "nissan-gloria-x-y33", "car": 687 }
+    "fields": {
+      "name": "X (Y33)",
+      "slug": "nissan-gloria-x-y33",
+      "car": 687,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -26122,7 +28876,13 @@
     "fields": {
       "name": "XI (E160, E170)",
       "slug": "toyota-corolla-xi-e160-e170",
-      "car": 439
+      "car": 439,
+      "front_offload": 143,
+      "front": 129,
+      "back_offload": 181,
+      "back": 163,
+      "bottom_offload": 137,
+      "bottom": 122
     }
   },
   {
@@ -26131,7 +28891,13 @@
     "fields": {
       "name": "XI (S170)",
       "slug": "toyota-crown-xi-s170",
-      "car": 466
+      "car": 466,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
@@ -26149,7 +28915,13 @@
     "fields": {
       "name": "XI (U14)",
       "slug": "nissan-bluebird-xi-u14",
-      "car": 280
+      "car": 280,
+      "front_offload": 158,
+      "front": 138,
+      "back_offload": 201,
+      "back": 176,
+      "bottom_offload": 152,
+      "bottom": 131
     }
   },
   {
@@ -26158,13 +28930,29 @@
     "fields": {
       "name": "XI (V35)",
       "slug": "nissan-skyline-xi-v35",
-      "car": 1294
+      "car": 1294,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
     }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3879,
-    "fields": { "name": "XI (Y34)", "slug": "nissan-gloria-xi-y34", "car": 687 }
+    "fields": {
+      "name": "XI (Y34)",
+      "slug": "nissan-gloria-xi-y34",
+      "car": 687,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -26177,7 +28965,13 @@
     "fields": {
       "name": "XII (S180)",
       "slug": "toyota-crown-xii-s180",
-      "car": 466
+      "car": 466,
+      "front_offload": 148,
+      "front": 130,
+      "back_offload": 187,
+      "back": 165,
+      "bottom_offload": 142,
+      "bottom": 123
     }
   },
   {
@@ -26204,7 +28998,13 @@
     "fields": {
       "name": "XII (e210)",
       "slug": "toyota-corolla-xii-e210",
-      "car": 439
+      "car": 439,
+      "front_offload": 143,
+      "front": 131,
+      "back_offload": 181,
+      "back": 165,
+      "bottom_offload": 137,
+      "bottom": 124
     }
   },
   {
@@ -26213,7 +29013,13 @@
     "fields": {
       "name": "XIII (S200)",
       "slug": "toyota-crown-xiii-s200",
-      "car": 466
+      "car": 466,
+      "front_offload": 148,
+      "front": 132,
+      "back_offload": 187,
+      "back": 167,
+      "bottom_offload": 142,
+      "bottom": 125
     }
   },
   {
@@ -26222,7 +29028,13 @@
     "fields": {
       "name": "XIV (S210)",
       "slug": "toyota-crown-xiv-s210",
-      "car": 466
+      "car": 466,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
     }
   },
   {
@@ -26291,7 +29103,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3898,
-    "fields": { "name": "XV70", "slug": "toyota-camry-xv70", "car": 355 }
+    "fields": {
+      "name": "XV70",
+      "slug": "toyota-camry-xv70",
+      "car": 355,
+      "front_offload": 143,
+      "front": 131,
+      "back_offload": 181,
+      "back": 165,
+      "bottom_offload": 137,
+      "bottom": 124
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -26323,7 +29145,17 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3902,
-    "fields": { "name": "Xp150", "slug": "toyota-yaris-xp150", "car": 1565 }
+    "fields": {
+      "name": "Xp150",
+      "slug": "toyota-yaris-xp150",
+      "car": 1565,
+      "front_offload": 148,
+      "front": 128,
+      "back_offload": 187,
+      "back": 163,
+      "bottom_offload": 142,
+      "bottom": 121
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -26374,12 +29206,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3909,
-    "fields": { "name": "Y10", "slug": "nissan-sunny-y10", "car": 1342 }
+    "fields": {
+      "name": "Y10",
+      "slug": "nissan-sunny-y10",
+      "car": 1342,
+      "front_offload": 158,
+      "front": 136,
+      "back_offload": 201,
+      "back": 174,
+      "bottom_offload": 152,
+      "bottom": 129
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3910,
-    "fields": { "name": "Y12", "slug": "mazda-familia-y12", "car": 597 }
+    "fields": {
+      "name": "Y12",
+      "slug": "mazda-familia-y12",
+      "car": 597,
+      "front_offload": 143,
+      "front": 127,
+      "back_offload": 181,
+      "back": 161,
+      "bottom_offload": 137,
+      "bottom": 120
+    }
   },
   {
     "model": "cars.CarGeneration",
@@ -26432,12 +29284,32 @@
   {
     "model": "cars.CarGeneration",
     "pk": 3919,
-    "fields": { "name": "Z52", "slug": "nissan-murano-z52", "car": 985 }
+    "fields": {
+      "name": "Z52",
+      "slug": "nissan-murano-z52",
+      "car": 985,
+      "front_offload": 200,
+      "front": 189,
+      "back_offload": 239,
+      "back": 219,
+      "bottom_offload": 237,
+      "bottom": 224
+    }
   },
   {
     "model": "cars.CarGeneration",
     "pk": 3920,
-    "fields": { "name": "Z62", "slug": "infiniti-qx56-z62", "car": 1129 }
+    "fields": {
+      "name": "Z62",
+      "slug": "infiniti-qx56-z62",
+      "car": 1129,
+      "front_offload": 206,
+      "front": 192,
+      "back_offload": 234,
+      "back": 211,
+      "bottom_offload": 230,
+      "bottom": 214
+    }
   },
   {
     "model": "cars.CarGeneration",

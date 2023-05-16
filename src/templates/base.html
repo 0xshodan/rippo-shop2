@@ -46,7 +46,7 @@ href="{% static 'cartmodal/css/styles.css' %}"
 					<div class="head_logo">
 						<a href="/" class="head_logo_icons"><img src="{% static 'base/img/logo.svg' %}" alt="logo" class="head_img"></a>
                         <div class="head_descr">
-                            Проставки для увелечения клиренса
+                            Проставки для увеличения клиренса
                          </div>
                     </div>
 					<div class="head_phone">
@@ -103,7 +103,7 @@ href="{% static 'cartmodal/css/styles.css' %}"
                 <div class="footer_rippo_wrap">
                     <a href="/" class="footer_rippo_wrap_link"><img src="{% static 'base/img/logo.svg' %}" alt="logo" class="footer_logo"></a>
                 </div>
-                  <div class="head_descr footer_text">Проставки для увелечения клиренса</div>
+                  <div class="head_descr footer_text">Проставки для увеличения клиренса</div>
                   <div class="footer_ip">ИП Нехамкин Дмитрий
                       <br>Вячеславович<br>ИНН: 910226323090
                   </div>
@@ -120,7 +120,7 @@ href="{% static 'cartmodal/css/styles.css' %}"
                   <a href="/delivery-info/" class="footer_info_item">Оплата и доставка</a>
                   <a href="#" class="footer_info_item">Политика обработки<br> данных</a>
                   <a href="#" class="footer_info_item">Полезные статьи</a>
-                  <a href="#" class="footer_info_item">Гарантия и вовзрат</a> 
+                  <a href="#" class="footer_info_item">Гарантия и вовзрат</a>
                   <a href="#" class="footer_info_item">Публичная оферта</a>
               </div>
               <div class="footer_select">
@@ -128,7 +128,7 @@ href="{% static 'cartmodal/css/styles.css' %}"
                   <a href="/catalog/" class="footer_info_item">Каталог</a>
                   <a href="/feedbacks/" class="footer_info_item">Отзывы</a>
                   <a href="/about/" class="footer_info_item">О компании</a>
-                  <a href="#" class="footer_info_item">Вопросы и ответы</a> 
+                  <a href="#" class="footer_info_item">Вопросы и ответы</a>
                   <a href="/contacts/" class="footer_info_item">Контакты</a>
               </div>
               <div class="footer_call">
@@ -205,8 +205,11 @@ href="{% static 'cartmodal/css/styles.css' %}"
 						<button class="modal_content_product_backet" onclick=on_basket(this)><img src="{% static 'cartmodal/img/trash.svg' %}" alt="trash" class="modal_content_product_backet_img"></button>
 				</div>
                 {% endfor %}
+                {% if cart|length %}
 				<div class="modal_content_product_text"><span class="modal_content_product_text_link">В корзине <b>{{cart|length}}</b> товаров </span></div>
-
+                {% else %}
+                <div class="modal_content_product_text"><span class="modal_content_product_text_link">Корзина пуста</span></div>
+                {% endif %}
 				<div class="modal_content_product_footer">
 					<button class="modal_content_product_footer_btn">Продолжить закупки</button>
 					<button class="modal_content_product_footer_btn red">Оформить заказ</button>

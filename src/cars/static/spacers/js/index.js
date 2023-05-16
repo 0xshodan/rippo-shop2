@@ -43,9 +43,19 @@ function addToCart(csrftoken, id, type, car_id) {
             <button class="modal_content_product_backet" onclick=on_basket(this)><img src="/static/cartmodal/img/trash.svg" alt="trash" class="modal_content_product_backet_img"></button>
       </div>`);
         incrementCart();
+        var $now = $(".modal_content_product_text_link");
+        var qt = parseInt($now.text().split(" ")[2]);
+        if (isNaN(qt)) {
+          console.log("dasdsa");
+          $now.text("В корзине 1 товар");
+        } else {
+          ++qt;
+          $now.text(`В корзине ${qt} товаров`);
+        }
       }
     }
   );
+  $(".modal").addClass("modal_active");
 }
 function openCart() {}
 console.log($(".add20mm_btn"));

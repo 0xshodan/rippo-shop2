@@ -44,8 +44,8 @@ class Cart(object):
             self.save()
             return data
         else:
-            self.cart[spacer_id]["quantity"] += 1
-            self.save()
+            # self.cart[spacer_id]["quantity"] += 1
+            # self.save()
             return {}
 
     def increment_quantity(self, spacer_id):

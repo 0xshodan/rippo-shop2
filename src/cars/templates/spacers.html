@@ -15,6 +15,53 @@
     >
   </div>
   <h1 class="products_menu_years">{{modification.fullname}}</h1>
+  {% if generation.front %}
+  <div class="products_table">
+    <table class="products_table_menu">
+      <tr class="products_table_menu_header">
+        <td class="products_table_menu_header_item">
+          Клиренс передней <br />
+          оси без нагрузки
+        </td>
+        <td class="products_table_menu_header_item">
+          Клиренс передней <br />
+          оси с нагрузкой
+        </td>
+        <td class="products_table_menu_header_item">
+          Клиренс задней <br />
+          оси без нагрузки
+        </td>
+        <td class="products_table_menu_header_item">
+          Клиренс задней <br />
+          оси с нагрузкой
+        </td>
+        <td class="products_table_menu_header_item">
+          Нижняя точка <br />(дорожный просвет)<br />
+          без нагрузки
+        </td>
+        <td class="products_table_menu_header_item">
+          Нижняя точка <br />(дорожный просвет)<br />
+          с нагрузкой
+        </td>
+      </tr>
+
+      <tr class="products_table_menu_body">
+        <td class="products_table_menu_body_item">
+          {{generation.front_offload}}
+        </td>
+        <td class="products_table_menu_body_item">{{generation.front}}</td>
+        <td class="products_table_menu_body_item">
+          {{generation.back_offload}}
+        </td>
+        <td class="products_table_menu_body_item">{{generation.back}}</td>
+        <td class="products_table_menu_body_item">
+          {{generation.bottom_offload}}
+        </td>
+        <td class="products_table_menu_body_item">{{generation.bottom}}</td>
+      </tr>
+    </table>
+  </div>
+  {% endif %}
   <div class="products_descr">Представлено {{spacers | length}} товара</div>
   <input id="car_id" type="hidden" name="id" value="{{modification.pk}}" />
   <div class="products_list">
