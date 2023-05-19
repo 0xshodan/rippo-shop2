@@ -1,118 +1,215 @@
 .reviews {
-    padding: 20px 0 0 0;
+	padding: 20px 0 0 0;
+  }
+  
+  /* line 584, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .reviews_comment {
+	margin-top: 75px;
+  }
+  
+  /* line 586, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .reviews_title {
+	margin-top: 32px;
+	font-size: 32px;
+  }
+  
+  /* line 589, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .reviews_main {
+	list-style-type: none;
   }
   
   /* line 591, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-  .reviews_container {
-    width: 1160px;
-    margin: auto;
-  }
-  
-  /* line 594, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-  .reviews_comment {
-    margin-top: 75px;
-  }
-  
-  /* line 596, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-  .reviews_title {
-    margin-top: 32px;
-    font-size: 32px;
-  }
-  
-  /* line 599, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-  .reviews_main {
-    list-style-type: none;
-  }
-  
-  /* line 601, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_optima {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
   }
   
-  /* line 605, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 595, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
   }
   
-  /* line 608, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 598, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo_img {
-    margin-right: 20px;
-    width: 32px;
-    height: 32px;
+	margin-right: 20px;
+	width: 32px;
+	height: 32px;
   }
   
-  /* line 612, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 602, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo_info {
-    max-width: 100%;
+	max-width: 100%;
   }
   
-  /* line 614, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 604, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo_info_buy {
-    display: flex;
-    margin-top: 10px;
-    border-radius: 12px;
-    background-color: #e1e2e8;
-    padding: 2px 8px;
+	display: flex;
+	margin-top: 10px;
+	border-radius: 12px;
+	background-color: #e1e2e8;
+	padding: 2px 8px;
   }
   
-  /* line 620, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 610, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo_info_buy_img {
-    width: 18px;
-    height: 20px;
+	width: 18px;
+	height: 20px;
   }
   
-  /* line 623, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 613, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo_info_buy_text {
-    margin-left: 8px;
-    color: #3d5165;
-    font-size: 14px;
+	margin-left: 8px;
+	color: #3d5165;
+	font-size: 14px;
   }
   
-  /* line 627, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 617, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo_time {
-    margin-right: 8px;
-    font-size: 15px;
+	margin-right: 8px;
+	font-size: 15px;
   }
   
-  /* line 631, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 621, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_main_promo_item {
-    margin-left: 5px;
-    font-size: 15px;
+	margin-left: 5px;
+	font-size: 15px;
+  }
+  
+  /* line 624, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .reviews_main_promo_name {
+	color: black;
+	font-size: 15px;
+	border-bottom: 1px dashed;
+	font-weight: 600;
+	text-decoration: none;
+  }
+  
+  /* line 630, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .reviews_main_promo_name:hover {
+	opacity: .7;
+	color: black;
   }
   
   /* line 634, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-  .reviews_main_promo_name {
-    color: black;
-    font-size: 15px;
-    border-bottom: 1px dashed;
-    font-weight: 600;
-    text-decoration: none;
+  .reviews_prostavka {
+	margin: 0;
+  }
+  
+  /* line 637, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  .reviews_text {
+	margin-top: 30px;
+	font-size: 18px;
   }
   
   /* line 640, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-  .reviews_main_promo_name:hover {
-    opacity: .7;
-    color: black;
-  }
-  
-  /* line 644, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
-  .reviews_text {
-    margin-top: 30px;
-    font-size: 18px;
-  }
-  
-  /* line 647, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_img {
-    margin-top: 30px;
+	margin-top: 30px;
   }
   
-  /* line 649, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
+  /* line 642, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .reviews_img_icon {
-    margin-left: 15px;
-    width: 50px;
-    height: 50px;
+	margin-left: 15px;
+	width: 50px;
+	height: 50px;
+  }
+
+@media (max-width: 360px) {
+	/* line 3, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_container {
+	  padding: 7px;
+	}
+	/* line 5, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main {
+	  padding: 0;
+	}
+	/* line 9, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_descr {
+	  text-align: right;
+	  width: 100%;
+	  display: flex;
+	  flex-direction: column;
+	}
+	/* line 15, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_descr_star {
+	  width: 13px;
+	  height: 13px;
+	}
+	/* line 19, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_info_buy {
+	  align-items: center;
+	  padding: 0;
+	  display: none;
+	}
+	/* line 23, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_info_buy_text {
+	  font-size: 13px;
+	}
+	/* line 25, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_text {
+	  font-size: 17px;
+	}
+	/* line 27, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_comment {
+	  margin-top: 50px;
+	}
   }
   
+  @media (min-width: 360px) and (max-width: 576px) {
+	/* line 32, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_container {
+	  padding: 7px;
+	}
+	/* line 34, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main {
+	  padding: 0;
+	}
+	/* line 38, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_descr {
+	  text-align: right;
+	  width: 56%;
+	  display: flex;
+	  flex-direction: column;
+	}
+	/* line 44, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_descr_star {
+	  width: 13px;
+	  height: 13px;
+	}
+	/* line 48, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_info_buy {
+	  align-items: center;
+	  padding: 2px 3px;
+	}
+	/* line 51, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_info_buy_text {
+	  font-size: 13px;
+	}
+	/* line 53, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_text {
+	  font-size: 17px;
+	}
+	/* line 55, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_comment {
+	  margin-top: 50px;
+	}
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) {
+	/* line 60, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_container {
+	  padding: 7px;
+	}
+	/* line 62, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main {
+	  padding: 0;
+	}
+	/* line 66, C:/Users/xyi/Desktop/rippo-project/src/sass/_media-reviews.sass */
+	.reviews_main_promo_descr {
+	  text-align: right;
+	  width: 50%;
+	  display: flex;
+	  flex-direction: column;
+	}
+  }

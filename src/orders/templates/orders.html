@@ -1,69 +1,101 @@
 {% extends "base.html" %} {% load static %}{%block head %}
 <link rel="stylesheet" href="{% static 'orders/css/styles.css' %}" />
+<script
+  id="ISDEKscript"
+  type="text/javascript"
+  src="{% static 'orders/js/widget.js' %}"
+  charset="utf-8"
+></script>
 {% endblock %} {%block content %}
 <section class="pay">
-  <div class="pay_container">
+  <div class="container pay_container">
+    <a href="#" class="machine_menu_item">Главная</a> >
+    <a href="#" class="machine_menu_item">Корзина</a> >
+    <a href="#" class="machine_menu_item">Оформление заказа</a>
+    <h1 class="pay_title">Оформление заказа</h1>
+
     <div class="pay_content">
-      <table class="pay_content_table">
-        <thead class="pay_content_table_header">
-          <tr>
-            <td class="pay_content_table_header_photo">Фото</td>
-            <td class="pay_content_table_header_text">Наименования товара</td>
-            <td class="pay_content_table_header_text">Модель</td>
-            <td class="pay_content_table_header_text">Кол-во</td>
-            <td class="pay_content_table_header_text">Цена</td>
-            <td class="pay_content_table_header_text">Итого</td>
-          </tr>
-        </thead>
+      <div class="pay_content_wrap">
+        <table class="pay_content_table">
+          <thead class="pay_content_table_header">
+            <tr>
+              <td class="pay_content_table_header_photo">Фото</td>
+              <td class="pay_content_table_header_text">Наименования товара</td>
+              <td class="pay_content_table_header_text">Модель</td>
+              <td class="pay_content_table_header_text">Кол-во</td>
+              <td class="pay_content_table_header_text">Цена</td>
+              <td class="pay_content_table_header_text">Итого</td>
+            </tr>
+          </thead>
 
-        <tbody class="pay_content_table_body">
-          {% for item in cart %}
-          <tr>
-            <td class="pay_content_table_body_item">
-              <img
-                src="icons/modalicon.jpg"
-                alt=""
-                class="pay_content_subheader_item_img"
-              />
-            </td>
+          <tbody class="pay_content_table_body">
+            {% for item in cart %}
+            <tr>
+              <td class="pay_content_table_body_item">
+                <img
+                  src="{{item.photo_url}}"
+                  alt=""
+                  class="pay_content_subheader_item_img"
+                />
+              </td>
 
-            <td class="pay_content_table_body_wrap">
-              <div class="pay_content_table_body_wrap_name">
-                Проставки 7-238
-              </div>
-              <div class="pay_content_table_body_wrap_size">
-                Размер проставок: 20мм
-              </div>
-            </td>
+              <td class="pay_content_table_body_wrap">
+                <div class="pay_content_table_body_wrap_name">
+                  Проставки {{item.article}}
+                </div>
+                <div class="pay_content_table_body_wrap_size">
+                  Размер проставок: {{item.type}}
+                </div>
+              </td>
 
-            <td class="pay_content_table_body_model">7-238</td>
+              <td class="pay_content_table_body_model">{{item.article}}</td>
 
-            <td class="pay_content_table_body_menu">
-              <div class="pay_content_wrap">
-                <button class="pay_content_table_body_menu_item">-</button>
-                <div class="pay_content_table_body_menu_text">10</div>
-                <button class="pay_content_table_body_menu_item">+</button>
-                <button class="pay_content_table_body_menu_close">
-                  <i class="fa fa-times-circle"></i>
-                </button>
-              </div>
-            </td>
+              <td class="pay_content_table_body_menu">
+                <div class="pay_content_table_body_menu_wrap">
+                  <button class="pay_content_table_body_menu_item">-</button>
+                  <div class="pay_content_table_body_menu_text">
+                    {{item.quantity}}
+                  </div>
+                  <button class="pay_content_table_body_menu_item">+</button>
+                  <button class="pay_content_table_body_menu_close">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      style="height: 16px; width: 16px"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </td>
 
-            <td class="pay_content_table_body_price">1400 ₽</td>
-
-            <td class="pay_content_table_body_total">1400 ₽</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-
-      <div class="pay_content_advance">
+              <td class="pay_content_table_body_price">{{item.price}} ₽</td>
+              <td class="pay_content_table_body_total">
+                {% widthratio item.price 1 item.quantity %} ₽
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="pay_content_advance advance_text_price">
         Предварительная стоимость:
-        <span class="pay_content_advance_price">1400 ₽</span>
+        <span class="pay_content_advance_price">{{cart.total_price}} ₽</span>
       </div>
 
-      <div class="pay_content_advance">
-        <img src="icons/cdek.svg" alt="cdek" class="pay_content_advance_img" />
+      <div class="pay_content_advance advance_text">
+        <img
+          src="{% static 'orders/img/cdek.svg' %}"
+          alt="cdek"
+          class="pay_content_advance_img"
+        />
         Самовывоз из ПВЗ: Вишняковой, 3/6 (2-4 раб. дня):
         <span class="pay_content_advance_price">1400 ₽</span>
       </div>
@@ -76,17 +108,29 @@
 
     <div class="pay_aside">
       <p class="pay_aside_text">
-        <img src="icons/shield2.svg" alt="shield" class="pay_aside_img" />
+        <img
+          src="{% static 'orders/img/shield2.svg' %}"
+          alt="shield"
+          class="pay_aside_img"
+        />
       </p>
       <p class="pay_aside_text"><b>Безопасная оплата</b></p>
       <p class="pay_aside_text">Ваши платежи под надежной защитой</p>
       <p class="pay_aside_text">
-        <img src="icons/refresh.svg" alt="refresh" class="pay_aside_img" />
+        <img
+          src="{% static 'orders/img/refresh.svg' %}"
+          alt="refresh"
+          class="pay_aside_img"
+        />
       </p>
       <p class="pay_aside_text"><b>Легкий возврат</b></p>
       <p class="pay_aside_text">В случае чего без проблем вернем деньги</p>
       <p class="pay_aside_text">
-        <img src="icons/help.svg" alt="help" class="pay_aside_img" />
+        <img
+          src="{% static 'orders/img/help.svg' %}"
+          alt="help"
+          class="pay_aside_img"
+        />
       </p>
       <p class="pay_aside_text"><b>Нужна помощь?</b></p>
       <p class="pay_aside_text">+7(495)798-43-03 (c 10:00 до 18:00)</p>
@@ -97,10 +141,38 @@
         <h2 class="pay_promo_data_title">Данные покупателя</h2>
 
         <div class="pay_promo_data_fields">
-          <div class="pay_promo_data_fields_name">Имя</div>
-          <div class="pay_promo_data_fields_surname">Фамилия</div>
-          <div class="pay_promo_data_fields_phone">Телефон</div>
-          <div class="pay_promo_data_fields_mail">Email</div>
+          <div class="pay_promo_data_fields_wrap">
+            <input
+              type="text"
+              placeholder="Имя"
+              name="pay_promo_text"
+              id="pay_promo_text"
+            />
+          </div>
+          <div class="pay_promo_data_fields_wrap">
+            <input
+              type="text"
+              placeholder="Фамилия"
+              name="pay_promo_text"
+              id="pay_promo_surname"
+            />
+          </div>
+          <div class="pay_promo_data_fields_wrap">
+            <input
+              type="text"
+              placeholder="Телефон"
+              name="pay_promo_text"
+              id="pay_promo_text"
+            />
+          </div>
+          <div class="pay_promo_data_fields_wrap">
+            <input
+              type="email"
+              placeholder="E-mail"
+              name="pay_promo_text"
+              id="pay_promo_text"
+            />
+          </div>
         </div>
       </div>
 
@@ -108,23 +180,41 @@
         <h2 class="pay_promo_addres_title">Адрес доставки</h2>
 
         <div class="pay_promo_addres_fields">
-          <select class="pay_promo_addres_fields_country">
-            <option value="">--- Выберите ---</option>
-            <option value="20">Белоруссия (Беларусь)</option>
-            <option value="109">Казахстан</option>
-            <option value="176" selected="selected">
-              Российская Федерация
-            </option>
-          </select>
-          <div class="pay_promo_addres_fields_city">Город</div>
-          <select class="pay_promo_addres_fields_region">
-            <option value="">--- Выберите ---</option>
-            <option value="2726">Алтайский край</option>
-            <option value="2729">Амурская область</option>
-            <option value="2724">Архангельская область</option>
-            <option value="2725">Астраханская область</option>
-          </select>
-          <div class="pay_promo_addres_fields_home">Адрес</div>
+          <div class="pay_promo_addres_fields_wrap">
+            <select class="pay_promo_addres_fields_country">
+              <option value="">--- Выберите ---</option>
+              <option value="20">Белоруссия (Беларусь)</option>
+              <option value="109">Казахстан</option>
+              <option value="176" selected="selected">
+                Российская Федерация
+              </option>
+            </select>
+          </div>
+          <div class="pay_promo_addres_fields_wrap">
+            <input
+              type="text"
+              placeholder="Город"
+              name="pay_promo_text"
+              id="pay_promo_city"
+            />
+          </div>
+          <div class="pay_promo_addres_fields_wrap">
+            <select class="pay_promo_addres_fields_region">
+              <option value="">--- Выберите ---</option>
+              <option value="2726">Алтайский край</option>
+              <option value="2729">Амурская область</option>
+              <option value="2724">Архангельская область</option>
+              <option value="2725">Астраханская область</option>
+            </select>
+          </div>
+          <div class="pay_promo_addres_fields_wrap">
+            <input
+              type="text"
+              placeholder="Адрес"
+              name="pay_promo_text"
+              id="pay_promo_addres"
+            />
+          </div>
         </div>
       </div>
 
@@ -147,7 +237,7 @@
               checked
             />
             <img
-              src="icons/cdek.svg"
+              src="{% static 'orders/img/cdek.svg' %}"
               alt="cdek"
               class="pay_payment_info_cdek"
             />
@@ -157,15 +247,7 @@
           </label>
         </div>
 
-        <select class="pay_payment_option">
-          <option value="KSD58" selected="selected">Вишняковой, 3/6</option>
-          <option value="KSD148">ЗАПАДНЫЙ ОБХОД, 39/2, корп. 5</option>
-          <option value="KSD178">пос. Краснодарский, 66к1</option>
-          <option value="KSD7">пр-кт Чекистов, 24/1</option>
-          <option value="KSD99">
-            пр-т. Константина Образцова, 25, корп. 1, 52
-          </option>
-        </select>
+        <div id="cdek_map"></div>
 
         <h4 class="pay_payment_subtitle post">Почта России</h4>
 
@@ -195,7 +277,7 @@
             />
             <span class="pay_select_menu_item_text">Банковская карта</span>
             <img
-              src="icons/cards.png"
+              src="{% static 'orders/img/cards.png' %}"
               alt="visa"
               class="pay_select_menu_item_img"
             />
@@ -213,7 +295,7 @@
               >ЮKassa ( все способы )
             </span>
             <img
-              src="icons/youkassa.png"
+              src="{% static 'orders/img/youkassa.png' %}"
               alt=""
               class="pay_select_menu_item_youkassa"
             />
@@ -228,7 +310,11 @@
               checked
             />
             <span class="pay_select_menu_item_text">Оплата при получении </span>
-            <img src="icons/COD.png" alt="" class="pay_select_menu_item_cod" />
+            <img
+              src="{% static 'orders/img/COD.png' %}"
+              alt=""
+              class="pay_select_menu_item_cod"
+            />
           </div>
         </div>
       </div>
@@ -256,4 +342,14 @@
     <button class="pay_btn">Подтвердить заказ</button>
   </div>
 </section>
+<script type="text/javascript">
+  var ourWidjet = new ISDEKWidjet({
+    defaultCity: "Москва", //какой город отображается по умолчанию
+    cityFrom: "Симферополь", // из какого города будет идти доставка
+    country: "Россия", // можно выбрать страну, для которой отображать список ПВЗ
+    link: "cdek_map", // id элемента страницы, в который будет вписан виджет
+    path: "https://widget.cdek.ru/widget/scripts/", //директория с библиотеками
+    servicepath: "{% static 'orders/php/service.php' %}", //ссылка на файл service.php на вашем сайте
+  });
+</script>
 {% endblock %}

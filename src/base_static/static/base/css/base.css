@@ -11,7 +11,9 @@ a {
   max-width: 1320px;
   margin: auto;
 }
-
+button {
+	cursor: pointer;
+}
 /* line 6, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
 header {
 	background-color: #fff;
@@ -55,6 +57,7 @@ header {
   /* line 25, C:/Users/xyi/Desktop/rippo-project/src/sass/_general.sass */
   .head_descr {
 	display: flex;
+	white-space: nowrap;
 	align-items: center;
 	margin-left: 115px;
 	font-family: 'Inter';
